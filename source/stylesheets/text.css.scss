@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'DroidSans';
+  src: url('fonts/DroidSans.ttf');
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_MuseoSans-300';
+	src: url('fonts/MuseoSans-300.eot');
+	src: local('☺'), url('fonts/MuseoSans-300.svg') format('svg'), url('fonts/MuseoSans-300.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	-webkit-font-smoothing: antialiased;
+}
+
+h4, a, p, div{
+	font-family: Conv_MuseoSans-300;
+	font-size: 1em;
+	line-height: 1.5em;
+	//text-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
