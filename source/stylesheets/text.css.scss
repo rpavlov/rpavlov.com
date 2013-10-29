@@ -14,11 +14,53 @@
 
 body{
 	-webkit-font-smoothing: antialiased;
+	font-family: Conv_MuseoSans-300;
 }
 
-h4, a, p, div{
-	font-family: Conv_MuseoSans-300;
-	font-size: 1em;
-	line-height: 1.5em;
-	//text-shadow: 0 0 1px rgba(0,0,0,0.3);
+header{
+	.name{
+		&:hover{
+			-webkit-transition: 0.3s;
+			-moz-transition: 0.3s;
+			-ms-transition: 0.3s;
+			-o-transition: 0.3s;
+			transition: 0.3s;
+			opacity: 0.5;
+		}
+	}
+	a{
+		color: #fff;
+		text-decoration: none;
+	}
+}
+
+h3{
+	font-size: 1.25em;
+	line-height: 1.2em;
+	font-weight: bold;
+}
+
+h1.post-title{
+	font-size: 2.125em;
+	line-height: 1.41176em;
+	margin-top: 0em;
+	margin-bottom: 0.15em;
+	font-weight: 700;
+	color: #333;
+	a{
+		color: #333;
+	}
+}
+
+a{
+	text-decoration: none;
+	color: #005688;
+	&:hover{
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		-ms-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		opacity: 0.8;
+	}
 }

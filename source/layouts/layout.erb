@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="/stylesheets/text.css">
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="clearfix">
+          <h2 class="name"><a href="/">rpavlov</a></h4>
+          <ul>
+            <li><%= link_to "about", "/about" %></li>
+            <li><%= link_to "blog", "/blog" %></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="main" role="main" class="content">
+      <div class="posts-wrapper">
+        <%= yield %>
+      </div>
+      <aside class="sidebar">
+        <div class="sidebar-item">
+          <h3>Howdy stranger</h3>
+          <span>
+            I'm a software developer based in Toronto, building websites and applications for fun and profit.
+          </span>
+          <br/>
+          <div class="social">
+            <a class="twitter" href="http://www.twitter.com/arrpavlov">Github</a>
+            <a class="github" href="http://www.github.com/rpavlov">Twitter</a>
+            <a class="linkedin" href="http://ca.linkedin.com/pub/roumen-pavlov/1a/263/899">LinkedIn</a>
+          </div>
+        </div>
+        <div class="sidebar-item">
+          <h3>Recent Articles</h3>
+          <ol>
+            <% blog.articles[0...10].each do |article| %>
+              <li><a href="<%= article.url %>"><%= article.title %></a></li>
+            <% end %>
+          </ol>
+        </div>
+      </aside>
+    <section>
+  </body>
+</html>
