@@ -5,16 +5,16 @@
 
 div,li, section{
 	display:block;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			font: inherit;
-			font-size: 100%;
-			vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
 }
 
 header {
-	background-color: #373f4a;
+	background-color: #2A3039;
 	color: #ffffff;
 	&:after{
 		content: "";
@@ -24,7 +24,7 @@ header {
 }
 
 header {
-	background: #373f4a;
+	background: #2A3039;
 	text-align: center;
 	color: #fff;
 	margin-top: 0em;
@@ -56,13 +56,11 @@ header {
 				margin-top: 0em;
 				padding-top: 0em;
 				padding-bottom: 0em;
-
 				margin-bottom: 0em;
 				float: right;
 				white-space: nowrap;
 				line-height: 2em;
 				list-style: none;
-				font-size: 0.75em;
 				li{
 					display: inline-block;
 
@@ -70,7 +68,6 @@ header {
 					margin-left: 2em;
 					a{
 						font-weight: bold;
-						text-transform: uppercase;
 						color: #fff;
 						text-decoration: none;
 						font-weight: bold;
@@ -172,9 +169,10 @@ pre{
 		background-repeat: no-repeat;
 		background-position: top center;
 		background-size: 100% 1px,100% 150px,100% 150px;
-		p{
-			margin:0;
-		}
+	}
+	img{
+		max-width:100%;
+		max-height:100%;
 	}
 }
 
@@ -253,17 +251,22 @@ div.about-content{
 	overflow:auto;
 	.blurb{
 		display:inline-block;
-		width:30%;
+		width:45%;
 		float:left;
+		p:first-child{
+			margin-top:0;
+		}
 	}
+
 	.image-container{
+		width:55%;
 		display:inline-block;
-		width:70%;
 		top:-20px;
+		right: -20px;
 		float:right;
+		position:relative;
 	}
 	img{
 		max-width:100%;
-		max-height:100%;
 	}
 }
