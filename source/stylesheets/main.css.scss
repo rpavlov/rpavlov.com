@@ -247,8 +247,7 @@ div.about-bg{
 }
 
 div.about-content{
-	display:block;
-	overflow:auto;
+	min-height: 500px;
 	.blurb{
 		display:inline-block;
 		width:45%;
