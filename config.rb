@@ -29,6 +29,8 @@ end
 
 activate :directory_indexes
 
+
+
 page "/feed.xml", :layout => false
 #page "/about/*", :layout => "about"
 
@@ -80,6 +82,8 @@ page "/feed.xml", :layout => false
 #     "Helping"
 #   end
 # end
+
+set :build_dir, "tmp"
 
 set :css_dir, 'stylesheets'
 
