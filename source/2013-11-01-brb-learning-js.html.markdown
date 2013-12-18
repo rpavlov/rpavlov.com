@@ -2,6 +2,7 @@
 title: Brb, learning Javascript
 date: 2013-11-01
 tags: javascript
+published: true
 ---
 
 My relationship with Javascript has always been cordial at best, but that's changing fast. There's a plethora of great resources floating around, some of which I've been ruthlessly exploiting these past few months. I figure I'd share the love.

@@ -2,6 +2,7 @@
 title: AngularJs resources
 date: 2013-11-04
 tags: javascript angularjs
+published: true
 ---
 
 I'm currently knee-deep in Angular and having a blast, primarily due to the large amount of quality guides, tutorials and learning resources floating around. For each weird thing I envision folding into my toy app, I'm pleased to find a well-documented library exists. I wanted a way to have multiple views/nested routes on the same page and after struggling with the built-in router, behold! A [library](https://github.com/angular-ui/ui-router) appears. Good stuff, here's more:

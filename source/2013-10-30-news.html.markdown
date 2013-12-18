@@ -2,6 +2,7 @@
 title: And now, for the content backlog!
 date: 2013-10-30
 tags: concertsherpa
+published: true
 ---
 
 A site without content is like a skeleton without flesh. Decidedly useless. So, dear readers, here's what's fresh.
