@@ -11,7 +11,7 @@ require "rack/contrib/try_static"
 use Rack::Head
 # Attempt to serve static HTML files
 use Rack::TryStatic,
-    :root => "tmp",
+    :root => "build",
     :urls => %w[/],
     :try => ['.html', 'index.html', '/index.html']
 
