@@ -105,7 +105,7 @@ configure :build do
   # Use relative URLs
   set :relative_assets, true
   set :relative_links, true
-  set :http_prefix, '/rpavlov.com'
+#  set :http_prefix, '/rpavlov.com'
   # Compress PNGs after build
   # First: gem install middleman-smusher
   # require "middleman-smusher"
