@@ -1,1 +1,1 @@
-```bundle exec mgd``` to deploy.
+```bundle exec mgd``` to build & deploy to gh-pages branch, and consequently github.
