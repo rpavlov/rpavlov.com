@@ -1,8 +1,8 @@
-/* line 2, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 2, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 * {
   box-sizing: border-box; }
 
-/* line 6, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 6, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 div, section {
   display: block;
   margin: 0;
@@ -12,17 +12,17 @@ div, section {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 16, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 16, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 header {
   background-color: #2A3039;
   color: #ffffff; }
-  /* line 19, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 19, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   header:after {
     content: "";
     display: table;
     clear: both; }
 
-/* line 26, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 26, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 header {
   background: #2A3039;
   text-align: center;
@@ -31,14 +31,14 @@ header {
   padding-top: 2em;
   padding-bottom: 2em;
   margin-bottom: 0em; }
-  /* line 35, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 35, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   header div {
     max-width: 1000px;
     position: relative;
     margin: 0 auto;
     min-width: 640px;
     padding: 0 1em; }
-    /* line 43, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+    /* line 43, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
     header div div.clearfix h2 {
       position: absolute;
       line-height: 0;
@@ -49,7 +49,7 @@ header {
       padding: 0 1em;
       left: -48px;
       top: -4px; }
-    /* line 55, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+    /* line 55, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
     header div div.clearfix ul {
       margin-top: 0em;
       padding-top: 0em;
@@ -59,37 +59,37 @@ header {
       white-space: nowrap;
       line-height: 2em;
       list-style: none; }
-      /* line 64, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+      /* line 64, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
       header div div.clearfix ul li {
         display: inline-block;
         text-align: -webkit-match-parent;
         margin-left: 2em; }
-        /* line 69, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+        /* line 69, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
         header div div.clearfix ul li a {
           font-weight: bold;
           color: #fff;
           text-decoration: none;
           font-weight: bold; }
-          /* line 74, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+          /* line 74, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
           header div div.clearfix ul li a:hover {
             opacity: 0.5; }
 
-/* line 84, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 84, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 body {
   background-color: #f1f3f5;
   font-size: 16px;
   line-height: 24px;
   margin: 0;
   color: #333; }
-  /* line 90, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 90, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   body p {
     font-size: 18px;
     line-height: 28px; }
 
-/* line 96, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 96, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 pre {
   margin-top: 1.5em; }
-  /* line 98, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 98, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   pre code {
     margin-top: 1.5em;
     font-size: 13px;
@@ -120,20 +120,20 @@ pre {
     box-shadow: inset 0 1px 0 white, 0 1px 1px rgba(0, 0, 0, 0.05);
     font-family: Monaco,Consolas,"Lucida Console",monospace; }
 
-/* line 130, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 130, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 .content {
   padding-top: 3em;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto; }
 
-/* line 137, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 137, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 .sidebar {
   float: left;
   width: 27%;
   margin-left: 3%; }
 
-/* line 143, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 143, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 .sidebar-item {
   border-color: #ddd;
   margin-top: 0em;
@@ -143,11 +143,11 @@ pre {
   border-bottom-width: 1px;
   border-bottom-style: solid; }
 
-/* line 153, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 153, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 .borderless {
   border-bottom: none; }
 
-/* line 157, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 157, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 .post {
   border: 1px solid #ddd;
   margin-bottom: 3em;
@@ -158,7 +158,7 @@ pre {
   box-shadow: inset 0 1px 0 white, 0 1px 1px rgba(0, 0, 0, 0.05);
   border-radius: 4px;
   padding: 2.25em; }
-  /* line 167, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 167, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   .post .post-text {
     margin-top: 2.25em;
     background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, rgba(212, 212, 212, 0)), color-stop(50%, rgba(212, 212, 212, 0.5)), color-stop(100%, #d4d4d4)), -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, white), color-stop(50%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(241, 243, 245, 0.5)), color-stop(100%, rgba(241, 243, 245, 0)));
@@ -172,29 +172,29 @@ pre {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100% 1px,100% 150px,100% 150px; }
-  /* line 181, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 181, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   .post img {
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
     display: block; }
 
-/* line 189, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 189, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 .posts-wrapper {
   float: left;
   width: 70%; }
 
-/* line 194, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 194, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 .post-meta {
   margin-bottom: 0.75em;
   display: block;
   opacity: .5; }
 
-/* line 200, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 200, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 div.social {
   margin: 1em 2.5em;
   margin-bottom: 0; }
-  /* line 203, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 203, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   div.social a {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -216,31 +216,31 @@ div.social {
     -o-transition: 0.3s;
     transition: 0.3s; }
 
-/* line 226, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 226, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 a.twitter {
   background: url("../images/twitter.png") center no-repeat #55cff8;
   border: 1px solid #55CFF8; }
-  /* line 229, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 229, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   a.twitter:hover {
     opacity: 1; }
 
-/* line 234, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 234, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 a.github {
   background: url("../images/github.png") center no-repeat #afb6ca;
   border: 1px solid #afb6ca; }
-  /* line 237, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 237, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   a.github:hover {
     opacity: 1; }
 
-/* line 242, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 242, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 a.linkedin {
   background: url("../images/linkedin-1.png") center no-repeat #afb6ca;
   border: 1px solid #afb6ca; }
-  /* line 245, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 245, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   a.linkedin:hover {
     opacity: 1; }
 
-/* line 250, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 250, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 div.about-bg {
   background: url("images/about-bg.jpg");
   -webkit-background-size: cover;
@@ -249,18 +249,18 @@ div.about-bg {
   background-size: cover;
   min-height: 500px; }
 
-/* line 259, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 259, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 div.about-content {
   min-height: 500px; }
-  /* line 261, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 261, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   div.about-content .blurb {
     display: inline-block;
     width: 45%;
     float: left; }
-    /* line 265, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+    /* line 265, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
     div.about-content .blurb p:first-child {
       margin-top: 0; }
-  /* line 270, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 270, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   div.about-content .image-container {
     width: 55%;
     display: inline-block;
@@ -268,13 +268,13 @@ div.about-content {
     right: -20px;
     float: right;
     position: relative; }
-  /* line 278, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 278, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   div.about-content img {
     max-width: 100%; }
 
-/* line 282, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+/* line 282, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
 ol {
   padding: 0; }
-  /* line 284, /tmp/mgd-Lgv/clone/source/stylesheets/main.css.scss */
+  /* line 284, /tmp/mgd-Exf/clone/source/stylesheets/main.css.scss */
   ol li {
     display: block; }
