@@ -47,7 +47,7 @@ header {
 				margin: 0;
 				font-size: 2em;
 				line-height: 0.83333em;
-				padding: 0 1em;
+				padding: 0 2em;
 				left: -48px;
 				top: -4px;
 			}
@@ -138,6 +138,7 @@ pre{
 	float: left;
 	width: 27%;
 	margin-left: 3%;
+  margin-top:1.5em;
 }
 
 .sidebar-item{
@@ -261,19 +262,14 @@ div.about-content{
 	.blurb{
 		display:inline-block;
 		width:45%;
-		float:left;
+		float:right;
 		p:first-child{
 			margin-top:0;
 		}
 	}
 
 	.image-container{
-		width:55%;
 		display:inline-block;
-		top:-20px;
-		right: -20px;
-		float:right;
-		position:relative;
 	}
 	img{
 		max-width:100%;
