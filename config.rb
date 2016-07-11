@@ -103,6 +103,7 @@ configure :build do
   # activate :cache_buster
 
   # Use relative URLs
+  set :relative_assets, true
   set :relative_links, true
   set :http_prefix, '/rpavlov.com'
   # Compress PNGs after build
