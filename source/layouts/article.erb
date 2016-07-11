@@ -1,6 +1,6 @@
 <% wrap_layout :layout do %>
 	<article class="post">
-  	<h1 class="post-title"><%= current_page.title %></h1>
+  	<h1 class="post-title"><%= current_page.title.to_str %></h1>
   	<div class="post-meta"><%= current_page.date.strftime('%e %B %Y') %></div>
   	<div class="post-text">
   		<%= yield %>
