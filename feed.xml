@@ -5,10 +5,52 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-07-11T00:00:00Z</updated>
+  <updated>2016-09-07T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Public commitments</title>
+    <link rel="alternate" href="/2016/09/07/commitments/"/>
+    <id>/2016/09/07/commitments/</id>
+    <published>2016-09-07T00:00:00Z</published>
+    <updated>2016-09-07T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Another one of those corny lifehacks I&amp;#8217;m fond of is public commitments. I guess it&amp;#8217;s semi-common knowledge that announcing your intentions publicly or better yet, to friends, prompts action. I&amp;#8217;ve also noticed it&amp;#8217;s useful for folks suffering from depression and anxiety, insofar that making commitments to see friends or attend&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Another one of those corny lifehacks I&amp;#8217;m fond of is public commitments. I guess it&amp;#8217;s semi-common knowledge that announcing your intentions publicly or better yet, to friends, prompts action. I&amp;#8217;ve also noticed it&amp;#8217;s useful for folks suffering from depression and anxiety, insofar that making commitments to see friends or attend events gets you out of the house.&lt;/p&gt;
+
+&lt;p&gt;With that in mind, I&amp;#8217;m announcing my intention to pivot my career towards automation and ops, plug some holes in my game and learn a few new tricks. Luckily, like Arnold, my cpu is a neural net processor&amp;#8230;a learning computah.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Linux&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Despite using the terminal and interacting with servers almost daily, my knowledge is broad but shallow. I&amp;#8217;m getting a lot of mileage out of &lt;a href='http://unixmages.com/ufbm.pdf'&gt;Unix for Mages&lt;/a&gt; and &lt;a href='https://serversforhackers.com/'&gt;Servers for hackers&lt;/a&gt; as refreshers for things I don&amp;#8217;t normally do.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Python&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The tool of choice for automation scripting.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ansible+Vagrant or Docker&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Not sure which side to take yet, but for the time-being Ansible suits my needs nicely. Shout-out to the mad genius &lt;a href='https://twitter.com/sheysewani'&gt;Shey&lt;/a&gt; over at &lt;a href='https://polymorphic.ca'&gt;polymorphic.ca&lt;/a&gt; for putting me on this path and sharing some of his hard-won knowledge and high quality scripts.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>gittip</title>
+    <link rel="alternate" href="/2016/08/22/gittip/"/>
+    <id>/2016/08/22/gittip/</id>
+    <published>2016-08-22T00:00:00Z</published>
+    <updated>2016-08-22T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;To remove a specific commit, aka reverse cherry-pick:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git rebase -p --onto SHA^ SHA&lt;/code&gt;&lt;/pre&gt;</summary>
+    <content type="html">&lt;p&gt;To remove a specific commit, aka reverse cherry-pick:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git rebase -p --onto SHA^ SHA&lt;/code&gt;&lt;/pre&gt;</content>
+  </entry>
   <entry>
     <title>I've solved procrastination</title>
     <link rel="alternate" href="/2016/07/11/hello-again/"/>
@@ -212,59 +254,5 @@ git tag 1.0.0-RC1&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;If you practice meditation, you&amp;#8217;ll know that it takes a bit of time to empty your mind. During that period of transition chances are other thoughts creep in to fill the void. For me, this is both annoying and beneficial. Annoying because it&amp;#8217;s hindering my true purpose: a clear mind. Beneficial because it gives these thoughts free reign, effectively freeing them from whatever activity you were occupied with before your failed (or successful) attempt at meditation. Lateral thinking is usually accidental.&lt;/p&gt;
 
 &lt;p&gt;There&amp;#8217;s a bunch of ancillary benefits to exercise I&amp;#8217;m learning about as I grow fitter/happier/more productive. You learn about your body&amp;#8217;s limitations, and how to push them.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>AngularJs resources</title>
-    <link rel="alternate" href="/2013/11/04/angularjs/"/>
-    <id>/2013/11/04/angularjs/</id>
-    <published>2013-11-04T00:00:00Z</published>
-    <updated>2013-11-04T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;I&amp;#8217;m currently knee-deep in Angular and having a blast, primarily due to the large amount of quality guides, tutorials and learning resources floating around. For each weird thing I envision folding into my toy app, I&amp;#8217;m pleased to find a well-documented library exists. I wanted a way to have multiple views/nested routes on the same page and after struggling with the built-in router, behold! A &lt;a href='https://github.com/angular-ui/ui-router'&gt;library&lt;/a&gt; appears. Good stuff, here&amp;#8217;s more:&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;I&amp;#8217;m currently knee-deep in Angular and having a blast, primarily due to the large amount of quality guides, tutorials and learning resources floating around. For each weird thing I envision folding into my toy app, I&amp;#8217;m pleased to find a well-documented library exists. I wanted a way to have multiple views/nested routes on the same page and after struggling with the built-in router, behold! A &lt;a href='https://github.com/angular-ui/ui-router'&gt;library&lt;/a&gt; appears. Good stuff, here&amp;#8217;s more:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://coderberry.me/blog/2013/04/22/angularjs-on-rails-4-part-1/'&gt;AngularJS on Rails&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://mightygio.com/2013/04/integrating-rails-and-angularjs-part-2-model-view-win-controllers-and-routes/'&gt;Integrating Rails and AngularJS&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://blog.artlogic.com/2013/05/08/angularjs-best-practices-ive-been-doing-it-wrong-part-3-of-3/'&gt;Angular best practices&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://asanderson.org/posts/2013/06/23/bootstrapping-angular-rails-part-2.html'&gt;Bootstrapping an AngularJs app in Rails&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://egghead.io/'&gt;Egghead.io - short tutorial videos covering each of Angular&amp;#8217;s features&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='https://github.com/angular-ui/ui-router'&gt;angular-ui - a stateful router&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Brb, learning Javascript</title>
-    <link rel="alternate" href="/2013/11/01/brb-learning-js/"/>
-    <id>/2013/11/01/brb-learning-js/</id>
-    <published>2013-11-01T00:00:00Z</published>
-    <updated>2013-11-01T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;My relationship with Javascript has always been cordial at best, but that&amp;#8217;s changing fast. There&amp;#8217;s a plethora of great resources floating around, some of which I&amp;#8217;ve been ruthlessly exploiting these past few months. I figure I&amp;#8217;d share the love.&lt;/p&gt;
-
-&lt;p&gt;Sites&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;My relationship with Javascript has always been cordial at best, but that&amp;#8217;s changing fast. There&amp;#8217;s a plethora of great resources floating around, some of which I&amp;#8217;ve been ruthlessly exploiting these past few months. I figure I&amp;#8217;d share the love.&lt;/p&gt;
-
-&lt;h2 id='sites'&gt;Sites&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href='http://www.learn-js.org/'&gt;Learn-JS&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://www.2ality.com/2013/06/basic-javascript.html'&gt;Javascript for the impatient programmer&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://superherojs.com/'&gt;SuperheroJS (a compilation of great links)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://arcturo.github.io/library/coffeescript/'&gt;Little book on coffeescript&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id='books'&gt;Books&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href='http://www.amazon.com/exec/obidos/ASIN/0596517742/'&gt;Javascript the good parts&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='http://www.amazon.com/JavaScript-Web-Applications-Alex-MacCaw/dp/144930351X/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1383328977&amp;amp;sr=1-1&amp;amp;keywords=javascript+web+applications'&gt;Javascript web applications&lt;/a&gt;&lt;/p&gt;</content>
   </entry>
 </feed>
