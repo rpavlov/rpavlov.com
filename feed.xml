@@ -5,10 +5,30 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2016-09-07T00:00:00Z</updated>
+  <updated>2017-02-28T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Rails and default_scope</title>
+    <link rel="alternate" href="/2017/02/28/default-scope/"/>
+    <id>/2017/02/28/default-scope/</id>
+    <published>2017-02-28T00:00:00Z</published>
+    <updated>2017-02-28T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;It should be common knowledge by now NOT to use default_scope unless you know what you&amp;#8217;re doing. I &lt;em&gt;thought&lt;/em&gt; I knew what I was doing but was wrong, which is often the case.&lt;/p&gt;
+
+&lt;p&gt;Imagine having a model with a boolean :finished attribute. And in your schema for this table default: false.&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;It should be common knowledge by now NOT to use default_scope unless you know what you&amp;#8217;re doing. I &lt;em&gt;thought&lt;/em&gt; I knew what I was doing but was wrong, which is often the case.&lt;/p&gt;
+
+&lt;p&gt;Imagine having a model with a boolean :finished attribute. And in your schema for this table default: false. You want to only ever retrieve instances that are marked finished, so you write&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;default_scope {where(finished: true)}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Great, but guess what? New instances of this model will have their :finished default to true, contrary to the schema definition. Crazy right? Don&amp;#8217;t use default_scope.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Public commitments</title>
     <link rel="alternate" href="/2016/09/07/commitments/"/>
@@ -236,23 +256,5 @@ git merge --no-ff my-new-feature
 git tag 1.0.0-RC1&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;a href='https://www.atlassian.com/git/tutorial'&gt;The Atlassian Git Tutorial&lt;/a&gt; is also a great repository of knowledge. Check out their workflows.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Side effects in life</title>
-    <link rel="alternate" href="/2013/11/13/exercise/"/>
-    <id>/2013/11/13/exercise/</id>
-    <published>2013-11-13T00:00:00Z</published>
-    <updated>2013-11-13T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;There&amp;#8217;s a side-effect to absolutely everything you and I do. Exercise, for example, allows you to not only grow stronger and fitter but also gain knowledge about your body. You&amp;#8217;ll learn your limits; both physical endurance and mental resilience.&lt;/p&gt;
-
-&lt;p&gt;If you practice meditation, you&amp;#8217;ll know that it takes a bit of time to empty your mind. During that period of transition chances are other thoughts creep in to fill the void. For me, this is both annoying and beneficial. Annoying because it&amp;#8217;s hindering my true purpose: a clear mind. Beneficial because it gives these thoughts free reign, effectively freeing them from whatever activity you were occupied with before your failed (or successful) attempt at meditation. Lateral thinking is usually accidental.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;There&amp;#8217;s a side-effect to absolutely everything you and I do. Exercise, for example, allows you to not only grow stronger and fitter but also gain knowledge about your body. You&amp;#8217;ll learn your limits; both physical endurance and mental resilience.&lt;/p&gt;
-
-&lt;p&gt;If you practice meditation, you&amp;#8217;ll know that it takes a bit of time to empty your mind. During that period of transition chances are other thoughts creep in to fill the void. For me, this is both annoying and beneficial. Annoying because it&amp;#8217;s hindering my true purpose: a clear mind. Beneficial because it gives these thoughts free reign, effectively freeing them from whatever activity you were occupied with before your failed (or successful) attempt at meditation. Lateral thinking is usually accidental.&lt;/p&gt;
-
-&lt;p&gt;There&amp;#8217;s a bunch of ancillary benefits to exercise I&amp;#8217;m learning about as I grow fitter/happier/more productive. You learn about your body&amp;#8217;s limitations, and how to push them.&lt;/p&gt;</content>
   </entry>
 </feed>

@@ -24,6 +24,17 @@
     <div class="posts-wrapper">
         
   <article class="post">
+	 <h1 class="post-title"><a href="/2017/02/28/default-scope/">Rails and default_scope</a></h1>
+    <div class="post-meta">28 February 2017</div>
+	 <div class="post-text"><p>It should be common knowledge by now NOT to use default_scope unless you know what you&#8217;re doing. I <em>thought</em> I knew what I was doing but was wrong, which is often the case.</p>
+
+<p>Imagine having a model with a boolean :finished attribute. And in your schema for this table default: false. You want to only ever retrieve instances that are marked finished, so you write</p>
+
+<pre><code>default_scope {where(finished: true)}</code></pre>
+
+<p>Great, but guess what? New instances of this model will have their :finished default to true, contrary to the schema definition. Crazy right? Don&#8217;t use default_scope.</p></div>
+  </article>
+  <article class="post">
 	 <h1 class="post-title"><a href="/2016/09/07/commitments/">Public commitments</a></h1>
     <div class="post-meta"> 7 September 2016</div>
 	 <div class="post-text"><p>Another one of those corny lifehacks I&#8217;m fond of is public commitments. I guess it&#8217;s semi-common knowledge that announcing your intentions publicly or better yet, to friends, prompts action. I&#8217;ve also noticed it&#8217;s useful for folks suffering from depression and anxiety, insofar that making commitments to see friends or attend events gets you out of the house.</p>
@@ -262,11 +273,6 @@ git tag 1.0.0-RC1</code></pre>
 
 <p>Not surprisingly, it turns out I&#8217;m <a href='http://www.16personalities.com/intj-personality'>Vladimir Putin</a>! My strengths include directness, self-confidence, independence and decisiveness. Weaknesses include arrogance, over-analyzing and being a judgemental prick. Me in a nutshell.</p></div>
   </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2013/10/30/new/">A new site</a></h1>
-    <div class="post-meta">30 October 2013</div>
-	 <div class="post-text"><p>Hello again, world. I&#8217;ve redesigned my site and gone with a decidedly spartan feel. Less is more, with code as with all else.</p></div>
-  </article>
 
 
     </div>
@@ -287,6 +293,8 @@ git tag 1.0.0-RC1</code></pre>
         <h3>Recent Articles</h3>
         <ol>
           
+            <li><a href="/2017/02/28/default-scope/">Rails and default_scope</a></li>
+          
             <li><a href="/2016/09/07/commitments/">Public commitments</a></li>
           
             <li><a href="/2016/08/22/gittip/">gittip</a></li>
@@ -304,8 +312,6 @@ git tag 1.0.0-RC1</code></pre>
             <li><a href="/2013/11/01/brb-learning-js/">Brb, learning Javascript</a></li>
           
             <li><a href="/2013/10/31/my-personality/">My Personality</a></li>
-          
-            <li><a href="/2013/10/30/new/">A new site</a></li>
           
         </ol>
       </div>

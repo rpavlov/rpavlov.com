@@ -22,23 +22,19 @@
     </header>
     <section id="main" role="main" class="content">
     <div class="posts-wrapper">
-        <h1>Archive for
-  
-    Oct 2013
-  
-</h1>
+        	<article class="post">
+  	<h1 class="post-title">Rails and default_scope</h1>
+  	<div class="post-meta">28 February 2017</div>
+  	<div class="post-text">
+  		<p>It should be common knowledge by now NOT to use default_scope unless you know what you&#8217;re doing. I <em>thought</em> I knew what I was doing but was wrong, which is often the case.</p>
 
+<p>Imagine having a model with a boolean :finished attribute. And in your schema for this table default: false. You want to only ever retrieve instances that are marked finished, so you write</p>
 
-<ul>
-  
-    <li><a href="/2013/10/31/my-personality/">My Personality</a> <span>Oct 31</span></li>
-  
-    <li><a href="/2013/10/30/new/">A new site</a> <span>Oct 30</span></li>
-  
-    <li><a href="/2013/10/30/news/">And now, for the content backlog!</a> <span>Oct 30</span></li>
-  
-</ul>
+<pre><code>default_scope {where(finished: true)}</code></pre>
 
+<p>Great, but guess what? New instances of this model will have their :finished default to true, contrary to the schema definition. Crazy right? Don&#8217;t use default_scope.</p>
+  	</div>
+  </article>
 
     </div>
     <aside class="sidebar">
