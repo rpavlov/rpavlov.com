@@ -127,5 +127,8 @@ DEPENDENCIES
   puma
   rack-contrib
 
+RUBY VERSION
+   ruby 2.4.0p0
+
 BUNDLED WITH
-   1.11.2
+   1.14.6
