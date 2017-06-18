@@ -47,8 +47,9 @@
         <ol>
           <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
           <li>
-            <h5><%= year %></h5>
+            <h5 style="margin-bottom:0;"><%= year %></h5>
               <% articles.each do |article| %>
+              <br/>
               <a href="<%= article.url %>"><%= article.title %></a>
               <% end %>
           </li>
