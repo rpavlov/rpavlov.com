@@ -59,7 +59,7 @@
 
 &lt;p&gt;&lt;em&gt;Dec 2015 - Present&lt;/em&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href='https://factu.ly/'&gt;factu.ly&lt;/a&gt; is an MVP that aims to adress the problem of fake news by allowing users to upload and annotate articles, and rate their accuracy and bias.&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://factu.ly/'&gt;factu.ly&lt;/a&gt; is an MVP that aims to address the problem of fake news by allowing users to upload and annotate articles, and rate their accuracy and bias.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Created a Rails 5 application that extracts article headlines and content from urls, and allows the text to be selected and marked up.&lt;/li&gt;
@@ -75,7 +75,7 @@
 &lt;li&gt;Created a Rails 5 survey application for building and administering multi-stage surveys. Subsequent stages are composed of user input comparing various brands and products.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href='https://thecouncil.on.ca'&gt;thecouncil.on.ca&lt;/a&gt; is the bargaining agent for the 24 Ontario colleges in negotiating collective agreements with unionized staff. Their technology stack consists of a Rails 3 CMS with a seperate layer for managing arbitrations, and creating multi-step and multi-party scheduling workflows.&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://thecouncil.on.ca'&gt;thecouncil.on.ca&lt;/a&gt; is the bargaining agent for the 24 Ontario colleges in negotiating collective agreements with unionized staff. Their technology stack consists of a Rails 3 CMS with a separate layer for managing arbitrations, and creating multi-step and multi-party scheduling workflows.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Fixed numerous bugs around the logic dealing with scheduling time-slots.&lt;/li&gt;
@@ -91,7 +91,7 @@
 &lt;li&gt;Addressed various hosting issues and migrated the ruby on rails 3 application to Heroku, while also fixing problems with the content stream sources.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href='https://crowdmark.com/'&gt;crowdmark.ca&lt;/a&gt; is an online grading, annotation and analytics platform for scanned test papers.&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://crowdmark.com/'&gt;crowdmark.com&lt;/a&gt; is an online grading, annotation and analytics platform for scanned test papers.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Implemented annotation functionality in EmberJs, allowing for selected text to be manipulated.&lt;/li&gt;
@@ -104,7 +104,7 @@
 &lt;p&gt;&lt;a href='https://shifthealth.ca'&gt;shifthealth.ca&lt;/a&gt; provides a platform for administering surveys in clinics and hospitals, and collecting patient reported data.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Created an offline-capable javascript single-page survey app for use on ios and android mobile devices.&lt;/li&gt;
+&lt;li&gt;Created an offline-capable javascript single-page survey app for use on iOS and android mobile devices.&lt;/li&gt;
 
 &lt;li&gt;Expanded the backing Ruby on Rails infrastructure to support reporting, i18n, encrypted backups and deployment automation.&lt;/li&gt;
 
@@ -145,7 +145,7 @@
 
 &lt;p&gt;&lt;em&gt;Jun 2006 - Sep 2006&lt;/em&gt;&lt;/p&gt;
 &lt;hr /&gt;
-&lt;p&gt;&lt;a href='http://konverge.com/'&gt;konverge.com&lt;/a&gt; is a microsoft application consultancy with clients such as Bosch and KPMG.&lt;/p&gt;
+&lt;p&gt;&lt;a href='http://konverge.com/'&gt;konverge.com&lt;/a&gt; is a Microsoft application consultancy with clients such as Bosch and KPMG.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Designed and wrote C# unit tests for an automotive component price quote system commissioned by Bosch.&lt;/li&gt;
