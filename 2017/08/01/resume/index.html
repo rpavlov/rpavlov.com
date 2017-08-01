@@ -22,10 +22,11 @@
   </header>
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
-        <article class="post">
-	 <h1 class="post-title"><a href="/2017/08/01/resume/">resume</a></h1>
-    <div class="post-meta"> 1 August 2017</div>
-	 <div class="post-text"><h2 id='skills'>Skills</h2>
+      	<article class="post">
+  	<h1 class="post-title">resume</h1>
+  	<div class="post-meta"> 1 August 2017</div>
+  	<div class="post-text">
+  		<h2 id='skills'>Skills</h2>
 
 <h4 id='languages'>Languages</h4>
 
@@ -151,60 +152,9 @@
 <hr />
 <p><em>University of Toronto, St. George, Toronto</em></p>
 
-<p>Hons. B.Sc, Computer Science: Software Engineering.</p></div>
+<p>Hons. B.Sc, Computer Science: Software Engineering.</p>
+  	</div>
   </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2017/05/08/emacs-vim/">emacs vs vim</a></h1>
-    <div class="post-meta"> 8 May 2017</div>
-	 <div class="post-text"><p>After spending the better part of last year using emacs (specifically the spacemacs distribution) before switching to neovim I can safely conclude I&#8217;ve shaved enough yaks to last me a lifetime. I&#8217;m switching back to Atom because configuring editors is a waste of time that could be better spent actually building things. I could be meticulously installing and configuring packages for crucial features like fuzzy project search, OR I could just use a modern editor.</p>
-
-<p>Luckily most of the emacs navigation keybindings work in atom. God bless.</p></div>
-  </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2017/02/28/default-scope/">Rails and default_scope</a></h1>
-    <div class="post-meta">28 February 2017</div>
-	 <div class="post-text"><p>It should be common knowledge by now NOT to use default_scope unless you know what you&#8217;re doing. I <em>thought</em> I knew what I was doing but was wrong, which is often the case.</p>
-
-<p>Imagine having a model with a boolean :finished attribute. And in your schema for this table default: false. You want to only ever retrieve instances that are marked finished, so you write</p>
-
-<pre><code>default_scope {where(finished: true)}</code></pre>
-
-<p>Great, but guess what? New instances of this model will have their :finished default to true, contrary to the schema definition. Crazy right? Don&#8217;t use default_scope.</p></div>
-  </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2016/09/07/commitments/">Public commitments</a></h1>
-    <div class="post-meta"> 7 September 2016</div>
-	 <div class="post-text"><p>Another one of those corny lifehacks I&#8217;m fond of is public commitments. I guess it&#8217;s semi-common knowledge that announcing your intentions publicly or better yet, to friends, prompts action. I&#8217;ve also noticed it&#8217;s useful for folks suffering from depression and anxiety, insofar that making commitments to see friends or attend events gets you out of the house.</p>
-
-<p>With that in mind, I&#8217;m announcing my intention to pivot my career towards automation and ops, plug some holes in my game and learn a few new tricks. Luckily, like Arnold, my cpu is a neural net processor&#8230;a learning computah.</p>
-
-<p><strong>Linux</strong></p>
-
-<p>Despite using the terminal and interacting with servers almost daily, my knowledge is broad but shallow. I&#8217;m getting a lot of mileage out of <a href='http://unixmages.com/ufbm.pdf'>Unix for Mages</a> and <a href='https://serversforhackers.com/'>Servers for hackers</a> as refreshers for things I don&#8217;t normally do.</p>
-
-<p><strong>Python</strong></p>
-
-<p>The tool of choice for automation scripting.</p>
-
-<p><strong>Ansible+Vagrant or Docker</strong></p>
-
-<p>Not sure which side to take yet, but for the time-being Ansible suits my needs nicely. Shout-out to the mad genius <a href='https://twitter.com/sheysewani'>Shey</a> over at <a href='https://polymorphic.ca'>polymorphic.ca</a> for putting me on this path and sharing some of his hard-won knowledge and high quality scripts.</p></div>
-  </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2016/08/22/gittip/">gittip</a></h1>
-    <div class="post-meta">22 August 2016</div>
-	 <div class="post-text"><p>To remove a specific commit, aka reverse cherry-pick:</p>
-
-<pre><code>git rebase -p --onto SHA^ SHA</code></pre></div>
-  </article>
-  <p class="pagination-controls">
-    
-    <span>1 of 3</span>
-
-    
-      <span><a href="/page/2/">>></a></span>
-    
-  </p>
 
     </div>
     <aside class="sidebar">

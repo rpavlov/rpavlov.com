@@ -5,10 +5,160 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-05-08T00:00:00Z</updated>
+  <updated>2017-08-01T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>resume</title>
+    <link rel="alternate" href="/2017/08/01/resume/"/>
+    <id>/2017/08/01/resume/</id>
+    <published>2017-08-01T00:00:00Z</published>
+    <updated>2017-08-01T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;h2 id='skills'&gt;Skills&lt;/h2&gt;
+
+&lt;h4 id='languages'&gt;Languages&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Ruby, Python, Javascript, Java, C, Clojure, SQL, HTML&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='frameworks'&gt;Frameworks&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Ruby on Rails, Flask, AngularJs, EmberJs, jQuery, Bootstrap&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='tools'&gt;Tools&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Linux, Ansible, Vagrant, Docker, Git, Postgresql, Mysql, nginx, Apache tomcat&lt;/code&gt;&lt;/pre&gt;</summary>
+    <content type="html">&lt;h2 id='skills'&gt;Skills&lt;/h2&gt;
+
+&lt;h4 id='languages'&gt;Languages&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Ruby, Python, Javascript, Java, C, Clojure, SQL, HTML&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='frameworks'&gt;Frameworks&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Ruby on Rails, Flask, AngularJs, EmberJs, jQuery, Bootstrap&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='tools'&gt;Tools&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Linux, Ansible, Vagrant, Docker, Git, Postgresql, Mysql, nginx, Apache tomcat&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='methodologies'&gt;Methodologies&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Agile, TDD, OOP, responsive design, OWASP security practices.&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='project_management'&gt;Project management&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;Full lifecycle project development; requirements gathering, estimation, sprint planning, release and maintenance.&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id='experience'&gt;Experience&lt;/h2&gt;
+
+&lt;h4 id='consultant'&gt;Consultant&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Dec 2015 - Present&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href='https://factu.ly/'&gt;factu.ly&lt;/a&gt; is an MVP that aims to adress the problem of fake news by allowing users to upload and annotate articles, and rate their accuracy and bias.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Created a Rails 5 application that extracts article headlines and content from urls, and allows the text to be selected and marked up.&lt;/li&gt;
+
+&lt;li&gt;Created a chrome extension that interfaces with the backend to show the scores and comments for the article currently being viewed.&lt;/li&gt;
+
+&lt;li&gt;Created re-usable Ansible automation scripts that handle server provisioning and deployment for ruby on rails applications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href='https://www.freshsqueezedideas.com/'&gt;freshsqueezedideas.com&lt;/a&gt; is an evidenced-based marketing and design agency.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Created a Rails 5 survey application for building and administering multi-stage surveys. Subsequent stages are composed of user input comparing various brands and products.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href='https://thecouncil.on.ca'&gt;thecouncil.on.ca&lt;/a&gt; is the bargaining agent for the 24 Ontario colleges in negotiating collective agreements with unionized staff. Their technology stack consists of a Rails 3 CMS with a seperate layer for managing arbitrations, and creating multi-step and multi-party scheduling workflows.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fixed numerous bugs around the logic dealing with scheduling time-slots.&lt;/li&gt;
+
+&lt;li&gt;Migrated all Rails infrastructure from Linode to Digital Ocean.&lt;/li&gt;
+
+&lt;li&gt;Created a re-usable development virtual machine for ruby on rails applications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href='http://concertsherpa.ca'&gt;concertsherpa.ca&lt;/a&gt; is a music event aggregator and news service for &lt;a href='http://exclaim.ca'&gt;exclaim.ca&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Addressed various hosting issues and migrated the ruby on rails 3 application to Heroku, while also fixing problems with the content stream sources.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href='https://crowdmark.com/'&gt;crowdmark.ca&lt;/a&gt; is an online grading, annotation and analytics platform for scanned test papers.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implemented annotation functionality in EmberJs, allowing for selected text to be manipulated.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id='software_developer'&gt;Software developer&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Mar 2013 - Dec 2015&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href='https://shifthealth.ca'&gt;shifthealth.ca&lt;/a&gt; provides a platform for administering surveys in clinics and hospitals, and collecting patient reported data.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Created an offline-capable javascript single-page survey app for use on ios and android mobile devices.&lt;/li&gt;
+
+&lt;li&gt;Expanded the backing Ruby on Rails infrastructure to support reporting, i18n, encrypted backups and deployment automation.&lt;/li&gt;
+
+&lt;li&gt;Improved stability of the codebase by implementing continuous integration, monitoring, end to end and integration testing, a strict git branching model, code reviews and sprint planning.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id='software_developer'&gt;Software developer&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Apr 2011 - Dec 2012&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href='http://www.thinkresearch.com/ca/'&gt;thinkresearch.com&lt;/a&gt; is a suite of tools and services for managing digital versions of hospital order sets. Primarily responsible for feature development, testing and maintenance of a medical document parser. The tool also serves as a CMS, also allowing for modification and versioning of order-set document content.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Developed various features and improvements for a pdf document parsing engine.&lt;/li&gt;
+
+&lt;li&gt;Improved stability, performance and code coverage of the system through the addition of a test suite.&lt;/li&gt;
+
+&lt;li&gt;Participated in and led biweekly sprint feature planning, ticket breakdown and design discussions.&lt;/li&gt;
+
+&lt;li&gt;Ensured cross-browser and IE7+ backwards compatibility.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id='software_developer'&gt;Software developer&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Mar 2010 - Apr 2011&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href='http://fieldid.com/'&gt;fieldid.com&lt;/a&gt; is an asset management and inspection scheduling system for the construction and manufacturing industries.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Identified, traced and fixed bugs for both front- and back-ends; performed automatic and manual regression testing on both the web and windows mobile applications at the end of each development cycle.&lt;/li&gt;
+
+&lt;li&gt;Designed and developed front-end functionality with a heavy emphasis on UI/UX for non-technical users.&lt;/li&gt;
+
+&lt;li&gt;Maintained an extensive Selenium integration test suite.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id='net_intern'&gt;.NET Intern&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;Jun 2006 - Sep 2006&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;a href='http://konverge.com/'&gt;konverge.com&lt;/a&gt; is a microsoft application consultancy with clients such as Bosch and KPMG.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Designed and wrote C# unit tests for an automotive component price quote system commissioned by Bosch.&lt;/li&gt;
+
+&lt;li&gt;Identified, traced and remedied anomalies, bugs, and mathematical errors in the pricing calculation modules.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id='education'&gt;Education&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;em&gt;University of Toronto, St. George, Toronto&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Hons. B.Sc, Computer Science: Software Engineering.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>emacs vs vim</title>
     <link rel="alternate" href="/2017/05/08/emacs-vim/"/>
@@ -116,99 +266,5 @@
 &lt;p&gt;&lt;strong&gt;Visualize completing the task&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Aaah the sweetest feeling. Completing something, no matter how small, is a morale boost. Small increments lead to big changes.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Several habits of a highly successful Roumen</title>
-    <link rel="alternate" href="/2013/12/28/habits/"/>
-    <id>/2013/12/28/habits/</id>
-    <published>2013-12-28T00:00:00Z</published>
-    <updated>2013-12-28T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Self improvement and productivity are aspects of my life I put a lot of thought into, but unfortunately not much effort. Habits are the investments and tools that should allow me to reach a multitude of personal goals and become a stronger, smarter, more patient and compassionate human being.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Self improvement and productivity are aspects of my life I put a lot of thought into, but unfortunately not much effort. Habits are the investments and tools that should allow me to reach a multitude of personal goals and become a stronger, smarter, more patient and compassionate human being.&lt;/p&gt;
-
-&lt;p&gt;Creating a habit is a recipe in three parts: Knowledge, Skill, Desire. 1) I &lt;em&gt;know&lt;/em&gt; that I need to really listen to people. 2) I must learn &lt;em&gt;how&lt;/em&gt; to properly listen to people. 3) I must really &lt;em&gt;want&lt;/em&gt; to listen. That&amp;#8217;s the framework.&amp;#160;&lt;/p&gt;
-
-&lt;p&gt;Going forward, here are the habits I&amp;#8217;m committing to. Some are daily, some are monthly. Some are ongoing.&amp;#160;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Daily&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Floss.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;60 push-ups.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;8am start.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Daily schedule. &lt;a href='http://www.bulletjournal.com/'&gt;Bullet-journal&lt;/a&gt; is crutch. Additionally, set monthly/ weekly/daily goals. Take more notes and jot down thoughts and ideas.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Memory exercises. Still need to do some research on this one and I keep forgetting (hah!)&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Meditation &amp;#38; mindfulness.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Weekly&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Gym x 3 (Gonna try this in the morning for a change)&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Write &lt;a href='http://750words.com/'&gt;750 words&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Monthly&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Read 1 non-fiction book.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Read 1 technical book.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;All The Time&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Listen. Really listen and pay attention to the exclusion of all else. The most important conversation is the one you&amp;#8217;re currently having. Understand &lt;em&gt;what&lt;/em&gt; the other person is communicating and what they &lt;em&gt;want&lt;/em&gt;. Understand their motivation, and &lt;em&gt;why&lt;/em&gt; they&amp;#8217;re telling you this. &lt;em&gt;Remember&lt;/em&gt; what they say.&amp;#160;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Be Patient. Impatience comes in constant waves. Be like a rock beneath; infinitely calm, infinitely patient.&amp;#160;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Be less selfish. Consider others; consider what they&amp;#8217;re thinking, how they&amp;#8217;re feeling, what they&amp;#8217;re going through or have been through. Consider what they want and how you&amp;#8217;re helping or hurting. Realize that your actions and inactions matter, though it may not seem so at the time.&amp;#160;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Think before speaking. Do not respond automatically. Consider the implications.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Meta-think. Think about your thoughts. Reflect on how you&amp;#8217;re feeling and why.&amp;#160;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A good question to ask yourself during &lt;em&gt;any&lt;/em&gt;&amp;#160;activity is: will this help me in the future in any way? Will I gain some benefit down the line? &amp;#8216;Yes&amp;#8217; indicates a healthy habit.&lt;/p&gt;</content>
   </entry>
 </feed>
