@@ -1,0 +1,10 @@
+---
+title: "Resume"
+---
+<article class="post resume">
+  <h1 class="post-title"><%= blog.articles.select{|a|a.tags.include?("resume")}.first.title.to_str %></h1>
+  <div class="post-meta"><%= blog.articles.select{|a|a.tags.include?("resume")}.first.date.strftime('%e %B %Y') %></div>
+  <div class="post-text">
+    <%= blog.articles.select{|a|a.tags.include?("resume")}.first.body %>
+  </div>
+</article>
