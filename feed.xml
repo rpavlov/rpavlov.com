@@ -30,7 +30,9 @@
 
 &lt;h4 id='tools'&gt;Tools&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;Linux, Ansible, Vagrant, Docker, Git, Postgresql, Mysql, nginx, Apache tomcat&lt;/code&gt;&lt;/pre&gt;</summary>
+&lt;pre&gt;&lt;code&gt;Linux, Ansible, Vagrant, Docker, Git, Postgresql, Mysql, nginx, AWS&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id='methodologies'&gt;Methodologies&lt;/h4&gt;</summary>
     <content type="html">&lt;h2 id='skills'&gt;Skills&lt;/h2&gt;
 
 &lt;h4 id='languages'&gt;Languages&lt;/h4&gt;
@@ -43,7 +45,7 @@
 
 &lt;h4 id='tools'&gt;Tools&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;Linux, Ansible, Vagrant, Docker, Git, Postgresql, Mysql, nginx, Apache tomcat&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Linux, Ansible, Vagrant, Docker, Git, Postgresql, Mysql, nginx, AWS&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4 id='methodologies'&gt;Methodologies&lt;/h4&gt;
 
@@ -72,7 +74,7 @@
 &lt;p&gt;&lt;a href='https://www.freshsqueezedideas.com/'&gt;freshsqueezedideas.com&lt;/a&gt; is an evidenced-based marketing and design agency.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Created a Rails 5 survey application for building and administering multi-stage surveys. Subsequent stages are composed of user input comparing various brands and products.&lt;/li&gt;
+&lt;li&gt;Created a web application for building and administering multi-stage surveys. Subsequent stages are composed of user input comparing various brands and products.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href='https://thecouncil.on.ca'&gt;thecouncil.on.ca&lt;/a&gt; is the bargaining agent for the 24 Ontario colleges in negotiating collective agreements with unionized staff. Their technology stack consists of a Rails 3 CMS with a separate layer for managing arbitrations, and creating multi-step and multi-party scheduling workflows.&lt;/p&gt;
@@ -83,6 +85,14 @@
 &lt;li&gt;Migrated all Rails infrastructure from Linode to Digital Ocean.&lt;/li&gt;
 
 &lt;li&gt;Created a re-usable development virtual machine for ruby on rails applications.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href='https://bitmaker.co'&gt;bitmaker.co&lt;/a&gt; is a well established code academy that equips students with in-demand technical skills and facilitates connections to local companies.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Created and hosted their brochure site based on design mockups and static html.&lt;/li&gt;
+
+&lt;li&gt;Add CMS functionality to enable news and events posting.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href='http://concertsherpa.ca'&gt;concertsherpa.ca&lt;/a&gt; is a music event aggregator and news service for &lt;a href='http://exclaim.ca'&gt;exclaim.ca&lt;/a&gt;.&lt;/p&gt;
