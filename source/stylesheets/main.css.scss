@@ -146,7 +146,7 @@ pre{
 	margin-top: 0em;
 	padding-top: 0em;
 	padding-bottom: 2.25em;
-	margin-bottom: 2.25em;
+	//margin-bottom: 2.25em;
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 }
@@ -296,5 +296,14 @@ ol{
 	code{
 		margin:0;
 		overflow-x: auto;
+	}
+}
+.gpg{
+	pre, code{
+		margin:0;
+		height:250px;
+	}
+	code{
+		overflow:scroll;
 	}
 }
