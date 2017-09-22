@@ -5,7 +5,7 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-08-01T00:00:00Z</updated>
+  <updated>2017-08-01T00:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,8 +13,8 @@
     <title>resume</title>
     <link rel="alternate" href="/2017/08/01/resume/"/>
     <id>/2017/08/01/resume/</id>
-    <published>2017-08-01T00:00:00Z</published>
-    <updated>2017-08-01T00:00:00Z</updated>
+    <published>2017-08-01T00:00:00+00:00</published>
+    <updated>2017-08-01T00:00:00+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -249,8 +249,8 @@
     <title>I've solved procrastination</title>
     <link rel="alternate" href="/2016/07/11/hello-again/"/>
     <id>/2016/07/11/hello-again/</id>
-    <published>2016-07-11T00:00:00Z</published>
-    <updated>2016-07-11T00:00:00Z</updated>
+    <published>2016-07-11T00:00:00+00:00</published>
+    <updated>2016-07-11T00:00:00+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
