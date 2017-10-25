@@ -13,9 +13,11 @@ Consulting was great because I got to
 
 * Make design/architecture/development decisions and manage my own projects.
 
-Join a team is becoming a priority because
+* Focus on other areas of my life. I am generally smarter, stronger and more well-balanced than ever. Just having the time to think or be bored allowed me to figure out how to lead a more meaningful life, and clarified my goals and priorities.
 
-* My technical skills are stagnating. As the saying goes if you're the smartest person in the room you're in the wrong room. By default I often work alone.
+Joining a team is becoming a priority because
+
+* My technical skills are stagnating. As the saying goes if you're the smartest person in the room you're in the wrong room. Working from home alone I am by default the smartest in the room :(
 
 * I need access to a different set of challenges that align with my long-term career trajectory. For the most part clients require the same set of services when it comes to web
 development: new features or bug fixes. While I got to kick-off some fun green-field projects, much of the work remains of the same nature. Unfortunately this means I haven't had exposure to complex systems at scale, or infrastructure and security management.
