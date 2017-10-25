@@ -18,7 +18,7 @@
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly user multiple git users on the same machine&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Host user1
 Hostname github.com
@@ -28,7 +28,7 @@ IdentitiesOnly yes
 
 Host user2
 Hostname github.com&lt;/code&gt;&lt;/pre&gt;</summary>
-    <content type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly user multiple git users on the same machine&lt;/p&gt;
+    <content type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Host user1
 Hostname github.com
@@ -46,7 +46,7 @@ IdentitiesOnly yes&lt;/code&gt;&lt;/pre&gt;
 
 &lt;pre&gt;&lt;code&gt;git@user1:&amp;lt;username1&amp;gt;/&amp;lt;username1-repo&amp;gt;.git&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Of course, ensure your ssh key is added to respective repo.&lt;/p&gt;</content>
+&lt;p&gt;Of course, ensure your ssh key is added to the respective repo.&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>resume</title>

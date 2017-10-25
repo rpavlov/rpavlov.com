@@ -9,13 +9,13 @@
   font-weight: normal;
   font-style: normal; }
 
-/* line 15, /tmp/mgd-1kU/clone/source/stylesheets/text.css.scss */
+/* line 15, /tmp/mgd-8PF/clone/source/stylesheets/text.css.scss */
 body {
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.1);
   font-family: Conv_MuseoSans-300; }
 
-/* line 23, /tmp/mgd-1kU/clone/source/stylesheets/text.css.scss */
+/* line 23, /tmp/mgd-8PF/clone/source/stylesheets/text.css.scss */
 header .name:hover {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -23,18 +23,18 @@ header .name:hover {
   -o-transition: 0.3s;
   transition: 0.3s;
   opacity: 0.5; }
-/* line 32, /tmp/mgd-1kU/clone/source/stylesheets/text.css.scss */
+/* line 32, /tmp/mgd-8PF/clone/source/stylesheets/text.css.scss */
 header a {
   color: #fff;
   text-decoration: none; }
 
-/* line 38, /tmp/mgd-1kU/clone/source/stylesheets/text.css.scss */
+/* line 38, /tmp/mgd-8PF/clone/source/stylesheets/text.css.scss */
 h3 {
   font-size: 1.25em;
   line-height: 1.2em;
   font-weight: bold; }
 
-/* line 44, /tmp/mgd-1kU/clone/source/stylesheets/text.css.scss */
+/* line 44, /tmp/mgd-8PF/clone/source/stylesheets/text.css.scss */
 h1.post-title {
   font-size: 2.125em;
   line-height: 1.41176em;
@@ -42,15 +42,15 @@ h1.post-title {
   margin-bottom: 0.15em;
   font-weight: 700;
   color: #333; }
-  /* line 51, /tmp/mgd-1kU/clone/source/stylesheets/text.css.scss */
+  /* line 51, /tmp/mgd-8PF/clone/source/stylesheets/text.css.scss */
   h1.post-title a {
     color: #333; }
 
-/* line 56, /tmp/mgd-1kU/clone/source/stylesheets/text.css.scss */
+/* line 56, /tmp/mgd-8PF/clone/source/stylesheets/text.css.scss */
 a {
   text-decoration: none;
   color: #005688; }
-  /* line 59, /tmp/mgd-1kU/clone/source/stylesheets/text.css.scss */
+  /* line 59, /tmp/mgd-8PF/clone/source/stylesheets/text.css.scss */
   a:hover {
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
