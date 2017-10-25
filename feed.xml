@@ -10,6 +10,52 @@
     <name>Blog Author</name>
   </author>
   <entry>
+    <title>Reflections on software development consulting</title>
+    <link rel="alternate" href="/2017/10/24/consulting/"/>
+    <id>/2017/10/24/consulting/</id>
+    <published>2017-10-24T00:00:00+00:00</published>
+    <updated>2017-10-24T00:00:00+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;It&amp;#8217;s been about a year and a half since quitting my job to become self-employed and for the most part it&amp;#8217;s been swell. Having said that, I think it&amp;#8217;s time to cycle back into a team.&lt;/p&gt;
+
+&lt;p&gt;Consulting was great because I got to&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Broaden my non-technical skills. Managing people is a completely different job from building software, but one I enjoyed immensely. What people say and what they actually mean or want are often at conflict, and the ability to help reconcile the two is invaluable.&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    <content type="html">&lt;p&gt;It&amp;#8217;s been about a year and a half since quitting my job to become self-employed and for the most part it&amp;#8217;s been swell. Having said that, I think it&amp;#8217;s time to cycle back into a team.&lt;/p&gt;
+
+&lt;p&gt;Consulting was great because I got to&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Broaden my non-technical skills. Managing people is a completely different job from building software, but one I enjoyed immensely. What people say and what they actually mean or want are often at conflict, and the ability to help reconcile the two is invaluable.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Make design/architecture/development decisions and manage my own projects.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Join a team is becoming a priority because&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;My technical skills are stagnating. As the saying goes if you&amp;#8217;re the smartest person in the room you&amp;#8217;re in the wrong room. By default I often work alone.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;I need access to a different set of challenges that align with my long-term career trajectory. For the most part clients require the same set of services when it comes to web development: new features or bug fixes. While I got to kick-off some fun green-field projects, much of the work remains of the same nature. Unfortunately this means I haven&amp;#8217;t had exposure to complex systems at scale, or infrastructure and security management.&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;I haven&amp;#8217;t been marketing (nor do I super enjoy it). Luckily all of my work has come through word-of-mouth and referrals, but that&amp;#8217;s drying up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
+  <entry>
     <title>Multi-user git</title>
     <link rel="alternate" href="/2017/10/24/multi-user-git/"/>
     <id>/2017/10/24/multi-user-git/</id>
@@ -267,21 +313,5 @@ IdentitiesOnly yes&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;strong&gt;Ansible+Vagrant or Docker&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Not sure which side to take yet, but for the time-being Ansible suits my needs nicely. Shout-out to the mad genius &lt;a href='https://twitter.com/sheysewani'&gt;Shey&lt;/a&gt; over at &lt;a href='https://polymorphic.ca'&gt;polymorphic.ca&lt;/a&gt; for putting me on this path and sharing some of his hard-won knowledge and high quality scripts.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>gittip</title>
-    <link rel="alternate" href="/2016/08/22/gittip/"/>
-    <id>/2016/08/22/gittip/</id>
-    <published>2016-08-22T00:00:00Z</published>
-    <updated>2016-08-22T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;To remove a specific commit, aka reverse cherry-pick:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git rebase -p --onto SHA^ SHA&lt;/code&gt;&lt;/pre&gt;</summary>
-    <content type="html">&lt;p&gt;To remove a specific commit, aka reverse cherry-pick:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git rebase -p --onto SHA^ SHA&lt;/code&gt;&lt;/pre&gt;</content>
   </entry>
 </feed>
