@@ -1,6 +1,6 @@
 ---
 title: Multi-user git
-date: 2017-08-01
+date: 2017-10-24
 published: true
 ---
 
