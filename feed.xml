@@ -5,10 +5,49 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2017-08-01T00:00:00+00:00</updated>
+  <updated>2017-10-24T00:00:00+00:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Multi-user git</title>
+    <link rel="alternate" href="/2017/10/24/multi-user-git/"/>
+    <id>/2017/10/24/multi-user-git/</id>
+    <published>2017-10-24T00:00:00+00:00</published>
+    <updated>2017-10-24T00:00:00+00:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly user multiple git users on the same machine&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Host user1
+Hostname github.com
+User git
+IdentityFile ~/.ssh/username1_pubkey
+IdentitiesOnly yes
+
+Host user2
+Hostname github.com&lt;/code&gt;&lt;/pre&gt;</summary>
+    <content type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly user multiple git users on the same machine&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Host user1
+Hostname github.com
+User git
+IdentityFile ~/.ssh/username1_pubkey
+IdentitiesOnly yes
+
+Host user2
+Hostname github.com
+User git
+IdentityFile ~/.ssh/username2_pubkey
+IdentitiesOnly yes&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then for your repo ensure &lt;code&gt;git remote -v&lt;/code&gt; is of the form&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git@user1:&amp;lt;username1&amp;gt;/&amp;lt;username1-repo&amp;gt;.git&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of course, ensure your ssh key is added to respective repo.&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>resume</title>
     <link rel="alternate" href="/2017/08/01/resume/"/>
@@ -244,37 +283,5 @@
     <content type="html">&lt;p&gt;To remove a specific commit, aka reverse cherry-pick:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;git rebase -p --onto SHA^ SHA&lt;/code&gt;&lt;/pre&gt;</content>
-  </entry>
-  <entry>
-    <title>I've solved procrastination</title>
-    <link rel="alternate" href="/2016/07/11/hello-again/"/>
-    <id>/2016/07/11/hello-again/</id>
-    <published>2016-07-11T00:00:00+00:00</published>
-    <updated>2016-07-11T00:00:00+00:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;That&amp;#8217;s right, after 3.5 years of inactivity this blog lives again.&lt;/p&gt;
-
-&lt;p&gt;Such a long delay&amp;#8230;but overcoming procrastination is Hard. To that end, some tricks that have helped me:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Do the smallest possible task&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Start small and change 1 line of code. Wash 1 dish. Think about 1 thing. Almost always this snowballs into other tasks.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;That&amp;#8217;s right, after 3.5 years of inactivity this blog lives again.&lt;/p&gt;
-
-&lt;p&gt;Such a long delay&amp;#8230;but overcoming procrastination is Hard. To that end, some tricks that have helped me:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Do the smallest possible task&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Start small and change 1 line of code. Wash 1 dish. Think about 1 thing. Almost always this snowballs into other tasks.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Focus&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Obviously, right? But getting there is only half the trouble. Getting into flow is tricky and distractions are the mindkiller. F5&amp;#8217;ing hackernews won&amp;#8217;t get anything finished.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Visualize completing the task&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Aaah the sweetest feeling. Completing something, no matter how small, is a morale boost. Small increments lead to big changes.&lt;/p&gt;</content>
   </entry>
 </feed>

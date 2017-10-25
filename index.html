@@ -23,6 +23,29 @@
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
         <article class="post">
+	 <h1 class="post-title"><a href="/2017/10/24/multi-user-git/">Multi-user git</a></h1>
+    <div class="post-meta">24 October 2017</div>
+	 <div class="post-text"><p>Modify your ~/.ssh/config file as such to seamlessly user multiple git users on the same machine</p>
+
+<pre><code>Host user1
+Hostname github.com
+User git
+IdentityFile ~/.ssh/username1_pubkey
+IdentitiesOnly yes
+
+Host user2
+Hostname github.com
+User git
+IdentityFile ~/.ssh/username2_pubkey
+IdentitiesOnly yes</code></pre>
+
+<p>Then for your repo ensure <code>git remote -v</code> is of the form</p>
+
+<pre><code>git@user1:&lt;username1&gt;/&lt;username1-repo&gt;.git</code></pre>
+
+<p>Of course, ensure your ssh key is added to respective repo.</p></div>
+  </article>
+  <article class="post">
 	 <h1 class="post-title"><a href="/2017/08/01/resume/">resume</a></h1>
     <div class="post-meta"> 1 August 2017</div>
 	 <div class="post-text"><h2 id='skills'>Skills</h2>
@@ -198,13 +221,6 @@
 
 <p>Not sure which side to take yet, but for the time-being Ansible suits my needs nicely. Shout-out to the mad genius <a href='https://twitter.com/sheysewani'>Shey</a> over at <a href='https://polymorphic.ca'>polymorphic.ca</a> for putting me on this path and sharing some of his hard-won knowledge and high quality scripts.</p></div>
   </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2016/08/22/gittip/">gittip</a></h1>
-    <div class="post-meta">22 August 2016</div>
-	 <div class="post-text"><p>To remove a specific commit, aka reverse cherry-pick:</p>
-
-<pre><code>git rebase -p --onto SHA^ SHA</code></pre></div>
-  </article>
   <p class="pagination-controls">
     <span>1 of 3</span>
 
@@ -266,15 +282,17 @@ RW8cpnU2dyuMtMIe8vXc8Jkct+P6YnHVpn9ZPXsFLpIEG49N
       <div class="sidebar-item borderless">
         <h3>Recent Articles</h3>
         <ol>
+          <li><a href="/2017/10/24/multi-user-git/">Multi-user git</a></li>
           <li><a href="/2017/08/01/resume/">resume</a></li>
           <li><a href="/2017/05/08/emacs-vim/">emacs vs vim</a></li>
           <li><a href="/2017/02/28/default-scope/">Rails and default_scope</a></li>
           <li><a href="/2016/09/07/commitments/">Public commitments</a></li>
-          <li><a href="/2016/08/22/gittip/">gittip</a></li>
         </ol>
         <ol>
           <li>
             <h5 style="margin-bottom:0;">2017</h5>
+              <br/>
+              <a href="/2017/10/24/multi-user-git/">Multi-user git</a>
               <br/>
               <a href="/2017/08/01/resume/">resume</a>
               <br/>
