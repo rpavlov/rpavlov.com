@@ -71,26 +71,26 @@
     <summary type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Host user1
-Hostname github.com
-User git
-IdentityFile ~/.ssh/username1_pubkey
-IdentitiesOnly yes
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username1_pubkey
+  IdentitiesOnly yes
 
 Host user2
-Hostname github.com&lt;/code&gt;&lt;/pre&gt;</summary>
+  Hostname github.com&lt;/code&gt;&lt;/pre&gt;</summary>
     <content type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Host user1
-Hostname github.com
-User git
-IdentityFile ~/.ssh/username1_pubkey
-IdentitiesOnly yes
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username1_pubkey
+  IdentitiesOnly yes
 
 Host user2
-Hostname github.com
-User git
-IdentityFile ~/.ssh/username2_pubkey
-IdentitiesOnly yes&lt;/code&gt;&lt;/pre&gt;
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username2_pubkey
+  IdentitiesOnly yes&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Then for your repo ensure &lt;code&gt;git remote -v&lt;/code&gt; is of the form&lt;/p&gt;
 
