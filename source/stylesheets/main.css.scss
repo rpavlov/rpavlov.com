@@ -136,7 +136,7 @@ pre{
 
 .sidebar{
 	float: left;
-	width: 27%;
+	width: 15%;
 	margin-left: 3%;
 	margin-top:1.75em;
 }
@@ -166,7 +166,6 @@ pre{
 	border-radius: 4px;
 	padding: 2.25em;
 	.post-text{
-		margin-top: 2.25em;
 		background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, rgba(212,212,212,0)), color-stop(50%, rgba(212,212,212,0.5)), color-stop(100%, #d4d4d4)),-webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #ffffff), color-stop(50%, rgba(255,255,255,0.5)), color-stop(100%, rgba(255,255,255,0))),-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(241,243,245,0.5)), color-stop(100%, rgba(241,243,245,0)));
 		background-image: -webkit-linear-gradient(right, rgba(212,212,212,0),rgba(212,212,212,0.5),#d4d4d4),-webkit-linear-gradient(right, #ffffff,rgba(255,255,255,0.5),rgba(255,255,255,0)),-webkit-linear-gradient(rgba(241,243,245,0.5),rgba(241,243,245,0));
 		background-image: -moz-linear-gradient(right, rgba(212,212,212,0),rgba(212,212,212,0.5),#d4d4d4),-moz-linear-gradient(right, #ffffff,rgba(255,255,255,0.5),rgba(255,255,255,0)),-moz-linear-gradient(rgba(241,243,245,0.5),rgba(241,243,245,0));
@@ -174,7 +173,7 @@ pre{
 		background-image: linear-gradient(right, rgba(212,212,212,0),rgba(212,212,212,0.5),#d4d4d4),linear-gradient(right, #ffffff,rgba(255,255,255,0.5),rgba(255,255,255,0)),linear-gradient(rgba(241,243,245,0.5),rgba(241,243,245,0));
 		margin-left: -2.25em;
 		margin-right: -2.25em;
-		padding: 1em 2.25em;
+		padding: 1em 2.25em 0 2.25em;
 		background-repeat: no-repeat;
 		background-position: top center;
 		background-size: 100% 1px,100% 150px,100% 150px;
@@ -189,7 +188,7 @@ pre{
 
 .posts-wrapper{
 	float: left;
-	width: 70%;
+	width: 80%;
 }
 
 .post-meta{
@@ -306,4 +305,25 @@ ol{
 	code{
 		overflow:scroll;
 	}
+}
+
+table {
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
 }
