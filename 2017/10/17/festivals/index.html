@@ -23,54 +23,24 @@
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
       	<article class="post">
-  	<h1 class="post-title">Git workflow</h1>
-  	<div class="post-meta">17 December 2013</div>
+  	<h1 class="post-title">Festivals for 2018</h1>
+  	<div class="post-meta">17 October 2017</div>
   	<div class="post-text">
-  		<p>There are several pretty popular Git workflows floating around. Chances are you&#8217;re probably using something similar for your projects or at work. Here they are, just in case.</p>
-
-<p><a href='https://gist.github.com/jbenet/ee6c9ac48068889b0912'>A simple git branching model</a></p>
-
-<pre><code># everything is happy and up-to-date in master
-git checkout master
-git pull origin master
-
-# let&#39;s branch to make changes
-git checkout -b my-new-feature
-
-# go ahead, make changes now.
-$EDITOR file
-
-# commit your (incremental, atomic) changes
-git add -p
-git commit -m &quot;my changes&quot;
-
-# keep abreast of other changes, to your feature branch or master.
-# rebasing keeps our code working, merging easy, and history clean.
-git fetch origin
-git rebase origin/my-new-feature
-git rebase origin/master
-
-# optional: push your branch for discussion (pull-request)
-#           you might do this many times as you develop.
-git push origin my-new-feature
-
-# optional: feel free to rebase within your feature branch at will.
-#           ok to rebase after pushing if your team can handle it!
-git rebase -i origin/master
-
-# merge when done developing.
-# --no-ff preserves feature history and easy full-feature reverts
-# merge commits should not include changes; rebasing reconciles issues
-# github takes care of this in a Pull-Request merge
-git checkout master
-git pull origin master
-git merge --no-ff my-new-feature
-
-
-# optional: tag important things, such as releases
-git tag 1.0.0-RC1</code></pre>
-
-<p><a href='https://www.atlassian.com/git/tutorial'>The Atlassian Git Tutorial</a> is also a great repository of knowledge. Check out their workflows.</p>
+  		<table><thead><tr><th>Priority</th><th>Name</th><th>Location</th><th>Date</th><th>Price</th></tr></thead><tbody><tr><td style='text-align: left;'>1</td><td style='text-align: left;'>Movement</td><td style='text-align: left;'>USA</td><td style='text-align: left;'>May</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Hideout</td><td style='text-align: left;'>Croatia</td><td style='text-align: left;'>June</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;'>5</td><td style='text-align: left;'>Solstice</td><td style='text-align: left;'>CA</td><td style='text-align: left;'>June</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Sonar</td><td style='text-align: left;'>Spain</td><td style='text-align: left;'>June</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Time Warp</td><td style='text-align: left;'>Germany</td><td style='text-align: left;'>April</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Dekmantel</td><td style='text-align: left;'>Holland</td><td style='text-align: left;'>August</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Shambhala</td><td style='text-align: left;'>Canada</td><td style='text-align: left;'>August</td><td style='text-align: left;'>$420</td>
+</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>DGTL</td><td style='text-align: left;'>Spain</td><td style='text-align: left;'>August</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Eclipse</td><td style='text-align: left;'>Canada</td><td style='text-align: left;'>August</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;'>4</td><td style='text-align: left;'>Exit</td><td style='text-align: left;'>Serbia</td><td style='text-align: left;'>July</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;'>6</td><td style='text-align: left;'>Harvest</td><td style='text-align: left;'>CA</td><td style='text-align: left;'>Sep</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Outlook</td><td style='text-align: left;'>Croatia</td><td style='text-align: left;'>Sep</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Electric Forest</td><td style='text-align: left;'>Michigan</td><td style='text-align: left;'>Jun+July</td><td style='text-align: left;' />
+</tr><tr><td style='text-align: left;'>2</td><td style='text-align: left;'>Fusion</td><td style='text-align: left;'>Larz, DE</td><td style='text-align: left;'>June</td><td style='text-align: left;' />
+</tr></tbody></table>
   	</div>
   </article>
 

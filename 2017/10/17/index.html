@@ -22,57 +22,17 @@
   </header>
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
-      	<article class="post">
-  	<h1 class="post-title">Git workflow</h1>
-  	<div class="post-meta">17 December 2013</div>
-  	<div class="post-text">
-  		<p>There are several pretty popular Git workflows floating around. Chances are you&#8217;re probably using something similar for your projects or at work. Here they are, just in case.</p>
+      <h1>Archive for
+    Oct 17 2017
+</h1>
 
-<p><a href='https://gist.github.com/jbenet/ee6c9ac48068889b0912'>A simple git branching model</a></p>
-
-<pre><code># everything is happy and up-to-date in master
-git checkout master
-git pull origin master
-
-# let&#39;s branch to make changes
-git checkout -b my-new-feature
-
-# go ahead, make changes now.
-$EDITOR file
-
-# commit your (incremental, atomic) changes
-git add -p
-git commit -m &quot;my changes&quot;
-
-# keep abreast of other changes, to your feature branch or master.
-# rebasing keeps our code working, merging easy, and history clean.
-git fetch origin
-git rebase origin/my-new-feature
-git rebase origin/master
-
-# optional: push your branch for discussion (pull-request)
-#           you might do this many times as you develop.
-git push origin my-new-feature
-
-# optional: feel free to rebase within your feature branch at will.
-#           ok to rebase after pushing if your team can handle it!
-git rebase -i origin/master
-
-# merge when done developing.
-# --no-ff preserves feature history and easy full-feature reverts
-# merge commits should not include changes; rebasing reconciles issues
-# github takes care of this in a Pull-Request merge
-git checkout master
-git pull origin master
-git merge --no-ff my-new-feature
+  <p>Page 1 of 1</p>
 
 
-# optional: tag important things, such as releases
-git tag 1.0.0-RC1</code></pre>
+<ul>
+    <li><a href="/2017/10/17/festivals/">Festivals for 2018</a> <span>Oct 17</span></li>
+</ul>
 
-<p><a href='https://www.atlassian.com/git/tutorial'>The Atlassian Git Tutorial</a> is also a great repository of knowledge. Check out their workflows.</p>
-  	</div>
-  </article>
 
     </div>
     <aside class="sidebar">
