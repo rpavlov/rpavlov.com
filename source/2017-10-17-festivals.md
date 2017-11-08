@@ -15,6 +15,7 @@ published: true
 |        | Awakenings      | NL        | June   |       |
 |        | Electric Forest | US        |Jun+July|       |
 | 4      | Exit            | SER       | July   |       |
+|        | Mutek           | CA        | August |       |
 | 3      | Sonus           | CRO       | August |       |
 |        | Dekmantel       | NL        | August |       |
 |        | Shambhala       | CA        | August |$420   |
