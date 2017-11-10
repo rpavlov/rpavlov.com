@@ -21,7 +21,27 @@
     <summary type="html">&lt;p&gt;For the past several months I&amp;#8217;ve been pursuing a self-direct education in information security and immersing myself in a wealth of amazing topics. It&amp;#8217;s an incredibly broad field, and daunting in its complexity but then what isn&amp;#8217;t. I figured writing about it would solidify some concepts and organize my thoughts.&lt;/p&gt;</summary>
     <content type="html">&lt;p&gt;For the past several months I&amp;#8217;ve been pursuing a self-direct education in information security and immersing myself in a wealth of amazing topics. It&amp;#8217;s an incredibly broad field, and daunting in its complexity but then what isn&amp;#8217;t. I figured writing about it would solidify some concepts and organize my thoughts.&lt;/p&gt;
 
-&lt;p&gt;My time is currently mostly devoted to reading while I collect tools and provision a sandbox. I settled on this amazing free course from the University of Helsinki for a more structured approach &lt;a href='https://cybersecuritybase.github.io/'&gt;https://cybersecuritybase.github.io/&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;My time is currently mostly devoted to reading while I collect tools and provision a sandbox. I settled on this amazing free course from the University of Helsinki for a more structured approach &lt;a href='https://cybersecuritybase.github.io/'&gt;https://cybersecuritybase.github.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The way I use, write and reason about code has changed significantly. This &lt;a href='https://www.computer.org/cms/CYBSI/docs/Top-10-Flaws.pdf'&gt;paper&lt;/a&gt; categorizes software flaws into two groups&lt;/p&gt;
+
+&lt;h4 id='implementation_flaws'&gt;Implementation flaws&lt;/h4&gt;
+
+&lt;p&gt;The classic bug. This could be an error throw due to an invalid reference, missing resource or just faulty logic. The list is extensive.&lt;/p&gt;
+
+&lt;h4 id='design_flaws'&gt;Design flaws&lt;/h4&gt;
+
+&lt;p&gt;This is where it gets interesting. These flaws are deeper yet all encompassing and include things like error pages leaking information, offloading auth to the client, poor sandboxing and assumption of trust between services or just plain old misconfiguration and leaving things exposed.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Design systems assuming they will eventually be compromised, limit trust and live/die by the &lt;a href='https://en.wikipedia.org/wiki/Principle_of_least_privilege'&gt;principle of least privelege&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;li&gt;
+&lt;p&gt;Don&amp;#8217;t mix data and control instructions. Allowing untrusted input data to be executed like any other code leads to injection vulnerabilities and control-flow hijacking.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</content>
   </entry>
   <entry>
     <title>Reflections on software development consulting</title>
