@@ -1,5 +1,5 @@
 ---
-title: Intro to infosec
+title: Books reviews
 date: 2017-11-12
 published: true
 ---
@@ -48,6 +48,6 @@ instead actually been anxious or annoyed.
 
 You have four option when hearing something negative: "You're really self-centered and a trash-person"
 
-1. Take it personally, and accept others' judgement
+1. Take it personally, and accept others' judgement.
 2. Blame others. "Actually, you're the one who's self centered"
-3. 
+3. ???
