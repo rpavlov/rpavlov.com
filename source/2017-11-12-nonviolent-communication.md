@@ -46,8 +46,8 @@ instead actually been anxious or annoyed.
 
 #### Handling a negative message
 
-You have four option when hearing something negative: "You\'re really self-centered and a trash-person"
+You have four option when hearing something negative: "You're really self-centered and a trash-person"
 
-1. Take it personally, and accept others\' judgement.
-2. Blame others. "Actually, you\'re the one who\'s self centered"
-3. ???
+* Take it personally, and accept others' judgement.
+* Blame others. "Actually, you're the one who's self centered"
+* ???
