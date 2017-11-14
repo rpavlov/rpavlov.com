@@ -44,10 +44,11 @@ Furthermore, he could in fact be hurt, scared or anxious.
 * Distinguish between how you feel and how you think others are reacting to behaving towards you. "I feel misunderstood"
 instead actually been anxious or annoyed.
 
-#### Handling a negative message
+##### Handling a negative message
 
 You have four option when hearing something negative: "You're really self-centered and a trash-person"
 
 * Take it personally, and accept others' judgement.
 * Blame others. "Actually, you're the one who's self centered"
-* ???
+* Sense your own feelings and needs.
+* Sense others' feelings and needs (the best choice).
