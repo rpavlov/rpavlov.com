@@ -43,8 +43,11 @@ Furthermore, he could in fact be hurt, scared or anxious.
 * Use words that refer to specific emotions, rather than something more general. "I feel good" could mean excited, mellow, etc..
 * Distinguish between how you feel and how you think others are reacting to behaving towards you. "I feel misunderstood"
 instead actually been anxious or annoyed.
+* Connect your feelings with your needs. I feel _____ because I ____ : "I'm disappointed because I was hoping to see you."
+* Judgements of others are alienated expressions of our own unment needs. Futhermore, expressing our needs we have a better
+chance of having them met.
 
-##### Handling a negative message
+#### Handling a negative message
 
 You have four option when hearing something negative: "You're really self-centered and a trash-person"
 
@@ -52,3 +55,9 @@ You have four option when hearing something negative: "You're really self-center
 * Blame others. "Actually, you're the one who's self centered"
 * Sense your own feelings and needs.
 * Sense others' feelings and needs (the best choice).
+
+#### Listening empathically
+
+Common responses that prevent empathic listening include advising, one-upping, educating, consoling, story-telling,
+shutting down, sympathizing, interrogating, explaining and correcting. Intellectual understanding blocks empathy. Simply
+be wholly present. Listen and attempt to understand what unmet needs people are expressing.  
