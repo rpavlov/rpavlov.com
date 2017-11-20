@@ -26,7 +26,7 @@ All communication must be grounded in a state of compassion towards the other pe
 * Denial of responsibility. We deny responsibility  for our actions when we attribute their
 cause to
   * Our condition, diagnosis, personal or psychological history ( I drink because I am an alcoholic).
-  * The actions of others. This is important in order to come across as accusatory.
+  * The actions of others. This is important in order to not come across as accusatory.
   * The dictates of authority.
 * Demands. You can never make a person do anything.
 
