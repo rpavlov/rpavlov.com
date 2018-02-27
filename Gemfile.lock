@@ -24,6 +24,7 @@ GEM
       sass (~> 3.1)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    ffi (1.9.23)
     fssm (0.2.10)
     haml (4.0.3)
       tilt
@@ -90,6 +91,8 @@ GEM
     rack-test (0.6.2)
       rack (>= 1.0)
     rb-fsevent (0.9.3)
+    rb-inotify (0.9.10)
+      ffi (>= 0.5.0, < 2)
     sass (3.2.12)
     sinatra (1.3.6)
       rack (~> 1.4)
@@ -126,9 +129,10 @@ DEPENDENCIES
   middleman-blog (~> 3.1.1)
   puma
   rack-contrib
+  rb-inotify (~> 0.9)
 
 RUBY VERSION
-   ruby 2.2.8p477
+   ruby 2.2.9p480
 
 BUNDLED WITH
-   1.15.4
+   1.16.1

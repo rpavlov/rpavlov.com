@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.2.8"
+ruby "2.2.9"
 gem "middleman", "~> 3.0.14"
 gem "middleman-blog", "~> 3.1.1"
 gem 'mgd', :git=> "https://github.com/hovancik/middleman-github-deploy.git"
@@ -9,3 +9,4 @@ gem 'mgd', :git=> "https://github.com/hovancik/middleman-github-deploy.git"
 gem "builder", "~> 3.0.0"
 gem "rack-contrib"
 gem "puma"
+gem 'rb-inotify', '~> 0.9'
