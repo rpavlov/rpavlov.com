@@ -140,45 +140,6 @@
 &lt;/ul&gt;</content>
   </entry>
   <entry>
-    <title>Multi-user git</title>
-    <link rel="alternate" href="/2017/10/24/multi-user-git/"/>
-    <id>/2017/10/24/multi-user-git/</id>
-    <published>2017-10-24T00:00:00Z</published>
-    <updated>2017-10-24T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Host user1
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username1_pubkey
-  IdentitiesOnly yes
-
-Host user2
-  Hostname github.com&lt;/code&gt;&lt;/pre&gt;</summary>
-    <content type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Host user1
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username1_pubkey
-  IdentitiesOnly yes
-
-Host user2
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username2_pubkey
-  IdentitiesOnly yes&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then for your repo ensure &lt;code&gt;git remote -v&lt;/code&gt; is of the form&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git@user1:&amp;lt;username1&amp;gt;/&amp;lt;username1-repo&amp;gt;.git&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Of course, ensure your ssh key is added to the respective repo.&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <title>Reflections on software development consulting</title>
     <link rel="alternate" href="/2017/10/24/consulting/"/>
     <id>/2017/10/24/consulting/</id>
@@ -227,6 +188,45 @@ Host user2
 &lt;p&gt;I haven&amp;#8217;t been marketing (nor do I super enjoy it). Luckily all of my work has come through word-of-mouth and referrals, but that&amp;#8217;s drying up.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</content>
+  </entry>
+  <entry>
+    <title>Multi-user git</title>
+    <link rel="alternate" href="/2017/10/24/multi-user-git/"/>
+    <id>/2017/10/24/multi-user-git/</id>
+    <published>2017-10-24T00:00:00Z</published>
+    <updated>2017-10-24T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Host user1
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username1_pubkey
+  IdentitiesOnly yes
+
+Host user2
+  Hostname github.com&lt;/code&gt;&lt;/pre&gt;</summary>
+    <content type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Host user1
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username1_pubkey
+  IdentitiesOnly yes
+
+Host user2
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username2_pubkey
+  IdentitiesOnly yes&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then for your repo ensure &lt;code&gt;git remote -v&lt;/code&gt; is of the form&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git@user1:&amp;lt;username1&amp;gt;/&amp;lt;username1-repo&amp;gt;.git&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Of course, ensure your ssh key is added to the respective repo.&lt;/p&gt;</content>
   </entry>
   <entry>
     <title>Festivals for 2018</title>

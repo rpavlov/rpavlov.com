@@ -135,29 +135,6 @@
 </ul></div>
   </article>
   <article class="post">
-	 <h1 class="post-title"><a href="/2017/10/24/multi-user-git/">Multi-user git</a></h1>
-    <div class="post-meta">24 October 2017</div>
-	 <div class="post-text"><p>Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine</p>
-
-<pre><code>Host user1
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username1_pubkey
-  IdentitiesOnly yes
-
-Host user2
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username2_pubkey
-  IdentitiesOnly yes</code></pre>
-
-<p>Then for your repo ensure <code>git remote -v</code> is of the form</p>
-
-<pre><code>git@user1:&lt;username1&gt;/&lt;username1-repo&gt;.git</code></pre>
-
-<p>Of course, ensure your ssh key is added to the respective repo.</p></div>
-  </article>
-  <article class="post">
 	 <h1 class="post-title"><a href="/2017/10/24/consulting/">Reflections on software development consulting</a></h1>
     <div class="post-meta">24 October 2017</div>
 	 <div class="post-text"><p>It&#8217;s been about a year and a half since quitting my job to become self-employed and for the most part it&#8217;s been swell. Having said that, I think it&#8217;s time to cycle back into a team.</p>
@@ -193,6 +170,29 @@ Host user2
 <p>I haven&#8217;t been marketing (nor do I super enjoy it). Luckily all of my work has come through word-of-mouth and referrals, but that&#8217;s drying up.</p>
 </li>
 </ul></div>
+  </article>
+  <article class="post">
+	 <h1 class="post-title"><a href="/2017/10/24/multi-user-git/">Multi-user git</a></h1>
+    <div class="post-meta">24 October 2017</div>
+	 <div class="post-text"><p>Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine</p>
+
+<pre><code>Host user1
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username1_pubkey
+  IdentitiesOnly yes
+
+Host user2
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username2_pubkey
+  IdentitiesOnly yes</code></pre>
+
+<p>Then for your repo ensure <code>git remote -v</code> is of the form</p>
+
+<pre><code>git@user1:&lt;username1&gt;/&lt;username1-repo&gt;.git</code></pre>
+
+<p>Of course, ensure your ssh key is added to the respective repo.</p></div>
   </article>
   <article class="post">
 	 <h1 class="post-title"><a href="/2017/10/17/festivals/">Festivals for 2018</a></h1>
@@ -232,7 +232,7 @@ Host user2
         <h3>Howdy stranger</h3>
         <span>
           I solve problems with software. Sometimes software is the problem itself. Shoot me an
-          <a href="mailto:roumen@rpavlov.com">email</a> or check out my <a href="/resume">resume</a>.
+          <a href="mailto:roumen@rpavlov.com">email</a> or find me somewhere below
         </span>
         <br/>
         <div class="social">
@@ -286,9 +286,9 @@ RW8cpnU2dyuMtMIe8vXc8Jkct+P6YnHVpn9ZPXsFLpIEG49N
           
           <li><a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a></li>
           
-          <li><a href="/2017/10/24/multi-user-git/">Multi-user git</a></li>
-          
           <li><a href="/2017/10/24/consulting/">Reflections on software development consulting</a></li>
+          
+          <li><a href="/2017/10/24/multi-user-git/">Multi-user git</a></li>
           
           <li><a href="/2017/10/17/festivals/">Festivals for 2018</a></li>
           
@@ -305,10 +305,10 @@ RW8cpnU2dyuMtMIe8vXc8Jkct+P6YnHVpn9ZPXsFLpIEG49N
               <a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a>
               
               <br/>
-              <a href="/2017/10/24/multi-user-git/">Multi-user git</a>
+              <a href="/2017/10/24/consulting/">Reflections on software development consulting</a>
               
               <br/>
-              <a href="/2017/10/24/consulting/">Reflections on software development consulting</a>
+              <a href="/2017/10/24/multi-user-git/">Multi-user git</a>
               
               <br/>
               <a href="/2017/10/17/festivals/">Festivals for 2018</a>
@@ -360,10 +360,10 @@ RW8cpnU2dyuMtMIe8vXc8Jkct+P6YnHVpn9ZPXsFLpIEG49N
               <a href="/2013/10/31/my-personality/">My Personality</a>
               
               <br/>
-              <a href="/2013/10/30/news/">And now, for the content backlog!</a>
+              <a href="/2013/10/30/new/">A new site</a>
               
               <br/>
-              <a href="/2013/10/30/new/">A new site</a>
+              <a href="/2013/10/30/news/">And now, for the content backlog!</a>
               
           </li>
           
