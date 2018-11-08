@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby "2.4.2"
+ruby "2.5.1"
 gem "middleman", "~> 3.0.14"
 gem "middleman-blog", "~> 3.1.1"
 gem 'mgd', :git=> "https://github.com/hovancik/middleman-github-deploy.git"
