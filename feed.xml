@@ -68,7 +68,7 @@
 
 &lt;li&gt;Managed non core-business services such as Github, Slack and GSuite.&lt;/li&gt;
 
-&lt;li&gt;Implemented secrets management and a policies for the entire organization and all team members.&lt;/li&gt;
+&lt;li&gt;Implemented secrets management for credentials to projects and 3rd party services.&lt;/li&gt;
 
 &lt;li&gt;Created and maintained documentation describing the key pieces of the projects, how they interact and their supporting infrastructure such as VPC layout, security groups, load-balancers and IAM roles.&lt;/li&gt;
 
