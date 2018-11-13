@@ -30,9 +30,7 @@
 
 &lt;h4 id='tools'&gt;Tools&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;Linux, Ansible, Docker, AWS, Vagrant, Git, Postgresql, Mysql, nginx&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id='project_management'&gt;Project management&lt;/h4&gt;</summary>
+&lt;pre&gt;&lt;code&gt;Linux, AWS, Ansible, Docker, Vagrant, Git, Postgresql, Mysql, nginx, RabbitMQ/Celery/Resque, Elasticsearch&lt;/code&gt;&lt;/pre&gt;</summary>
     <content type="html">&lt;h2 id='skills'&gt;Skills&lt;/h2&gt;
 
 &lt;h4 id='languages'&gt;Languages&lt;/h4&gt;
@@ -45,7 +43,7 @@
 
 &lt;h4 id='tools'&gt;Tools&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;Linux, Ansible, Docker, AWS, Vagrant, Git, Postgresql, Mysql, nginx&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;Linux, AWS, Ansible, Docker, Vagrant, Git, Postgresql, Mysql, nginx, RabbitMQ/Celery/Resque, Elasticsearch&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4 id='project_management'&gt;Project management&lt;/h4&gt;
 
@@ -70,17 +68,17 @@
 
 &lt;li&gt;Implemented secrets management for credentials to projects and 3rd party services.&lt;/li&gt;
 
-&lt;li&gt;Created and maintained documentation describing the key pieces of the projects, how they interact and their supporting infrastructure such as VPC layout, security groups, load-balancers and IAM roles.&lt;/li&gt;
-
-&lt;li&gt;Ran sprints and prioritized tasks for other developers.&lt;/li&gt;
-
-&lt;li&gt;Worked closely with non-technical team-members to answer questions and discuss trade-offs.&lt;/li&gt;
-
 &lt;li&gt;Containerized the API with Docker and setup a hosting &amp;amp; deployment workflow in Amazon ECS.&lt;/li&gt;
 
 &lt;li&gt;Implemented and maintained features of a Rails API, such as a new public registration workflow.&lt;/li&gt;
 
 &lt;li&gt;Implemented and maintained features of a Rails frontend, such as bringing all markup in line with the AODA accessibility standards.&lt;/li&gt;
+
+&lt;li&gt;Created and maintained documentation describing the key pieces of the projects, how they interact and their supporting infrastructure such as VPC layout, security groups, load-balancers and IAM roles.&lt;/li&gt;
+
+&lt;li&gt;Ran sprints and prioritized tasks for other developers.&lt;/li&gt;
+
+&lt;li&gt;Worked closely with non-technical team-members to answer questions and discuss trade-offs.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href='https://qoints.com/'&gt;https://qoints.com&lt;/a&gt; is a digital marketing benchmarking platform and social media influencer analysis tool. It performs personality analysis using IBM Watson and tensorflow, with input from a user&amp;#8217;s Twitter content.&lt;/p&gt;
