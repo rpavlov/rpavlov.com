@@ -18,51 +18,34 @@
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;h2 id='skills'&gt;Skills&lt;/h2&gt;
+    <summary type="html">&lt;h1 id='roumen_pavlov'&gt;Roumen Pavlov&lt;/h1&gt;
 
-&lt;h4 id='languages'&gt;Languages&lt;/h4&gt;
+&lt;p&gt;&lt;a href='mailto:roumen@rpavlov.com'&gt;roumen@rpavlov.com&lt;/a&gt; &amp;#8226; +359 892 203 147 &amp;#8226; Berlin, Germany&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Technical skills&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Languages&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Frameworks&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody /&gt;&lt;/table&gt;</summary>
+    <content type="html">&lt;h1 id='roumen_pavlov'&gt;Roumen Pavlov&lt;/h1&gt;
 
-&lt;pre&gt;&lt;code&gt;Ruby, Python, SQL, Javascript, Java, C, Clojure, HTML, CSS&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id='frameworks'&gt;Frameworks&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;Ruby on Rails, Flask, AngularJs, jQuery, Bootstrap&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id='tools'&gt;Tools&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;Linux, AWS, Ansible, Docker, Vagrant, Git, Postgresql, Mysql, nginx, RabbitMQ/Celery/Resque, Elasticsearch&lt;/code&gt;&lt;/pre&gt;</summary>
-    <content type="html">&lt;h2 id='skills'&gt;Skills&lt;/h2&gt;
-
-&lt;h4 id='languages'&gt;Languages&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;Ruby, Python, SQL, Javascript, Java, C, Clojure, HTML, CSS&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id='frameworks'&gt;Frameworks&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;Ruby on Rails, Flask, AngularJs, jQuery, Bootstrap&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id='tools'&gt;Tools&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;Linux, AWS, Ansible, Docker, Vagrant, Git, Postgresql, Mysql, nginx, RabbitMQ/Celery/Resque, Elasticsearch&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h4 id='project_management'&gt;Project management&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;Full lifecycle project development; requirements gathering, estimation, sprint planning, release and maintenance.&lt;/code&gt;&lt;/pre&gt;
-
+&lt;p&gt;&lt;a href='mailto:roumen@rpavlov.com'&gt;roumen@rpavlov.com&lt;/a&gt; &amp;#8226; +359 892 203 147 &amp;#8226; Berlin, Germany&lt;/p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Technical skills&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Languages&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Frameworks&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='text-align: center;'&gt;Strongest&lt;/td&gt;&lt;td style='text-align: center;'&gt;Ruby&lt;/td&gt;&lt;td style='text-align: center;'&gt;Ruby on Rails&lt;/td&gt;&lt;td style='text-align: center;'&gt;Linux&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Python&lt;/td&gt;&lt;td style='text-align: center;'&gt;Flask, Django&lt;/td&gt;&lt;td style='text-align: center;'&gt;AWS&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;SQL&lt;/td&gt;&lt;td style='text-align: center;'&gt;AngularJS&lt;/td&gt;&lt;td style='text-align: center;'&gt;Mysql, Postgresql&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;'&gt;&amp;#8595;&lt;/td&gt;&lt;td style='text-align: center;'&gt;HTML, CSS&lt;/td&gt;&lt;td style='text-align: center;'&gt;jQuery&lt;/td&gt;&lt;td style='text-align: center;'&gt;Docker, Vagrant&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Javascript&lt;/td&gt;&lt;td style='text-align: center;'&gt;Bootstrap&lt;/td&gt;&lt;td style='text-align: center;'&gt;Ansible&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Java&lt;/td&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;nginx&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Clojure&lt;/td&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;RabbitMQ, Celery&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;'&gt;Weakest&lt;/td&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Elasticsearch&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
 &lt;h2 id='experience'&gt;Experience&lt;/h2&gt;
 
-&lt;h4 id='consultant'&gt;Consultant&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Consultant&lt;/strong&gt; &amp;#8226; Dec 2015 - Present&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Dec 2015 - Present&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href='https://tealvalley.com/'&gt;https://tealvalley.com&lt;/a&gt; is a web platform for clinics and their patients to prepare and fulfill prescriptions for narcotics.&lt;/p&gt;
+&lt;p&gt;&lt;a href='https://tealvalley.com/'&gt;https://tealvalley.com&lt;/a&gt; is a web platform for clinics and their patients a to prepare and fulfill prescriptions for narcotics.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Setup and managed AWS infrastructure for API and web applictions across multiple production and development environments.&lt;/li&gt;
 
-&lt;li&gt;Setup integrations for a multitude of 3rd party services such as CircleCI, Papertrail, Rollbar in addition to others used by the core applications such as Elasticsearch and RDS instances.&lt;/li&gt;
+&lt;li&gt;Setup integrations for a multitude of 3rd party services such as CircleCI, Papertrail, Rollbar in addition to others used by the core applications such as Elasticsearch and Redis.&lt;/li&gt;
 
-&lt;li&gt;Managed DNS, SSL, and Cloudflare configuration.&lt;/li&gt;
+&lt;li&gt;Managed DNS, SSL, and Cloudflare configurations.&lt;/li&gt;
 
 &lt;li&gt;Managed non core-business services such as Github, Slack and GSuite.&lt;/li&gt;
 
@@ -84,7 +67,7 @@
 &lt;p&gt;&lt;a href='https://qoints.com/'&gt;https://qoints.com&lt;/a&gt; is a digital marketing benchmarking platform and social media influencer analysis tool. It performs personality analysis using IBM Watson and tensorflow, with input from a user&amp;#8217;s Twitter content.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Management of all AWS infrastructure and technical assets, as well as ownership of multiple Python and ReactJs codebases.&lt;/li&gt;
+&lt;li&gt;Management of all AWS infrastructure and technical assets, as well as ownership of multiple Django and ReactJs codebases.&lt;/li&gt;
 
 &lt;li&gt;Implemented various features for the Django API server and React client application, such as geographic filtering for user profiles.&lt;/li&gt;
 
@@ -93,22 +76,6 @@
 &lt;li&gt;Mentored junior developers.&lt;/li&gt;
 
 &lt;li&gt;Worked closely with non-technical team-members to answer questions and discuss trade-offs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href='https://factu.ly/'&gt;https://factu.ly&lt;/a&gt; is an MVP that aims to address the problem of fake news by allowing users to upload and annotate articles, and rate their accuracy and bias.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Created a web application that extracts article headlines and content from urls, and allows selected text to be annotated and rated.&lt;/li&gt;
-
-&lt;li&gt;Created a chrome extension that indicates scores and comments for articles currently being viewed, if they exist in the backend.&lt;/li&gt;
-
-&lt;li&gt;Created re-usable Ansible automation scripts that handle server provisioning and deployment for ruby on rails applications.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href='https://www.freshsqueezedideas.com/'&gt;https://freshsqueezedideas.com&lt;/a&gt; is an evidenced-based marketing and design agency.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Created a web application for building and administering multi-stage surveys. Subsequent stages are composed of user input comparing various brands and products.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href='https://thecouncil.on.ca'&gt;https://thecouncil.on.ca&lt;/a&gt; is the bargaining agent for the 24 Ontario colleges in negotiating collective agreements with unionized staff. Their technology stack consists of a Rails 3 CMS with a separate layer for managing arbitrations, and creating multi-step and multi-party scheduling workflows.&lt;/p&gt;
@@ -121,6 +88,14 @@
 &lt;li&gt;Created a re-usable development virtual machine for ruby on rails applications.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;a href='https://www.freshsqueezedideas.com/'&gt;https://freshsqueezedideas.com&lt;/a&gt; is an evidenced-based marketing and design agency.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Full lifecycle project development; requirements gathering, estimation, sprint planning, release and maintenance.&lt;/li&gt;
+
+&lt;li&gt;Created a web application for building and administering multi-stage surveys. Subsequent stages are composed of user input comparing various brands and products.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;&lt;a href='https://bitmaker.co'&gt;https://bitmaker.co&lt;/a&gt; is a well established code academy that equips students with in-demand technical skills and facilitates connections to local companies.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -129,22 +104,24 @@
 &lt;li&gt;Add CMS functionality to enable news and events posting.&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;a href='https://factu.ly/'&gt;https://factu.ly&lt;/a&gt; is an MVP that aims to address the problem of fake news by allowing users to upload and annotate articles, and rate their accuracy and bias.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Created a web application that extracts article headlines and content from urls, and allows selected text to be annotated and rated.&lt;/li&gt;
+
+&lt;li&gt;Created a chrome extension that indicates scores and comments for articles currently being viewed, if they exist in the backend.&lt;/li&gt;
+
+&lt;li&gt;Created re-usable Ansible automation scripts that handle server provisioning and deployment for ruby on rails applications.&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;&lt;a href='https://concertsherpa.ca'&gt;https://concertsherpa.ca&lt;/a&gt; is a music event aggregator and news service for &lt;a href='http://exclaim.ca'&gt;exclaim.ca&lt;/a&gt;.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Addressed various hosting issues and migrated the ruby on rails 3 application to Heroku, while also fixing problems with the content stream sources.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href='https://crowdmark.com/'&gt;https://crowdmark.com&lt;/a&gt; is an online grading, annotation and analytics platform for scanned test papers.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Software developer&lt;/strong&gt; &amp;#8226; Mar 2013 - Dec 2015&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Implemented annotation functionality in EmberJs, allowing for manipulation of selected text.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id='software_developer'&gt;Software developer&lt;/h4&gt;
-
-&lt;p&gt;&lt;em&gt;Mar 2013 - Dec 2015&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
 &lt;p&gt;&lt;a href='https://shifthealth.ca'&gt;https://shifthealth.ca&lt;/a&gt; provides a platform for administering surveys in clinics and hospitals, and collecting patient reported data.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -155,10 +132,8 @@
 &lt;li&gt;Improved stability of the codebase by implementing continuous integration, monitoring, end to end and integration testing, a strict git branching model, code reviews and sprint planning.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='software_developer'&gt;Software developer&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Software developer&lt;/strong&gt; &amp;#8226; Apr 2011 - Dec 2012&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Apr 2011 - Dec 2012&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
 &lt;p&gt;&lt;a href='https://www.thinkresearch.com/ca/'&gt;https://thinkresearch.com&lt;/a&gt; is a suite of tools and services for managing digital versions of hospital order sets. Primarily responsible for feature development, testing and maintenance of a medical document parser. The tool also serves as a CMS, also allowing for modification and versioning of order-set document content.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -168,13 +143,11 @@
 
 &lt;li&gt;Participated in and led biweekly sprint feature planning, ticket breakdown and design discussions.&lt;/li&gt;
 
-&lt;li&gt;Ensured cross-browser and IE7+ backwards compatibility.&lt;/li&gt;
+&lt;li&gt;Ensured cross-browser and IE7| backwards compatibility.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='software_developer'&gt;Software developer&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Software developer&lt;/strong&gt; &amp;#8226; Mar 2010 - Apr 2011&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Mar 2010 - Apr 2011&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
 &lt;p&gt;&lt;a href='https://fieldid.com/'&gt;https://fieldid.com&lt;/a&gt; is an asset management and inspection scheduling system for the construction and manufacturing industries.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -185,21 +158,9 @@
 &lt;li&gt;Maintained an extensive Selenium integration test suite.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='net_intern'&gt;.NET Intern&lt;/h4&gt;
+&lt;h2 id='education'&gt;Education&lt;/h2&gt;
 
-&lt;p&gt;&lt;em&gt;Jun 2006 - Sep 2006&lt;/em&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;a href='https://konverge.com/'&gt;https://konverge.com&lt;/a&gt; is a Microsoft application consultancy with clients such as Bosch and KPMG.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Designed and wrote C# unit tests for an automotive component price quote system commissioned by Bosch.&lt;/li&gt;
-
-&lt;li&gt;Identified, traced and remedied anomalies, bugs, and mathematical errors in the pricing calculation modules.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id='education'&gt;Education&lt;/h3&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;em&gt;University of Toronto, St. George, Toronto&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;University of Toronto, St. George, Toronto&lt;/p&gt;
 
 &lt;p&gt;Hons. B.Sc, Computer Science: Software Engineering.&lt;/p&gt;</content>
   </entry>
