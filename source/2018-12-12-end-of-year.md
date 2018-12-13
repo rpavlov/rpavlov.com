@@ -13,7 +13,7 @@ I opted to continue client work after getting the opportunity to build/manage th
 My previous career goal set around this time last year was to gain dev-ops and sysadmin experience in order to transition into more security oriented work and projects.
 
 ## Back to security study
-[How me, a programmer, learn security??](https://github.com/gradiuscypher/infosec_getting_started) Turns out I'm not the only one to have this idea. Here's another [classic](https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/) To that end, I've resumed self-study and practice according to a vague curriculum I'm putting together. More on that in another blog post.
+[How me, a programmer, learn security??](https://github.com/gradiuscypher/infosec_getting_started) Turns out I'm not the only one to have this idea. Here's another [classic](https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/). To that end, I've resumed self-study and practice according to a vague curriculum I'm putting together. More on that in another blog post.
 
 # Personal stuff
 This year I managed to:
