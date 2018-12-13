@@ -5,10 +5,52 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2018-11-08T00:00:00Z</updated>
+  <updated>2018-12-12T00:00:00Z</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>End of 2018</title>
+    <link rel="alternate" href="/2018/12/12/end-of-year/"/>
+    <id>/2018/12/12/end-of-year/</id>
+    <published>2018-12-12T00:00:00Z</published>
+    <updated>2018-12-12T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it&amp;#8217;s own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
+
+&lt;h1 id='career_stuff'&gt;Career stuff&lt;/h1&gt;
+
+&lt;p&gt;I opted to continue client work after getting the opportunity to build/manage the cloud infrastructure and development proceses for a couple of companies. It leveled up large chunks of my knowledge, and allowed me to learn tons about DNS, network configuration, security, secrets management and a myriad of other sysadmin related things. In addition to the usual trouble-shoot this and fix that of regular software development.&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it&amp;#8217;s own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
+
+&lt;h1 id='career_stuff'&gt;Career stuff&lt;/h1&gt;
+
+&lt;p&gt;I opted to continue client work after getting the opportunity to build/manage the cloud infrastructure and development proceses for a couple of companies. It leveled up large chunks of my knowledge, and allowed me to learn tons about DNS, network configuration, security, secrets management and a myriad of other sysadmin related things. In addition to the usual trouble-shoot this and fix that of regular software development.&lt;/p&gt;
+
+&lt;p&gt;My previous career goal set around this time last year was to gain dev-ops and sysadmin experience in order to transition into more security oriented work and projects.&lt;/p&gt;
+
+&lt;h2 id='back_to_security_study'&gt;Back to security study&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href='https://github.com/gradiuscypher/infosec_getting_started'&gt;How me, a programmer, learn security??&lt;/a&gt; Turns out I&amp;#8217;m not the only one to have this idea. Here&amp;#8217;s another &lt;a href='https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/'&gt;classic&lt;/a&gt; To that end, I&amp;#8217;ve resumed self-study and practice according to a vague curriculum I&amp;#8217;m putting together. More on that in another blog post.&lt;/p&gt;
+
+&lt;h1 id='personal_stuff'&gt;Personal stuff&lt;/h1&gt;
+
+&lt;p&gt;This year I managed to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Nurture closer relationships with people I care about, respect and admire. Particularly &lt;a href='https://laurachuang.net'&gt;a person I care deeply about.&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;Move to Berlin. Living elsewhere is incredibly refreshing.&lt;/li&gt;
+
+&lt;li&gt;Live minimalist. I reconsidered what stuff I actually need. But also, which luxuries brings me joy? A good soundsystem + music, easy access to a gym, and a nice kitchen for example. Regardless of where in the world I am, if there is a place to lift heavy things nearby that&amp;#8217;s already huge quality of life increase.&lt;/li&gt;
+
+&lt;li&gt;Work out a lot, and start Muay Thai and BJJ training.&lt;/li&gt;
+
+&lt;li&gt;Re-learn german. Going forward hoffentlich mehr auf Deutsch.&lt;/li&gt;
+&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Resume</title>
     <link rel="alternate" href="/2018/11/08/resume/"/>
@@ -382,38 +424,5 @@ Host user2
 &lt;pre&gt;&lt;code&gt;git@user1:&amp;lt;username1&amp;gt;/&amp;lt;username1-repo&amp;gt;.git&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Of course, ensure your ssh key is added to the respective repo.&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Festivals for 2018</title>
-    <link rel="alternate" href="/2017/10/17/festivals/"/>
-    <id>/2017/10/17/festivals/</id>
-    <published>2017-10-17T00:00:00Z</published>
-    <updated>2017-10-17T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Priority&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Location&lt;/th&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Price&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Ultra&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;Mar&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Time Warp&lt;/td&gt;&lt;td style='text-align: left;'&gt;DE&lt;/td&gt;&lt;td style='text-align: left;'&gt;April&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;1&lt;/td&gt;&lt;td style='text-align: left;'&gt;Movement&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;May&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary>
-    <content type="html">&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Priority&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Location&lt;/th&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Price&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Ultra&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;Mar&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Time Warp&lt;/td&gt;&lt;td style='text-align: left;'&gt;DE&lt;/td&gt;&lt;td style='text-align: left;'&gt;April&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;1&lt;/td&gt;&lt;td style='text-align: left;'&gt;Movement&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;May&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Hideout&lt;/td&gt;&lt;td style='text-align: left;'&gt;CRO&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;5&lt;/td&gt;&lt;td style='text-align: left;'&gt;Solstice&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Sonar&lt;/td&gt;&lt;td style='text-align: left;'&gt;ESP&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;2&lt;/td&gt;&lt;td style='text-align: left;'&gt;Fusion&lt;/td&gt;&lt;td style='text-align: left;'&gt;DE&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Awakenings&lt;/td&gt;&lt;td style='text-align: left;'&gt;NL&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Electric Forest&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;Jun+July&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;4&lt;/td&gt;&lt;td style='text-align: left;'&gt;Exit&lt;/td&gt;&lt;td style='text-align: left;'&gt;SER&lt;/td&gt;&lt;td style='text-align: left;'&gt;July&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Mutek&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;3&lt;/td&gt;&lt;td style='text-align: left;'&gt;Sonus&lt;/td&gt;&lt;td style='text-align: left;'&gt;CRO&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Dekmantel&lt;/td&gt;&lt;td style='text-align: left;'&gt;NL&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Shambhala&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;'&gt;$420&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;DGTL&lt;/td&gt;&lt;td style='text-align: left;'&gt;ESP&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Eclipse&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;6&lt;/td&gt;&lt;td style='text-align: left;'&gt;Harvest&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;Sep&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Outlook&lt;/td&gt;&lt;td style='text-align: left;'&gt;CRO&lt;/td&gt;&lt;td style='text-align: left;'&gt;Sep&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
-&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</content>
   </entry>
 </feed>
