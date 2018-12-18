@@ -20,7 +20,7 @@ This year I managed to:
 
 * Nurture closer relationships with people I care about, respect and admire. Particularly [a person I care deeply about.](https://laurachuang.net)
 * Move to Berlin. Living elsewhere is incredibly refreshing.
-* Live minimalist. I reconsidered what stuff I actually need. But also, which luxuries brings me joy? A good soundsystem + music, easy access to a gym, and a nice kitchen for example. Regardless of where in the world I am, if there is a place to lift heavy things nearby that's already huge quality of life increase.
+* Live minimalist. I reconsidered what stuff I actually need. But also, which luxuries brings me joy? A good soundsystem + music, easy access to a gym, and a nice kitchen for example. Regardless of where in the world I am, if there is a place to lift heavy things nearby that's already a huge quality of life increase.
 * Work out a lot, and start Muay Thai and BJJ training.
 * Re-learn german. Going forward hoffentlich mehr auf Deutsch.
 
