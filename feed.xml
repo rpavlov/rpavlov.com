@@ -52,161 +52,6 @@
 &lt;/ul&gt;</content>
   </entry>
   <entry>
-    <title>Resume</title>
-    <link rel="alternate" href="/2018/11/08/resume/"/>
-    <id>/2018/11/08/resume/</id>
-    <published>2018-11-08T00:00:00Z</published>
-    <updated>2018-11-08T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;h1 id='roumen_pavlov'&gt;Roumen Pavlov&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href='mailto:roumen@rpavlov.com'&gt;roumen@rpavlov.com&lt;/a&gt; &amp;#8226; +359 892 203 147 &amp;#8226; Berlin, Germany&lt;/p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Technical skills&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Languages&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Frameworks&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody /&gt;&lt;/table&gt;</summary>
-    <content type="html">&lt;h1 id='roumen_pavlov'&gt;Roumen Pavlov&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href='mailto:roumen@rpavlov.com'&gt;roumen@rpavlov.com&lt;/a&gt; &amp;#8226; +359 892 203 147 &amp;#8226; Berlin, Germany&lt;/p&gt;
-&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&lt;strong&gt;Technical skills&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Languages&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Frameworks&lt;/strong&gt;&lt;/th&gt;&lt;th&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='text-align: center;'&gt;Strongest&lt;/td&gt;&lt;td style='text-align: center;'&gt;Ruby&lt;/td&gt;&lt;td style='text-align: center;'&gt;Ruby on Rails&lt;/td&gt;&lt;td style='text-align: center;'&gt;Linux&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Python&lt;/td&gt;&lt;td style='text-align: center;'&gt;Flask, Django&lt;/td&gt;&lt;td style='text-align: center;'&gt;AWS&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;SQL&lt;/td&gt;&lt;td style='text-align: center;'&gt;AngularJS&lt;/td&gt;&lt;td style='text-align: center;'&gt;Mysql, Postgresql&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;'&gt;&amp;#8595;&lt;/td&gt;&lt;td style='text-align: center;'&gt;HTML, CSS&lt;/td&gt;&lt;td style='text-align: center;'&gt;jQuery&lt;/td&gt;&lt;td style='text-align: center;'&gt;Docker, Vagrant&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Javascript&lt;/td&gt;&lt;td style='text-align: center;'&gt;Bootstrap&lt;/td&gt;&lt;td style='text-align: center;'&gt;Ansible&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Java&lt;/td&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;nginx&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Clojure&lt;/td&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;RabbitMQ, Celery&lt;/td&gt;
-&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: center;'&gt;Weakest&lt;/td&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;' /&gt;&lt;td style='text-align: center;'&gt;Elasticsearch&lt;/td&gt;
-&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;h2 id='experience'&gt;Experience&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Consultant&lt;/strong&gt; &amp;#8226; Dec 2015 - Present&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='https://tealvalley.com/'&gt;https://tealvalley.com&lt;/a&gt; is a web platform for clinics and their patients a to prepare and fulfill prescriptions for narcotics.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Setup and managed AWS infrastructure for API and web applications across multiple production and development environments.&lt;/li&gt;
-
-&lt;li&gt;Setup integrations for a multitude of 3rd party services such as CircleCI, Papertrail, Rollbar in addition to others used by the core applications such as Elasticsearch and Redis.&lt;/li&gt;
-
-&lt;li&gt;Managed DNS, SSL, and Cloudflare configurations.&lt;/li&gt;
-
-&lt;li&gt;Managed non core-business services such as Github, Slack and GSuite.&lt;/li&gt;
-
-&lt;li&gt;Implemented secrets management for credentials to projects and 3rd party services.&lt;/li&gt;
-
-&lt;li&gt;Containerized the API with Docker and setup a hosting &amp;amp; deployment workflow in Amazon ECS.&lt;/li&gt;
-
-&lt;li&gt;Implemented and maintained features of a Rails API, such as a new public registration workflow.&lt;/li&gt;
-
-&lt;li&gt;Implemented and maintained features of a Rails frontend, such as bringing all markup in line with the AODA accessibility standards.&lt;/li&gt;
-
-&lt;li&gt;Created and maintained documentation describing the key pieces of the projects, how they interact and their supporting infrastructure such as VPC layout, security groups, load-balancers and IAM roles.&lt;/li&gt;
-
-&lt;li&gt;Ran sprints and prioritized tasks for other developers.&lt;/li&gt;
-
-&lt;li&gt;Worked closely with non-technical team-members to answer questions and discuss trade-offs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href='https://qoints.com/'&gt;https://qoints.com&lt;/a&gt; is a digital marketing benchmarking platform and social media influencer analysis tool. It performs personality analysis using IBM Watson and tensorflow, with input from a user&amp;#8217;s Twitter content.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Management of all AWS infrastructure and technical assets, as well as ownership of multiple Django and ReactJs codebases.&lt;/li&gt;
-
-&lt;li&gt;Implemented various features for the Django API server and React client application, such as geographic filtering for user profiles.&lt;/li&gt;
-
-&lt;li&gt;Heavily modified the existing payment system and Stripe API integrations in order to add a free-tier.&lt;/li&gt;
-
-&lt;li&gt;Mentored junior developers.&lt;/li&gt;
-
-&lt;li&gt;Worked closely with non-technical team-members to answer questions and discuss trade-offs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href='https://thecouncil.on.ca'&gt;https://thecouncil.on.ca&lt;/a&gt; is the bargaining agent for the 24 Ontario colleges in negotiating collective agreements with unionized staff. Their technology stack consists of a Rails 3 CMS with a separate layer for managing arbitrations, and creating multi-step and multi-party scheduling workflows.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Fixed numerous bugs around the logic dealing with scheduling time-slots.&lt;/li&gt;
-
-&lt;li&gt;Migrated all Rails infrastructure from Linode to Digital Ocean.&lt;/li&gt;
-
-&lt;li&gt;Created a re-usable development virtual machine for ruby on rails applications.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href='https://www.freshsqueezedideas.com/'&gt;https://freshsqueezedideas.com&lt;/a&gt; is an evidenced-based marketing and design agency.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Full lifecycle project development; requirements gathering, estimation, sprint planning, release and maintenance.&lt;/li&gt;
-
-&lt;li&gt;Created a web application for building and administering multi-stage surveys. Subsequent stages are composed of user input comparing various brands and products.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href='https://bitmaker.co'&gt;https://bitmaker.co&lt;/a&gt; is a well established code academy that equips students with in-demand technical skills and facilitates connections to local companies.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Created and hosted their brochure site based on design mockups and static html.&lt;/li&gt;
-
-&lt;li&gt;Add CMS functionality to enable news and events posting.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href='https://factu.ly/'&gt;https://factu.ly&lt;/a&gt; is an MVP that aims to address the problem of fake news by allowing users to upload and annotate articles, and rate their accuracy and bias.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Created a web application that extracts article headlines and content from urls, and allows selected text to be annotated and rated.&lt;/li&gt;
-
-&lt;li&gt;Created a chrome extension that indicates scores and comments for articles currently being viewed, if they exist in the backend.&lt;/li&gt;
-
-&lt;li&gt;Created re-usable Ansible automation scripts that handle server provisioning and deployment for ruby on rails applications.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href='https://concertsherpa.ca'&gt;https://concertsherpa.ca&lt;/a&gt; is a music event aggregator and news service for &lt;a href='http://exclaim.ca'&gt;exclaim.ca&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Addressed various hosting issues and migrated the ruby on rails 3 application to Heroku, while also fixing problems with the content stream sources.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Software developer&lt;/strong&gt; &amp;#8226; Mar 2013 - Dec 2015&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='https://shifthealth.ca'&gt;https://shifthealth.ca&lt;/a&gt; provides a platform for administering surveys in clinics and hospitals, and collecting patient reported data.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Created an offline-capable javascript single-page survey app for use on iOS and android mobile devices.&lt;/li&gt;
-
-&lt;li&gt;Expanded the backing Ruby on Rails infrastructure to support reporting, i18n, encrypted backups and deployment automation.&lt;/li&gt;
-
-&lt;li&gt;Improved stability of the codebase by implementing continuous integration, monitoring, end to end and integration testing, a strict git branching model, code reviews and sprint planning.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Software developer&lt;/strong&gt; &amp;#8226; Apr 2011 - Dec 2012&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='https://www.thinkresearch.com/ca/'&gt;https://thinkresearch.com&lt;/a&gt; is a suite of tools and services for managing digital versions of hospital order sets. Primarily responsible for feature development, testing and maintenance of a medical document parser. The tool also serves as a CMS, also allowing for modification and versioning of order-set document content.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Developed various features and improvements for a pdf document parsing engine.&lt;/li&gt;
-
-&lt;li&gt;Improved stability, performance and code coverage of the system through the addition of a test suite.&lt;/li&gt;
-
-&lt;li&gt;Participated in and led biweekly sprint feature planning, ticket breakdown and design discussions.&lt;/li&gt;
-
-&lt;li&gt;Ensured cross-browser and IE7| backwards compatibility.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Software developer&lt;/strong&gt; &amp;#8226; Mar 2010 - Apr 2011&lt;/p&gt;
-
-&lt;p&gt;&lt;a href='https://fieldid.com/'&gt;https://fieldid.com&lt;/a&gt; is an asset management and inspection scheduling system for the construction and manufacturing industries.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Identified, traced and fixed bugs for both front- and back-ends; performed automatic and manual regression testing on both the web and windows mobile applications at the end of each development cycle.&lt;/li&gt;
-
-&lt;li&gt;Designed and developed front-end functionality with a heavy emphasis on UI/UX for non-technical users.&lt;/li&gt;
-
-&lt;li&gt;Maintained an extensive Selenium integration test suite.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id='education'&gt;Education&lt;/h2&gt;
-
-&lt;p&gt;University of Toronto, St. George, Toronto&lt;/p&gt;
-
-&lt;p&gt;Hons. B.Sc, Computer Science: Software Engineering.&lt;/p&gt;</content>
-  </entry>
-  <entry>
     <title>Book reviews</title>
     <link rel="alternate" href="/2017/11/12/nonviolent-communication/"/>
     <id>/2017/11/12/nonviolent-communication/</id>
@@ -424,5 +269,38 @@ Host user2
 &lt;pre&gt;&lt;code&gt;git@user1:&amp;lt;username1&amp;gt;/&amp;lt;username1-repo&amp;gt;.git&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Of course, ensure your ssh key is added to the respective repo.&lt;/p&gt;</content>
+  </entry>
+  <entry>
+    <title>Festivals for 2018</title>
+    <link rel="alternate" href="/2017/10/17/festivals/"/>
+    <id>/2017/10/17/festivals/</id>
+    <published>2017-10-17T00:00:00Z</published>
+    <updated>2017-10-17T00:00:00Z</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Priority&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Location&lt;/th&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Price&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Ultra&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;Mar&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Time Warp&lt;/td&gt;&lt;td style='text-align: left;'&gt;DE&lt;/td&gt;&lt;td style='text-align: left;'&gt;April&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;1&lt;/td&gt;&lt;td style='text-align: left;'&gt;Movement&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;May&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary>
+    <content type="html">&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Priority&lt;/th&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Location&lt;/th&gt;&lt;th&gt;Date&lt;/th&gt;&lt;th&gt;Price&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Ultra&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;Mar&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Time Warp&lt;/td&gt;&lt;td style='text-align: left;'&gt;DE&lt;/td&gt;&lt;td style='text-align: left;'&gt;April&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;1&lt;/td&gt;&lt;td style='text-align: left;'&gt;Movement&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;May&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Hideout&lt;/td&gt;&lt;td style='text-align: left;'&gt;CRO&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;5&lt;/td&gt;&lt;td style='text-align: left;'&gt;Solstice&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Sonar&lt;/td&gt;&lt;td style='text-align: left;'&gt;ESP&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;2&lt;/td&gt;&lt;td style='text-align: left;'&gt;Fusion&lt;/td&gt;&lt;td style='text-align: left;'&gt;DE&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Awakenings&lt;/td&gt;&lt;td style='text-align: left;'&gt;NL&lt;/td&gt;&lt;td style='text-align: left;'&gt;June&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Electric Forest&lt;/td&gt;&lt;td style='text-align: left;'&gt;US&lt;/td&gt;&lt;td style='text-align: left;'&gt;Jun+July&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;4&lt;/td&gt;&lt;td style='text-align: left;'&gt;Exit&lt;/td&gt;&lt;td style='text-align: left;'&gt;SER&lt;/td&gt;&lt;td style='text-align: left;'&gt;July&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Mutek&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;3&lt;/td&gt;&lt;td style='text-align: left;'&gt;Sonus&lt;/td&gt;&lt;td style='text-align: left;'&gt;CRO&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Dekmantel&lt;/td&gt;&lt;td style='text-align: left;'&gt;NL&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Shambhala&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;'&gt;$420&lt;/td&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;DGTL&lt;/td&gt;&lt;td style='text-align: left;'&gt;ESP&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Eclipse&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;August&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;'&gt;6&lt;/td&gt;&lt;td style='text-align: left;'&gt;Harvest&lt;/td&gt;&lt;td style='text-align: left;'&gt;CA&lt;/td&gt;&lt;td style='text-align: left;'&gt;Sep&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;tr&gt;&lt;td style='text-align: left;' /&gt;&lt;td style='text-align: left;'&gt;Outlook&lt;/td&gt;&lt;td style='text-align: left;'&gt;CRO&lt;/td&gt;&lt;td style='text-align: left;'&gt;Sep&lt;/td&gt;&lt;td style='text-align: left;' /&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</content>
   </entry>
 </feed>
