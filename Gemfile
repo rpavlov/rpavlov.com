@@ -9,3 +9,4 @@ gem 'mgd', :git=> "https://github.com/hovancik/middleman-github-deploy.git"
 gem "builder", "~> 3.0.0"
 gem "rack-contrib"
 gem "puma"
+gem 'rb-inotify', '~> 0.9'
