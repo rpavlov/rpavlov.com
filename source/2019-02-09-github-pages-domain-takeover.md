@@ -1,7 +1,7 @@
 ---
 title: Github pages domain takeover
 date: 2019-02-09
-published: false
+published: true
 ---
 
 Recently my partner's website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted
