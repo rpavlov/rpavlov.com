@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-  <link href="/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/text.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/normalize.css" rel="stylesheet" />
+  <link href="/stylesheets/main.css" rel="stylesheet" />
+  <link href="/stylesheets/text.css" rel="stylesheet" />
 
   <title>rpavlov</title>
 </head>
@@ -23,201 +23,149 @@
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
         <article class="post">
+	 <h1 class="post-title"><a href="/2019/06/07/cryptopals/">Cryptopals!</a></h1>
+    <div class="post-meta"> 7 June 2019</div>
+	 <div class="post-text"><p>I've been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of 'interesting stuff to checkout someday maybe'. To that end, I'm gonna jump into the <a href="https://cryptopals.com">https://cryptopals.com</a> challenges. My solutions are over yonder <a href="https://github.com/rpavlov/cryptopals">https://github.com/rpavlov/cryptopals</a></p>
+
+<p>I'll keep running notes here in order to solidify my understanding of various concepts. Some of this stuff I've read about a lot, but not really internalized.</p>
+
+<h1 id="notes">Notes</h1>
+<ul>
+  <li>Radix: number of unique digits used in a numbering systems. Decimal is 10, binary is 2.</li>
+  <li>base64 encoding: encoding scheme for representing binary data in ascii characters. Useful on the web for embedding things like images into markup or transmitting via text.</li>
+</ul>
+
+</div>
+  </article>
+  <article class="post">
+	 <h1 class="post-title"><a href="/2019/03/26/security-prep/">Security+ Prep</a></h1>
+    <div class="post-meta">26 March 2019</div>
+	 <div class="post-text"><p>I finally got around to some focused self-study and completed a <a href="https://stackskills.com">https://stackskills.com</a> course for the Security+ certification preparation. The tl;dr is that it's all pretty introductory/high-level subject matter, but still useful for getting into that headspace. Peep my notes here if you're so inclined <a href="https://github.com/rpavlov/security-plus-notes">https://github.com/rpavlov/security-plus-notes</a></p>
+
+</div>
+  </article>
+  <article class="post">
 	 <h1 class="post-title"><a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a></h1>
     <div class="post-meta"> 9 February 2019</div>
-	 <div class="post-text"><p>Recently my partner&#8217;s website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted on github, which made the severity of this exploit initially puzzling. How could this happen? The site accepts no input and the DNS settings looked normal.</p>
+	 <div class="post-text"><p>Recently my partner's website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted
+on github, which made the severity of this exploit initially puzzling. How could this happen? The site accepts no input and the DNS settings looked normal.</p>
 
-<p>Luckily, this was one of those easily searchable and already known issues with Github pages. The short of it is, if you don&#8217;t have a CNAME file at the root of your project and someone else beats you to it, they can claim your custom domain and Github will happily serve their index.html instead! Other providers often require you to have a TXT record in your DNS records, but GH does not require proof of owernship in order to set a custom domain in the repository settings. The final take-away is you can&#8217;t trust even the big players to make sound technical decisions.</p>
+<p>Luckily, this was one of those easily searchable and already known issues with Github pages. The short of it is, if you don't have a CNAME file at the root of your project and someone else beats you to it, they can claim your custom domain and Github will happily serve their index.html instead! Other providers often require you to have a TXT record in your DNS records, but GH does not require proof of owernship in order to set a custom domain in the repository settings. The final take-away is you can't trust even the big players to make sound technical decisions.</p>
 
-<p>Here&#8217;s a great and even more detailed <a href='https://medium.com/@jehy/hijacking-domain-using-github-pages-41c80ac57523'>breakdown.</a></p></div>
+<p>Here's a great and even more detailed <a href="https://medium.com/@jehy/hijacking-domain-using-github-pages-41c80ac57523">breakdown.</a></p>
+</div>
   </article>
   <article class="post">
 	 <h1 class="post-title"><a href="/2018/12/12/end-of-year/">End of 2018</a></h1>
     <div class="post-meta">12 December 2018</div>
-	 <div class="post-text"><p>It turns out habitual blogging is difficult, but persistence is it&#8217;s own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.</p>
+	 <div class="post-text"><p>It turns out habitual blogging is difficult, but persistence is it's own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.</p>
 
-<h1 id='career_stuff'>Career stuff</h1>
+<h1 id="career-stuff">Career stuff</h1>
 
 <p>I opted to continue client work after getting the opportunity to build/manage the cloud infrastructure and development processes for a couple of companies. It leveled up large chunks of my knowledge, and allowed me to learn tons about DNS, network configuration, security, secrets management and a myriad of other sysadmin related things. In addition to the usual troubleshoot this and fix that of regular software development.</p>
 
 <p>My previous career goal set around this time last year was to gain dev-ops and sysadmin experience in order to transition into more security oriented work and projects.</p>
 
-<h2 id='back_to_security_study'>Back to security study</h2>
+<h2 id="back-to-security-study">Back to security study</h2>
 
-<p><a href='https://github.com/gradiuscypher/infosec_getting_started'>How me, a programmer, learn security??</a> Turns out I&#8217;m not the only one to have this idea. Here&#8217;s another <a href='https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/'>classic</a>. To that end, I&#8217;ve resumed self-study and practice according to a vague curriculum I&#8217;m putting together. More on that in another blog post.</p>
+<p><a href="https://github.com/gradiuscypher/infosec_getting_started">How me, a programmer, learn security??</a> Turns out I'm not the only one to have this idea. Here's another <a href="https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/">classic</a>. To that end, I've resumed self-study and practice according to a vague curriculum I'm putting together. More on that in another blog post.</p>
 
-<h1 id='personal_stuff'>Personal stuff</h1>
+<h1 id="personal-stuff">Personal stuff</h1>
 
 <p>This year I managed to:</p>
 
 <ul>
-<li>Nurture closer relationships with people I care about, respect and admire.</li>
+  <li>Nurture closer relationships with people I care about, respect and admire.</li>
+  <li>Move to Berlin. Living elsewhere is incredibly refreshing.</li>
+  <li>Live minimalist. I reconsidered what stuff I actually need. But also, which luxuries brings me joy? A good soundsystem + music, easy access to a gym, and a nice kitchen for example. Regardless of where in the world I am, if there is a place to lift heavy things nearby that's already a huge quality of life improvement.</li>
+  <li>Work out a lot, and start Muay Thai and BJJ training.</li>
+  <li>Re-learn german. Going forward hoffentlich mehr auf Deutsch.</li>
+</ul>
 
-<li>Move to Berlin. Living elsewhere is incredibly refreshing.</li>
-
-<li>Live minimalist. I reconsidered what stuff I actually need. But also, which luxuries brings me joy? A good soundsystem + music, easy access to a gym, and a nice kitchen for example. Regardless of where in the world I am, if there is a place to lift heavy things nearby that&#8217;s already a huge quality of life improvement.</li>
-
-<li>Work out a lot, and start Muay Thai and BJJ training.</li>
-
-<li>Re-learn german. Going forward hoffentlich mehr auf Deutsch.</li>
-</ul></div>
+</div>
   </article>
   <article class="post">
 	 <h1 class="post-title"><a href="/2017/11/12/nonviolent-communication/">Book reviews</a></h1>
     <div class="post-meta">12 November 2017</div>
-	 <div class="post-text"><p>I&#8217;ve been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication by Marshall Rosenberg.</p>
+	 <div class="post-text"><p>I've been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication
+by Marshall Rosenberg.</p>
 
-<h4 id='surface_thoughts'>Surface thoughts</h4>
+<h4 id="surface-thoughts">Surface thoughts</h4>
 
 <p>All communication must be grounded in a state of compassion towards the other person.</p>
 
-<h4 id='four_tenents_of_nonviolent_communication'>Four tenents of Nonviolent communication</h4>
+<h4 id="four-tenents-of-nonviolent-communication">Four tenents of Nonviolent communication</h4>
 
 <ol>
-<li>Observe: I observe the situation or concrete actions.</li>
-
-<li>Feeling: how the above observation makes me feel.</li>
-
-<li>Needs: what needs/values/desires of ours are connected to the feelings we have identified.</li>
-
-<li>Request: the concrete actions we request from the other person in order to enrich our lives.</li>
+  <li>Observe: I observe the situation or concrete actions.</li>
+  <li>Feeling: how the above observation makes me feel.</li>
+  <li>Needs: what needs/values/desires of ours are connected to the feelings we have identified.</li>
+  <li>Request: the concrete actions we request from the other person in order to enrich our lives.</li>
 </ol>
 
-<h4 id='alienating_types_of_communication'>Alienating types of communication</h4>
+<h4 id="alienating-types-of-communication">Alienating types of communication</h4>
 
 <ul>
-<li>
-<p>Moralistic judgements (blame, insults, put-downs, labels, criticisms, comparisons) * If my partner wants more affection than I’m giving her, she is “needy and dependent.” But if I want more affection than she is giving me, then she is “aloof and insensitive.”</p>
-</li>
-
-<li>
-<p>Denial of responsibility. We deny responsibility for our actions when we attribute their cause to</p>
-
-<ul>
-<li>Our condition, diagnosis, personal or psychological history ( I drink because I am an alcoholic).</li>
-
-<li>The actions of others. This is important in order to not come across as accusatory.</li>
-
-<li>The dictates of authority.</li>
-</ul>
-</li>
-
-<li>
-<p>Demands. You can never make a person do anything.</p>
-</li>
+  <li>Moralistic judgements (blame, insults, put-downs, labels, criticisms, comparisons)
+    <ul>
+      <li>If my partner wants more affection than I’m giving her, she is “needy and dependent.” But if I want more affection than she is giving me,
+then she is “aloof and insensitive.”</li>
+    </ul>
+  </li>
+  <li>Denial of responsibility. We deny responsibility  for our actions when we attribute their
+cause to
+    <ul>
+      <li>Our condition, diagnosis, personal or psychological history ( I drink because I am an alcoholic).</li>
+      <li>The actions of others. This is important in order to not come across as accusatory.</li>
+      <li>The dictates of authority.</li>
+    </ul>
+  </li>
+  <li>Demands. You can never make a person do anything.</li>
 </ul>
 
-<h4 id='separate_observation_from_evaluation'>Separate observation from evaluation</h4>
+<h4 id="separate-observation-from-evaluation">Separate observation from evaluation</h4>
 
 <ul>
-<li>When we combine observation with evaluation, people are apt to hear criticism.</li>
-
-<li>Keep evaluations at bay: &#8220;John is angry&#8221; is an evaluation, &#8220;John shouted, pounded the table, etc&#8230;&#8221; is an observation. Furthermore, he could in fact be hurt, scared or anxious.</li>
+  <li>When we combine observation with evaluation, people are apt to hear criticism.</li>
+  <li>Keep evaluations at bay: "John is angry" is an evaluation, "John shouted, pounded the table, etc…" is an observation.
+Furthermore, he could in fact be hurt, scared or anxious.</li>
 </ul>
 
-<h4 id='identify_and_express_your_own_feelings'>Identify and express your own feelings</h4>
+<h4 id="identify-and-express-your-own-feelings">Identify and express your own feelings</h4>
 
 <ul>
-<li>But also, distinguish between feelings and thoughts. &#8220;I feel inadequate as a guitar player&#8221; is an assessment, instead of &#8220;I feel impatient/disappointed/frustrated as a guitar player&#8221; which are feelings.</li>
-
-<li>Use words that refer to specific emotions, rather than something more general. &#8220;I feel good&#8221; could mean excited, mellow, etc..</li>
-
-<li>Distinguish between how you feel and how you think others are reacting to behaving towards you. &#8220;I feel misunderstood&#8221; instead actually been anxious or annoyed.</li>
-
-<li>Connect your feelings with your needs. I feel _____ because I ____ : &#8221;I&#8217;m disappointed because I was hoping to see you.&#8221;</li>
-
-<li>Judgements of others are alienated expressions of our own unment needs. Futhermore, expressing our needs we have a better chance of having them met.</li>
+  <li>But also, distinguish between feelings and thoughts. "I feel inadequate as a guitar player" is an assessment, instead of
+"I feel impatient/disappointed/frustrated as a guitar player" which are feelings.</li>
+  <li>Use words that refer to specific emotions, rather than something more general. "I feel good" could mean excited, mellow, etc..</li>
+  <li>Distinguish between how you feel and how you think others are reacting to behaving towards you. "I feel misunderstood"
+instead actually been anxious or annoyed.</li>
+  <li>Connect your feelings with your needs. I feel <strong>___ because I __</strong> : "I'm disappointed because I was hoping to see you."</li>
+  <li>Judgements of others are alienated expressions of our own unment needs. Futhermore, expressing our needs we have a better
+chance of having them met.</li>
 </ul>
 
-<h4 id='handling_a_negative_message'>Handling a negative message</h4>
+<h4 id="handling-a-negative-message">Handling a negative message</h4>
 
-<p>You have four option when hearing something negative: &#8220;You&#8217;re really self-centered and a trash-person&#8221;</p>
+<p>You have four option when hearing something negative: "You're really self-centered and a trash-person"</p>
 
 <ul>
-<li>Take it personally, and accept others&#8217; judgement.</li>
-
-<li>Blame others. &#8220;Actually, you&#8217;re the one who&#8217;s self centered&#8221;</li>
-
-<li>Sense your own feelings and needs.</li>
-
-<li>Sense others&#8217; feelings and needs (the best choice).</li>
+  <li>Take it personally, and accept others' judgement.</li>
+  <li>Blame others. "Actually, you're the one who's self centered"</li>
+  <li>Sense your own feelings and needs.</li>
+  <li>Sense others' feelings and needs (the best choice).</li>
 </ul>
 
-<h4 id='listening_empathically'>Listening empathically</h4>
+<h4 id="listening-empathically">Listening empathically</h4>
 
-<p>Common responses that prevent empathic listening include advising, one-upping, educating, consoling, story-telling, shutting down, sympathizing, interrogating, explaining and correcting. Intellectual understanding blocks empathy. Simply be wholly present. Listen and attempt to understand what unmet needs people are expressing.</p></div>
-  </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a></h1>
-    <div class="post-meta"> 9 November 2017</div>
-	 <div class="post-text"><p>For the past several months I&#8217;ve been pursuing a self-directed education in information security and immersing myself in a wealth of amazing topics. It&#8217;s an incredibly broad field, and daunting in its complexity but then what isn&#8217;t. I figured writing about it would solidify some concepts and organize my thoughts.</p>
-
-<p>My time is currently mostly devoted to reading while I collect tools and provision a sandbox. I settled on this amazing free course from the University of Helsinki for a more structured approach <a href='https://cybersecuritybase.github.io/'>https://cybersecuritybase.github.io/</a></p>
-
-<p>The way I use, write and reason about code has changed significantly. This <a href='https://www.computer.org/cms/CYBSI/docs/Top-10-Flaws.pdf'>paper</a> categorizes software flaws into two groups</p>
-
-<h4 id='implementation_flaws'>Implementation flaws</h4>
-
-<p>The classic bug. This could be an error throw due to an invalid reference, missing resource or just faulty logic. The list is extensive.</p>
-
-<h4 id='design_flaws'>Design flaws</h4>
-
-<p>This is where it gets interesting. These flaws are deeper yet all encompassing and include things like error pages leaking information, offloading auth to the client, poor sandboxing and assumption of trust between services or just plain old misconfiguration and leaving things exposed.</p>
-
-<ul>
-<li>
-<p>Design systems assuming they will eventually be compromised, limit trust and live/die by the <a href='https://en.wikipedia.org/wiki/Principle_of_least_privilege'>principle of least privelege</a></p>
-</li>
-
-<li>
-<p>Don&#8217;t mix data and control instructions. Allowing untrusted input data to be executed like any other code leads to injection vulnerabilities and control-flow hijacking.</p>
-</li>
-</ul></div>
-  </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2017/10/24/consulting/">Reflections on software development consulting</a></h1>
-    <div class="post-meta">24 October 2017</div>
-	 <div class="post-text"><p>It&#8217;s been about a year and a half since quitting my job to become self-employed and for the most part it&#8217;s been swell. Having said that, I think it&#8217;s time to cycle back into a team.</p>
-
-<p>Consulting was great because I got to</p>
-
-<ul>
-<li>
-<p>Broaden my non-technical skills. Managing people is a completely different job from building software, but one I enjoyed immensely. What people say and what they actually mean or want are often at conflict, and the ability to help reconcile the two is invaluable.</p>
-</li>
-
-<li>
-<p>Make design/architecture/development decisions and manage my own projects.</p>
-</li>
-
-<li>
-<p>Focus on other areas of my life. I am generally smarter, stronger and more well-balanced than ever. Just having the time to think or be bored allowed me to figure out how to lead a more meaningful life, and clarified my goals and priorities.</p>
-</li>
-</ul>
-
-<p>Joining a team is becoming a priority because</p>
-
-<ul>
-<li>
-<p>My technical skills are stagnating. As the saying goes if you&#8217;re the smartest person in the room you&#8217;re in the wrong room. Working from home alone I am by default the smartest in the room :(</p>
-</li>
-
-<li>
-<p>I need access to a different set of challenges that align with my long-term career trajectory. For the most part clients require the same set of services when it comes to web development: new features or bug fixes. While I got to kick-off some fun green-field projects, much of the work remains of the same nature. Unfortunately this means I haven&#8217;t had exposure to complex systems at scale, or infrastructure and security management.</p>
-</li>
-
-<li>
-<p>I haven&#8217;t been marketing (nor do I super enjoy it). Luckily all of my work has come through word-of-mouth and referrals, but that&#8217;s drying up.</p>
-</li>
-</ul></div>
+<p>Common responses that prevent empathic listening include advising, one-upping, educating, consoling, story-telling,
+shutting down, sympathizing, interrogating, explaining and correcting. Intellectual understanding blocks empathy. Simply
+be wholly present. Listen and attempt to understand what unmet needs people are expressing.</p>
+</div>
   </article>
   <p class="pagination-controls">
-    
-    <span>1 of 4</span>
+    <span>1 of 5</span>
 
-    
       <span><a href="/page/2/">>></a></span>
-    
   </p>
 
     </div>
@@ -238,105 +186,70 @@
       <div class="sidebar-item borderless">
         <h3>Recent Articles</h3>
         <ol>
-          
+          <li><a href="/2019/06/07/cryptopals/">Cryptopals!</a></li>
+          <li><a href="/2019/03/26/security-prep/">Security+ Prep</a></li>
           <li><a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a></li>
-          
           <li><a href="/2018/12/12/end-of-year/">End of 2018</a></li>
-          
           <li><a href="/2017/11/12/nonviolent-communication/">Book reviews</a></li>
-          
-          <li><a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a></li>
-          
-          <li><a href="/2017/10/24/consulting/">Reflections on software development consulting</a></li>
-          
         </ol>
         <ol>
-          
           <li>
             <h5 style="margin-bottom:0;">2019</h5>
-              
+              <br/>
+              <a href="/2019/06/07/cryptopals/">Cryptopals!</a>
+              <br/>
+              <a href="/2019/03/26/security-prep/">Security+ Prep</a>
               <br/>
               <a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2018</h5>
-              
               <br/>
               <a href="/2018/12/12/end-of-year/">End of 2018</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2017</h5>
-              
               <br/>
               <a href="/2017/11/12/nonviolent-communication/">Book reviews</a>
-              
               <br/>
               <a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a>
-              
               <br/>
               <a href="/2017/10/24/consulting/">Reflections on software development consulting</a>
-              
               <br/>
               <a href="/2017/10/24/multi-user-git/">Multi-user git</a>
-              
               <br/>
               <a href="/2017/10/17/festivals/">Festivals for 2018</a>
-              
               <br/>
               <a href="/2017/05/08/emacs-vim/">emacs vs vim</a>
-              
               <br/>
               <a href="/2017/02/28/default-scope/">Rails and default_scope</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2016</h5>
-              
               <br/>
               <a href="/2016/09/07/commitments/">Public commitments</a>
-              
               <br/>
               <a href="/2016/08/22/gittip/">gittip</a>
-              
               <br/>
               <a href="/2016/07/11/hello-again/">I've solved procrastination</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2013</h5>
-              
-              <br/>
-              <a href="/2013/12/28/habits/">Several habits of a highly successful Roumen</a>
-              
               <br/>
               <a href="/2013/12/17/git-workflow/">Git workflow</a>
-              
               <br/>
               <a href="/2013/11/13/exercise/">Side effects in life</a>
-              
               <br/>
               <a href="/2013/11/04/angularjs/">AngularJs resources</a>
-              
               <br/>
               <a href="/2013/11/01/brb-learning-js/">Brb, learning Javascript</a>
-              
               <br/>
               <a href="/2013/10/31/my-personality/">My Personality</a>
-              
-              <br/>
-              <a href="/2013/10/30/new/">A new site</a>
-              
               <br/>
               <a href="/2013/10/30/news/">And now, for the content backlog!</a>
-              
+              <br/>
+              <a href="/2013/10/30/new/">A new site</a>
           </li>
-          
         </ol>
       </div>
     </aside>

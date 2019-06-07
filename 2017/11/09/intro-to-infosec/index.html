@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-  <link href="/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/text.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/normalize.css" rel="stylesheet" />
+  <link href="/stylesheets/main.css" rel="stylesheet" />
+  <link href="/stylesheets/text.css" rel="stylesheet" />
 
   <title>rpavlov</title>
 </head>
@@ -26,29 +26,31 @@
   	<h1 class="post-title">Intro to infosec</h1>
   	<div class="post-meta"> 9 November 2017</div>
   	<div class="post-text">
-  		<p>For the past several months I&#8217;ve been pursuing a self-directed education in information security and immersing myself in a wealth of amazing topics. It&#8217;s an incredibly broad field, and daunting in its complexity but then what isn&#8217;t. I figured writing about it would solidify some concepts and organize my thoughts.</p>
+  		<p>For the past several months I've been pursuing a self-directed education in information security and immersing myself in a wealth of amazing topics. It's an incredibly broad field, and daunting in its complexity but then what isn't. I figured writing about it would solidify some concepts and organize my thoughts.</p>
 
-<p>My time is currently mostly devoted to reading while I collect tools and provision a sandbox. I settled on this amazing free course from the University of Helsinki for a more structured approach <a href='https://cybersecuritybase.github.io/'>https://cybersecuritybase.github.io/</a></p>
+<p>My time is currently mostly devoted to reading while I collect tools and provision a sandbox. I settled on this amazing
+free course from the University of Helsinki for a more structured approach <a href="https://cybersecuritybase.github.io/">https://cybersecuritybase.github.io/</a></p>
 
-<p>The way I use, write and reason about code has changed significantly. This <a href='https://www.computer.org/cms/CYBSI/docs/Top-10-Flaws.pdf'>paper</a> categorizes software flaws into two groups</p>
+<p>The way I use, write and reason about code has changed significantly. This <a href="https://www.computer.org/cms/CYBSI/docs/Top-10-Flaws.pdf">paper</a> categorizes software flaws into two groups</p>
 
-<h4 id='implementation_flaws'>Implementation flaws</h4>
+<h4 id="implementation-flaws">Implementation flaws</h4>
 
 <p>The classic bug. This could be an error throw due to an invalid reference, missing resource or just faulty logic. The list is extensive.</p>
 
-<h4 id='design_flaws'>Design flaws</h4>
+<h4 id="design-flaws">Design flaws</h4>
 
-<p>This is where it gets interesting. These flaws are deeper yet all encompassing and include things like error pages leaking information, offloading auth to the client, poor sandboxing and assumption of trust between services or just plain old misconfiguration and leaving things exposed.</p>
+<p>This is where it gets interesting. These flaws are deeper yet
+all encompassing and include things like error pages leaking information, offloading auth to the client, poor sandboxing and assumption of trust between services or just plain old misconfiguration and leaving things exposed.</p>
 
 <ul>
-<li>
-<p>Design systems assuming they will eventually be compromised, limit trust and live/die by the <a href='https://en.wikipedia.org/wiki/Principle_of_least_privilege'>principle of least privelege</a></p>
-</li>
-
-<li>
-<p>Don&#8217;t mix data and control instructions. Allowing untrusted input data to be executed like any other code leads to injection vulnerabilities and control-flow hijacking.</p>
-</li>
+  <li>
+    <p>Design systems assuming they will eventually be compromised, limit trust and live/die by the <a href="https://en.wikipedia.org/wiki/Principle_of_least_privilege">principle of least privelege</a></p>
+  </li>
+  <li>
+    <p>Don't mix data and control instructions. Allowing untrusted input data to be executed like any other code leads to injection vulnerabilities and control-flow hijacking.</p>
+  </li>
 </ul>
+
   	</div>
   </article>
 
@@ -70,105 +72,70 @@
       <div class="sidebar-item borderless">
         <h3>Recent Articles</h3>
         <ol>
-          
+          <li><a href="/2019/06/07/cryptopals/">Cryptopals!</a></li>
+          <li><a href="/2019/03/26/security-prep/">Security+ Prep</a></li>
           <li><a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a></li>
-          
           <li><a href="/2018/12/12/end-of-year/">End of 2018</a></li>
-          
           <li><a href="/2017/11/12/nonviolent-communication/">Book reviews</a></li>
-          
-          <li><a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a></li>
-          
-          <li><a href="/2017/10/24/consulting/">Reflections on software development consulting</a></li>
-          
         </ol>
         <ol>
-          
           <li>
             <h5 style="margin-bottom:0;">2019</h5>
-              
+              <br/>
+              <a href="/2019/06/07/cryptopals/">Cryptopals!</a>
+              <br/>
+              <a href="/2019/03/26/security-prep/">Security+ Prep</a>
               <br/>
               <a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2018</h5>
-              
               <br/>
               <a href="/2018/12/12/end-of-year/">End of 2018</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2017</h5>
-              
               <br/>
               <a href="/2017/11/12/nonviolent-communication/">Book reviews</a>
-              
               <br/>
               <a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a>
-              
               <br/>
               <a href="/2017/10/24/consulting/">Reflections on software development consulting</a>
-              
               <br/>
               <a href="/2017/10/24/multi-user-git/">Multi-user git</a>
-              
               <br/>
               <a href="/2017/10/17/festivals/">Festivals for 2018</a>
-              
               <br/>
               <a href="/2017/05/08/emacs-vim/">emacs vs vim</a>
-              
               <br/>
               <a href="/2017/02/28/default-scope/">Rails and default_scope</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2016</h5>
-              
               <br/>
               <a href="/2016/09/07/commitments/">Public commitments</a>
-              
               <br/>
               <a href="/2016/08/22/gittip/">gittip</a>
-              
               <br/>
               <a href="/2016/07/11/hello-again/">I've solved procrastination</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2013</h5>
-              
-              <br/>
-              <a href="/2013/12/28/habits/">Several habits of a highly successful Roumen</a>
-              
               <br/>
               <a href="/2013/12/17/git-workflow/">Git workflow</a>
-              
               <br/>
               <a href="/2013/11/13/exercise/">Side effects in life</a>
-              
               <br/>
               <a href="/2013/11/04/angularjs/">AngularJs resources</a>
-              
               <br/>
               <a href="/2013/11/01/brb-learning-js/">Brb, learning Javascript</a>
-              
               <br/>
               <a href="/2013/10/31/my-personality/">My Personality</a>
-              
-              <br/>
-              <a href="/2013/10/30/new/">A new site</a>
-              
               <br/>
               <a href="/2013/10/30/news/">And now, for the content backlog!</a>
-              
+              <br/>
+              <a href="/2013/10/30/new/">A new site</a>
           </li>
-          
         </ol>
       </div>
     </aside>

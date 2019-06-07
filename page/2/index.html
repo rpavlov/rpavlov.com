@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-  <link href="/stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/main.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="/stylesheets/text.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/normalize.css" rel="stylesheet" />
+  <link href="/stylesheets/main.css" rel="stylesheet" />
+  <link href="/stylesheets/text.css" rel="stylesheet" />
 
   <title>rpavlov</title>
 </head>
@@ -23,6 +23,71 @@
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
         <article class="post">
+	 <h1 class="post-title"><a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a></h1>
+    <div class="post-meta"> 9 November 2017</div>
+	 <div class="post-text"><p>For the past several months I've been pursuing a self-directed education in information security and immersing myself in a wealth of amazing topics. It's an incredibly broad field, and daunting in its complexity but then what isn't. I figured writing about it would solidify some concepts and organize my thoughts.</p>
+
+<p>My time is currently mostly devoted to reading while I collect tools and provision a sandbox. I settled on this amazing
+free course from the University of Helsinki for a more structured approach <a href="https://cybersecuritybase.github.io/">https://cybersecuritybase.github.io/</a></p>
+
+<p>The way I use, write and reason about code has changed significantly. This <a href="https://www.computer.org/cms/CYBSI/docs/Top-10-Flaws.pdf">paper</a> categorizes software flaws into two groups</p>
+
+<h4 id="implementation-flaws">Implementation flaws</h4>
+
+<p>The classic bug. This could be an error throw due to an invalid reference, missing resource or just faulty logic. The list is extensive.</p>
+
+<h4 id="design-flaws">Design flaws</h4>
+
+<p>This is where it gets interesting. These flaws are deeper yet
+all encompassing and include things like error pages leaking information, offloading auth to the client, poor sandboxing and assumption of trust between services or just plain old misconfiguration and leaving things exposed.</p>
+
+<ul>
+  <li>
+    <p>Design systems assuming they will eventually be compromised, limit trust and live/die by the <a href="https://en.wikipedia.org/wiki/Principle_of_least_privilege">principle of least privelege</a></p>
+  </li>
+  <li>
+    <p>Don't mix data and control instructions. Allowing untrusted input data to be executed like any other code leads to injection vulnerabilities and control-flow hijacking.</p>
+  </li>
+</ul>
+</div>
+  </article>
+  <article class="post">
+	 <h1 class="post-title"><a href="/2017/10/24/consulting/">Reflections on software development consulting</a></h1>
+    <div class="post-meta">24 October 2017</div>
+	 <div class="post-text"><p>It's been about a year and a half since quitting my job to become self-employed and for the most part it's been swell.
+Having said that, I think it's time to cycle back into a team.</p>
+
+<p>Consulting was great because I got to</p>
+
+<ul>
+  <li>
+    <p>Broaden my non-technical skills. Managing people is a completely different job from building software, but one I enjoyed immensely. What people say and what they actually mean or want are often at conflict, and the ability to help reconcile the two is invaluable.</p>
+  </li>
+  <li>
+    <p>Make design/architecture/development decisions and manage my own projects.</p>
+  </li>
+  <li>
+    <p>Focus on other areas of my life. I am generally smarter, stronger and more well-balanced than ever. Just having the time to think or be bored allowed me to figure out how to lead a more meaningful life, and clarified my goals and priorities.</p>
+  </li>
+</ul>
+
+<p>Joining a team is becoming a priority because</p>
+
+<ul>
+  <li>
+    <p>My technical skills are stagnating. As the saying goes if you're the smartest person in the room you're in the wrong room. Working from home alone I am by default the smartest in the room :(</p>
+  </li>
+  <li>
+    <p>I need access to a different set of challenges that align with my long-term career trajectory. For the most part clients require the same set of services when it comes to web
+development: new features or bug fixes. While I got to kick-off some fun green-field projects, much of the work remains of the same nature. Unfortunately this means I haven't had exposure to complex systems at scale, or infrastructure and security management.</p>
+  </li>
+  <li>
+    <p>I haven't been marketing (nor do I super enjoy it). Luckily all of my work has come through word-of-mouth and referrals, but that's drying up.</p>
+  </li>
+</ul>
+</div>
+  </article>
+  <article class="post">
 	 <h1 class="post-title"><a href="/2017/10/24/multi-user-git/">Multi-user git</a></h1>
     <div class="post-meta">24 October 2017</div>
 	 <div class="post-text"><p>Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine</p>
@@ -37,83 +102,176 @@ Host user2
   Hostname github.com
   User git
   IdentityFile ~/.ssh/username2_pubkey
-  IdentitiesOnly yes</code></pre>
+  IdentitiesOnly yes
+</code></pre>
 
 <p>Then for your repo ensure <code>git remote -v</code> is of the form</p>
 
-<pre><code>git@user1:&lt;username1&gt;/&lt;username1-repo&gt;.git</code></pre>
+<pre><code>git@user1:&lt;username1&gt;/&lt;username1-repo&gt;.git
+</code></pre>
 
-<p>Of course, ensure your ssh key is added to the respective repo.</p></div>
+<p>Of course, ensure your ssh key is added to the respective repo.</p>
+</div>
   </article>
   <article class="post">
 	 <h1 class="post-title"><a href="/2017/10/17/festivals/">Festivals for 2018</a></h1>
     <div class="post-meta">17 October 2017</div>
-	 <div class="post-text"><table><thead><tr><th>Priority</th><th>Name</th><th>Location</th><th>Date</th><th>Price</th></tr></thead><tbody><tr><td style='text-align: left;' /><td style='text-align: left;'>Ultra</td><td style='text-align: left;'>US</td><td style='text-align: left;'>Mar</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Time Warp</td><td style='text-align: left;'>DE</td><td style='text-align: left;'>April</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;'>1</td><td style='text-align: left;'>Movement</td><td style='text-align: left;'>US</td><td style='text-align: left;'>May</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Hideout</td><td style='text-align: left;'>CRO</td><td style='text-align: left;'>June</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;'>5</td><td style='text-align: left;'>Solstice</td><td style='text-align: left;'>CA</td><td style='text-align: left;'>June</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Sonar</td><td style='text-align: left;'>ESP</td><td style='text-align: left;'>June</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;'>2</td><td style='text-align: left;'>Fusion</td><td style='text-align: left;'>DE</td><td style='text-align: left;'>June</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Awakenings</td><td style='text-align: left;'>NL</td><td style='text-align: left;'>June</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Electric Forest</td><td style='text-align: left;'>US</td><td style='text-align: left;'>Jun+July</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;'>4</td><td style='text-align: left;'>Exit</td><td style='text-align: left;'>SER</td><td style='text-align: left;'>July</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Mutek</td><td style='text-align: left;'>CA</td><td style='text-align: left;'>August</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;'>3</td><td style='text-align: left;'>Sonus</td><td style='text-align: left;'>CRO</td><td style='text-align: left;'>August</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Dekmantel</td><td style='text-align: left;'>NL</td><td style='text-align: left;'>August</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Shambhala</td><td style='text-align: left;'>CA</td><td style='text-align: left;'>August</td><td style='text-align: left;'>$420</td>
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>DGTL</td><td style='text-align: left;'>ESP</td><td style='text-align: left;'>August</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Eclipse</td><td style='text-align: left;'>CA</td><td style='text-align: left;'>August</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;'>6</td><td style='text-align: left;'>Harvest</td><td style='text-align: left;'>CA</td><td style='text-align: left;'>Sep</td><td style='text-align: left;' />
-</tr><tr><td style='text-align: left;' /><td style='text-align: left;'>Outlook</td><td style='text-align: left;'>CRO</td><td style='text-align: left;'>Sep</td><td style='text-align: left;' />
-</tr></tbody></table></div>
+	 <div class="post-text"><table>
+  <thead>
+    <tr>
+      <th>Priority</th>
+      <th>Name</th>
+      <th>Location</th>
+      <th>Date</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>Ultra</td>
+      <td>US</td>
+      <td>Mar</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Time Warp</td>
+      <td>DE</td>
+      <td>April</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Movement</td>
+      <td>US</td>
+      <td>May</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Hideout</td>
+      <td>CRO</td>
+      <td>June</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Solstice</td>
+      <td>CA</td>
+      <td>June</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Sonar</td>
+      <td>ESP</td>
+      <td>June</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Fusion</td>
+      <td>DE</td>
+      <td>June</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Awakenings</td>
+      <td>NL</td>
+      <td>June</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Electric Forest</td>
+      <td>US</td>
+      <td>Jun+July</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Exit</td>
+      <td>SER</td>
+      <td>July</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Mutek</td>
+      <td>CA</td>
+      <td>August</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sonus</td>
+      <td>CRO</td>
+      <td>August</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Dekmantel</td>
+      <td>NL</td>
+      <td>August</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Shambhala</td>
+      <td>CA</td>
+      <td>August</td>
+      <td>$420</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>DGTL</td>
+      <td>ESP</td>
+      <td>August</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Eclipse</td>
+      <td>CA</td>
+      <td>August</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Harvest</td>
+      <td>CA</td>
+      <td>Sep</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>Outlook</td>
+      <td>CRO</td>
+      <td>Sep</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+</div>
   </article>
   <article class="post">
 	 <h1 class="post-title"><a href="/2017/05/08/emacs-vim/">emacs vs vim</a></h1>
     <div class="post-meta"> 8 May 2017</div>
-	 <div class="post-text"><p>After spending the better part of last year using emacs (specifically the spacemacs distribution) before switching to neovim I can safely conclude I&#8217;ve shaved enough yaks to last me a lifetime. I&#8217;m switching back to Atom because configuring editors is a waste of time that could be better spent actually building things. I could be meticulously installing and configuring packages for crucial features like fuzzy project search, OR I could just use a modern editor.</p>
+	 <div class="post-text"><p>After spending the better part of last year using emacs (specifically the spacemacs distribution) before switching to neovim I can safely conclude I've shaved enough yaks to last me a lifetime. I'm switching back to Atom because
+configuring editors is a waste of time that could be better spent actually building things. I could be meticulously
+installing and configuring packages for crucial features like fuzzy project search, OR I could just use a modern editor.</p>
 
-<p>Luckily most of the emacs navigation keybindings work in atom. God bless.</p></div>
-  </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2017/02/28/default-scope/">Rails and default_scope</a></h1>
-    <div class="post-meta">28 February 2017</div>
-	 <div class="post-text"><p>It should be common knowledge by now NOT to use default_scope unless you know what you&#8217;re doing. I <em>thought</em> I knew what I was doing but was wrong, which is often the case.</p>
-
-<p>Imagine having a model with a boolean :finished attribute. And in your schema for this table default: false. You want to only ever retrieve instances that are marked finished, so you write</p>
-
-<pre><code>default_scope {where(finished: true)}</code></pre>
-
-<p>Great, but guess what? New instances of this model will have their :finished default to true, contrary to the schema definition. Crazy right? Don&#8217;t use default_scope.</p></div>
-  </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2016/09/07/commitments/">Public commitments</a></h1>
-    <div class="post-meta"> 7 September 2016</div>
-	 <div class="post-text"><p>Another one of those corny lifehacks I&#8217;m fond of is public commitments. I guess it&#8217;s semi-common knowledge that announcing your intentions publicly or better yet, to friends, prompts action. I&#8217;ve also noticed it&#8217;s useful for folks suffering from depression and anxiety, insofar that making commitments to see friends or attend events gets you out of the house.</p>
-
-<p>With that in mind, I&#8217;m announcing my intention to pivot my career towards automation and ops, plug some holes in my game and learn a few new tricks. Luckily, like Arnold, my cpu is a neural net processor&#8230;a learning computah.</p>
-
-<p><strong>Linux</strong></p>
-
-<p>Despite using the terminal and interacting with servers almost daily, my knowledge is broad but shallow. I&#8217;m getting a lot of mileage out of <a href='http://unixmages.com/ufbm.pdf'>Unix for Mages</a> and <a href='https://serversforhackers.com/'>Servers for hackers</a> as refreshers for things I don&#8217;t normally do.</p>
-
-<p><strong>Python</strong></p>
-
-<p>The tool of choice for automation scripting.</p>
-
-<p><strong>Ansible+Vagrant or Docker</strong></p>
-
-<p>Not sure which side to take yet, but for the time-being Ansible suits my needs nicely. Shout-out to the mad genius <a href='https://twitter.com/sheysewani'>Shey</a> over at <a href='https://polymorphic.ca'>polymorphic.ca</a> for putting me on this path and sharing some of his hard-won knowledge and high quality scripts.</p></div>
+<p>Luckily most of the emacs navigation keybindings work in atom. God bless.</p>
+</div>
   </article>
   <p class="pagination-controls">
-    
       <span><a href="/"><<</a></span>
-    
-    <span>2 of 4</span>
+    <span>2 of 5</span>
 
-    
       <span><a href="/page/3/">>></a></span>
-    
   </p>
 
     </div>
@@ -134,105 +292,70 @@ Host user2
       <div class="sidebar-item borderless">
         <h3>Recent Articles</h3>
         <ol>
-          
+          <li><a href="/2019/06/07/cryptopals/">Cryptopals!</a></li>
+          <li><a href="/2019/03/26/security-prep/">Security+ Prep</a></li>
           <li><a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a></li>
-          
           <li><a href="/2018/12/12/end-of-year/">End of 2018</a></li>
-          
           <li><a href="/2017/11/12/nonviolent-communication/">Book reviews</a></li>
-          
-          <li><a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a></li>
-          
-          <li><a href="/2017/10/24/consulting/">Reflections on software development consulting</a></li>
-          
         </ol>
         <ol>
-          
           <li>
             <h5 style="margin-bottom:0;">2019</h5>
-              
+              <br/>
+              <a href="/2019/06/07/cryptopals/">Cryptopals!</a>
+              <br/>
+              <a href="/2019/03/26/security-prep/">Security+ Prep</a>
               <br/>
               <a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2018</h5>
-              
               <br/>
               <a href="/2018/12/12/end-of-year/">End of 2018</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2017</h5>
-              
               <br/>
               <a href="/2017/11/12/nonviolent-communication/">Book reviews</a>
-              
               <br/>
               <a href="/2017/11/09/intro-to-infosec/">Intro to infosec</a>
-              
               <br/>
               <a href="/2017/10/24/consulting/">Reflections on software development consulting</a>
-              
               <br/>
               <a href="/2017/10/24/multi-user-git/">Multi-user git</a>
-              
               <br/>
               <a href="/2017/10/17/festivals/">Festivals for 2018</a>
-              
               <br/>
               <a href="/2017/05/08/emacs-vim/">emacs vs vim</a>
-              
               <br/>
               <a href="/2017/02/28/default-scope/">Rails and default_scope</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2016</h5>
-              
               <br/>
               <a href="/2016/09/07/commitments/">Public commitments</a>
-              
               <br/>
               <a href="/2016/08/22/gittip/">gittip</a>
-              
               <br/>
               <a href="/2016/07/11/hello-again/">I've solved procrastination</a>
-              
           </li>
-          
           <li>
             <h5 style="margin-bottom:0;">2013</h5>
-              
-              <br/>
-              <a href="/2013/12/28/habits/">Several habits of a highly successful Roumen</a>
-              
               <br/>
               <a href="/2013/12/17/git-workflow/">Git workflow</a>
-              
               <br/>
               <a href="/2013/11/13/exercise/">Side effects in life</a>
-              
               <br/>
               <a href="/2013/11/04/angularjs/">AngularJs resources</a>
-              
               <br/>
               <a href="/2013/11/01/brb-learning-js/">Brb, learning Javascript</a>
-              
               <br/>
               <a href="/2013/10/31/my-personality/">My Personality</a>
-              
-              <br/>
-              <a href="/2013/10/30/new/">A new site</a>
-              
               <br/>
               <a href="/2013/10/30/news/">And now, for the content backlog!</a>
-              
+              <br/>
+              <a href="/2013/10/30/new/">A new site</a>
           </li>
-          
         </ol>
       </div>
     </aside>

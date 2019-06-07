@@ -5,285 +5,229 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2019-02-09T00:00:00Z</updated>
+  <updated>2019-06-07T02:00:00+02:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
   <entry>
-    <title>Github pages domain takeover</title>
-    <link rel="alternate" href="/2019/02/09/github-pages-domain-takeover/"/>
-    <id>/2019/02/09/github-pages-domain-takeover/</id>
-    <published>2019-02-09T00:00:00Z</published>
-    <updated>2019-02-09T00:00:00Z</updated>
+    <title>Cryptopals!</title>
+    <link rel="alternate" href="/2019/06/07/cryptopals/"/>
+    <id>/2019/06/07/cryptopals/</id>
+    <published>2019-06-07T02:00:00+02:00</published>
+    <updated>2019-06-07T02:00:00+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;Recently my partner&amp;#8217;s website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted on github, which made the severity of this exploit initially puzzling. How could this happen? The site accepts no input and the DNS settings looked normal.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Recently my partner&amp;#8217;s website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted on github, which made the severity of this exploit initially puzzling. How could this happen? The site accepts no input and the DNS settings looked normal.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;I've been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of 'interesting stuff to checkout someday maybe'. To that end, I'm gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges. My solutions are...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I've been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of 'interesting stuff to checkout someday maybe'. To that end, I'm gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges. My solutions are over yonder &lt;a href="https://github.com/rpavlov/cryptopals"&gt;https://github.com/rpavlov/cryptopals&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Luckily, this was one of those easily searchable and already known issues with Github pages. The short of it is, if you don&amp;#8217;t have a CNAME file at the root of your project and someone else beats you to it, they can claim your custom domain and Github will happily serve their index.html instead! Other providers often require you to have a TXT record in your DNS records, but GH does not require proof of owernship in order to set a custom domain in the repository settings. The final take-away is you can&amp;#8217;t trust even the big players to make sound technical decisions.&lt;/p&gt;
+&lt;p&gt;I'll keep running notes here in order to solidify my understanding of various concepts. Some of this stuff I've read about a lot, but not really internalized.&lt;/p&gt;
 
-&lt;p&gt;Here&amp;#8217;s a great and even more detailed &lt;a href='https://medium.com/@jehy/hijacking-domain-using-github-pages-41c80ac57523'&gt;breakdown.&lt;/a&gt;&lt;/p&gt;</content>
+&lt;h1 id="notes"&gt;Notes&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Radix: number of unique digits used in a numbering systems. Decimal is 10, binary is 2.&lt;/li&gt;
+  &lt;li&gt;base64 encoding: encoding scheme for representing binary data in ascii characters. Useful on the web for embedding things like images into markup or transmitting via text.&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Security+ Prep</title>
+    <link rel="alternate" href="/2019/03/26/security-prep/"/>
+    <id>/2019/03/26/security-prep/</id>
+    <published>2019-03-26T01:00:00+01:00</published>
+    <updated>2019-03-26T01:00:00+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;I finally got around to some focused self-study and completed a &lt;a href="https://stackskills.com"&gt;https://stackskills.com&lt;/a&gt; course for the Security+ certification preparation. The tl;dr is that it's all pretty introductory/high-level subject matter, but still useful for getting into...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I finally got around to some focused self-study and completed a &lt;a href="https://stackskills.com"&gt;https://stackskills.com&lt;/a&gt; course for the Security+ certification preparation. The tl;dr is that it's all pretty introductory/high-level subject matter, but still useful for getting into that headspace. Peep my notes here if you're so inclined &lt;a href="https://github.com/rpavlov/security-plus-notes"&gt;https://github.com/rpavlov/security-plus-notes&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <title>Github pages domain takeover</title>
+    <link rel="alternate" href="/2019/02/09/github-pages-domain-takeover/"/>
+    <id>/2019/02/09/github-pages-domain-takeover/</id>
+    <published>2019-02-09T01:00:00+01:00</published>
+    <updated>2019-02-09T01:00:00+01:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Recently my partner's website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted
+on github, which made the severity of this exploit initially puzzling. How could this happen? The site accepts...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Recently my partner's website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted
+on github, which made the severity of this exploit initially puzzling. How could this happen? The site accepts no input and the DNS settings looked normal.&lt;/p&gt;
+
+&lt;p&gt;Luckily, this was one of those easily searchable and already known issues with Github pages. The short of it is, if you don't have a CNAME file at the root of your project and someone else beats you to it, they can claim your custom domain and Github will happily serve their index.html instead! Other providers often require you to have a TXT record in your DNS records, but GH does not require proof of owernship in order to set a custom domain in the repository settings. The final take-away is you can't trust even the big players to make sound technical decisions.&lt;/p&gt;
+
+&lt;p&gt;Here's a great and even more detailed &lt;a href="https://medium.com/@jehy/hijacking-domain-using-github-pages-41c80ac57523"&gt;breakdown.&lt;/a&gt;&lt;/p&gt;
+</content>
   </entry>
   <entry>
     <title>End of 2018</title>
     <link rel="alternate" href="/2018/12/12/end-of-year/"/>
     <id>/2018/12/12/end-of-year/</id>
-    <published>2018-12-12T00:00:00Z</published>
-    <updated>2018-12-12T00:00:00Z</updated>
+    <published>2018-12-12T01:00:00+01:00</published>
+    <updated>2018-12-12T01:00:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it&amp;#8217;s own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it's own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
 
-&lt;h1 id='career_stuff'&gt;Career stuff&lt;/h1&gt;
+&lt;h1 id="career-stuff"&gt;Career stuff&lt;/h1&gt;
 
-&lt;p&gt;I opted to continue client work after getting the opportunity to build/manage the cloud infrastructure and development processes for a couple of companies. It leveled up large chunks of my knowledge, and allowed me to learn tons about DNS, network configuration, security, secrets management and a myriad of other sysadmin related things. In addition to the usual troubleshoot this and fix that of regular software development.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it&amp;#8217;s own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
+&lt;p&gt;I opted to continue client work...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it's own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
 
-&lt;h1 id='career_stuff'&gt;Career stuff&lt;/h1&gt;
+&lt;h1 id="career-stuff"&gt;Career stuff&lt;/h1&gt;
 
 &lt;p&gt;I opted to continue client work after getting the opportunity to build/manage the cloud infrastructure and development processes for a couple of companies. It leveled up large chunks of my knowledge, and allowed me to learn tons about DNS, network configuration, security, secrets management and a myriad of other sysadmin related things. In addition to the usual troubleshoot this and fix that of regular software development.&lt;/p&gt;
 
 &lt;p&gt;My previous career goal set around this time last year was to gain dev-ops and sysadmin experience in order to transition into more security oriented work and projects.&lt;/p&gt;
 
-&lt;h2 id='back_to_security_study'&gt;Back to security study&lt;/h2&gt;
+&lt;h2 id="back-to-security-study"&gt;Back to security study&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href='https://github.com/gradiuscypher/infosec_getting_started'&gt;How me, a programmer, learn security??&lt;/a&gt; Turns out I&amp;#8217;m not the only one to have this idea. Here&amp;#8217;s another &lt;a href='https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/'&gt;classic&lt;/a&gt;. To that end, I&amp;#8217;ve resumed self-study and practice according to a vague curriculum I&amp;#8217;m putting together. More on that in another blog post.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gradiuscypher/infosec_getting_started"&gt;How me, a programmer, learn security??&lt;/a&gt; Turns out I'm not the only one to have this idea. Here's another &lt;a href="https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/"&gt;classic&lt;/a&gt;. To that end, I've resumed self-study and practice according to a vague curriculum I'm putting together. More on that in another blog post.&lt;/p&gt;
 
-&lt;h1 id='personal_stuff'&gt;Personal stuff&lt;/h1&gt;
+&lt;h1 id="personal-stuff"&gt;Personal stuff&lt;/h1&gt;
 
 &lt;p&gt;This year I managed to:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Nurture closer relationships with people I care about, respect and admire.&lt;/li&gt;
+  &lt;li&gt;Nurture closer relationships with people I care about, respect and admire.&lt;/li&gt;
+  &lt;li&gt;Move to Berlin. Living elsewhere is incredibly refreshing.&lt;/li&gt;
+  &lt;li&gt;Live minimalist. I reconsidered what stuff I actually need. But also, which luxuries brings me joy? A good soundsystem + music, easy access to a gym, and a nice kitchen for example. Regardless of where in the world I am, if there is a place to lift heavy things nearby that's already a huge quality of life improvement.&lt;/li&gt;
+  &lt;li&gt;Work out a lot, and start Muay Thai and BJJ training.&lt;/li&gt;
+  &lt;li&gt;Re-learn german. Going forward hoffentlich mehr auf Deutsch.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;Move to Berlin. Living elsewhere is incredibly refreshing.&lt;/li&gt;
-
-&lt;li&gt;Live minimalist. I reconsidered what stuff I actually need. But also, which luxuries brings me joy? A good soundsystem + music, easy access to a gym, and a nice kitchen for example. Regardless of where in the world I am, if there is a place to lift heavy things nearby that&amp;#8217;s already a huge quality of life improvement.&lt;/li&gt;
-
-&lt;li&gt;Work out a lot, and start Muay Thai and BJJ training.&lt;/li&gt;
-
-&lt;li&gt;Re-learn german. Going forward hoffentlich mehr auf Deutsch.&lt;/li&gt;
-&lt;/ul&gt;</content>
+</content>
   </entry>
   <entry>
     <title>Book reviews</title>
     <link rel="alternate" href="/2017/11/12/nonviolent-communication/"/>
     <id>/2017/11/12/nonviolent-communication/</id>
-    <published>2017-11-12T00:00:00Z</published>
-    <updated>2017-11-12T00:00:00Z</updated>
+    <published>2017-11-12T01:00:00+01:00</published>
+    <updated>2017-11-12T01:00:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;I&amp;#8217;ve been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication by Marshall Rosenberg.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;I've been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication
+by Marshall Rosenberg.&lt;/p&gt;
 
-&lt;h4 id='surface_thoughts'&gt;Surface thoughts&lt;/h4&gt;
+&lt;h4 id="surface-thoughts"&gt;Surface thoughts&lt;/h4&gt;
 
 &lt;p&gt;All communication must be grounded in a state of compassion towards the other person.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;I&amp;#8217;ve been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication by Marshall Rosenberg.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I've been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication
+by Marshall Rosenberg.&lt;/p&gt;
 
-&lt;h4 id='surface_thoughts'&gt;Surface thoughts&lt;/h4&gt;
+&lt;h4 id="surface-thoughts"&gt;Surface thoughts&lt;/h4&gt;
 
 &lt;p&gt;All communication must be grounded in a state of compassion towards the other person.&lt;/p&gt;
 
-&lt;h4 id='four_tenents_of_nonviolent_communication'&gt;Four tenents of Nonviolent communication&lt;/h4&gt;
+&lt;h4 id="four-tenents-of-nonviolent-communication"&gt;Four tenents of Nonviolent communication&lt;/h4&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Observe: I observe the situation or concrete actions.&lt;/li&gt;
-
-&lt;li&gt;Feeling: how the above observation makes me feel.&lt;/li&gt;
-
-&lt;li&gt;Needs: what needs/values/desires of ours are connected to the feelings we have identified.&lt;/li&gt;
-
-&lt;li&gt;Request: the concrete actions we request from the other person in order to enrich our lives.&lt;/li&gt;
+  &lt;li&gt;Observe: I observe the situation or concrete actions.&lt;/li&gt;
+  &lt;li&gt;Feeling: how the above observation makes me feel.&lt;/li&gt;
+  &lt;li&gt;Needs: what needs/values/desires of ours are connected to the feelings we have identified.&lt;/li&gt;
+  &lt;li&gt;Request: the concrete actions we request from the other person in order to enrich our lives.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id='alienating_types_of_communication'&gt;Alienating types of communication&lt;/h4&gt;
+&lt;h4 id="alienating-types-of-communication"&gt;Alienating types of communication&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Moralistic judgements (blame, insults, put-downs, labels, criticisms, comparisons) * If my partner wants more affection than I’m giving her, she is “needy and dependent.” But if I want more affection than she is giving me, then she is “aloof and insensitive.”&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;Moralistic judgements (blame, insults, put-downs, labels, criticisms, comparisons)
+    &lt;ul&gt;
+      &lt;li&gt;If my partner wants more affection than I’m giving her, she is “needy and dependent.” But if I want more affection than she is giving me,
+then she is “aloof and insensitive.”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Denial of responsibility. We deny responsibility  for our actions when we attribute their
+cause to
+    &lt;ul&gt;
+      &lt;li&gt;Our condition, diagnosis, personal or psychological history ( I drink because I am an alcoholic).&lt;/li&gt;
+      &lt;li&gt;The actions of others. This is important in order to not come across as accusatory.&lt;/li&gt;
+      &lt;li&gt;The dictates of authority.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Demands. You can never make a person do anything.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;li&gt;
-&lt;p&gt;Denial of responsibility. We deny responsibility for our actions when we attribute their cause to&lt;/p&gt;
+&lt;h4 id="separate-observation-from-evaluation"&gt;Separate observation from evaluation&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Our condition, diagnosis, personal or psychological history ( I drink because I am an alcoholic).&lt;/li&gt;
-
-&lt;li&gt;The actions of others. This is important in order to not come across as accusatory.&lt;/li&gt;
-
-&lt;li&gt;The dictates of authority.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Demands. You can never make a person do anything.&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;When we combine observation with evaluation, people are apt to hear criticism.&lt;/li&gt;
+  &lt;li&gt;Keep evaluations at bay: "John is angry" is an evaluation, "John shouted, pounded the table, etc…" is an observation.
+Furthermore, he could in fact be hurt, scared or anxious.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='separate_observation_from_evaluation'&gt;Separate observation from evaluation&lt;/h4&gt;
+&lt;h4 id="identify-and-express-your-own-feelings"&gt;Identify and express your own feelings&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;When we combine observation with evaluation, people are apt to hear criticism.&lt;/li&gt;
-
-&lt;li&gt;Keep evaluations at bay: &amp;#8220;John is angry&amp;#8221; is an evaluation, &amp;#8220;John shouted, pounded the table, etc&amp;#8230;&amp;#8221; is an observation. Furthermore, he could in fact be hurt, scared or anxious.&lt;/li&gt;
+  &lt;li&gt;But also, distinguish between feelings and thoughts. "I feel inadequate as a guitar player" is an assessment, instead of
+"I feel impatient/disappointed/frustrated as a guitar player" which are feelings.&lt;/li&gt;
+  &lt;li&gt;Use words that refer to specific emotions, rather than something more general. "I feel good" could mean excited, mellow, etc..&lt;/li&gt;
+  &lt;li&gt;Distinguish between how you feel and how you think others are reacting to behaving towards you. "I feel misunderstood"
+instead actually been anxious or annoyed.&lt;/li&gt;
+  &lt;li&gt;Connect your feelings with your needs. I feel &lt;strong&gt;___ because I __&lt;/strong&gt; : "I'm disappointed because I was hoping to see you."&lt;/li&gt;
+  &lt;li&gt;Judgements of others are alienated expressions of our own unment needs. Futhermore, expressing our needs we have a better
+chance of having them met.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='identify_and_express_your_own_feelings'&gt;Identify and express your own feelings&lt;/h4&gt;
+&lt;h4 id="handling-a-negative-message"&gt;Handling a negative message&lt;/h4&gt;
+
+&lt;p&gt;You have four option when hearing something negative: "You're really self-centered and a trash-person"&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;But also, distinguish between feelings and thoughts. &amp;#8220;I feel inadequate as a guitar player&amp;#8221; is an assessment, instead of &amp;#8220;I feel impatient/disappointed/frustrated as a guitar player&amp;#8221; which are feelings.&lt;/li&gt;
-
-&lt;li&gt;Use words that refer to specific emotions, rather than something more general. &amp;#8220;I feel good&amp;#8221; could mean excited, mellow, etc..&lt;/li&gt;
-
-&lt;li&gt;Distinguish between how you feel and how you think others are reacting to behaving towards you. &amp;#8220;I feel misunderstood&amp;#8221; instead actually been anxious or annoyed.&lt;/li&gt;
-
-&lt;li&gt;Connect your feelings with your needs. I feel _____ because I ____ : &amp;#8221;I&amp;#8217;m disappointed because I was hoping to see you.&amp;#8221;&lt;/li&gt;
-
-&lt;li&gt;Judgements of others are alienated expressions of our own unment needs. Futhermore, expressing our needs we have a better chance of having them met.&lt;/li&gt;
+  &lt;li&gt;Take it personally, and accept others' judgement.&lt;/li&gt;
+  &lt;li&gt;Blame others. "Actually, you're the one who's self centered"&lt;/li&gt;
+  &lt;li&gt;Sense your own feelings and needs.&lt;/li&gt;
+  &lt;li&gt;Sense others' feelings and needs (the best choice).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='handling_a_negative_message'&gt;Handling a negative message&lt;/h4&gt;
+&lt;h4 id="listening-empathically"&gt;Listening empathically&lt;/h4&gt;
 
-&lt;p&gt;You have four option when hearing something negative: &amp;#8220;You&amp;#8217;re really self-centered and a trash-person&amp;#8221;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Take it personally, and accept others&amp;#8217; judgement.&lt;/li&gt;
-
-&lt;li&gt;Blame others. &amp;#8220;Actually, you&amp;#8217;re the one who&amp;#8217;s self centered&amp;#8221;&lt;/li&gt;
-
-&lt;li&gt;Sense your own feelings and needs.&lt;/li&gt;
-
-&lt;li&gt;Sense others&amp;#8217; feelings and needs (the best choice).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id='listening_empathically'&gt;Listening empathically&lt;/h4&gt;
-
-&lt;p&gt;Common responses that prevent empathic listening include advising, one-upping, educating, consoling, story-telling, shutting down, sympathizing, interrogating, explaining and correcting. Intellectual understanding blocks empathy. Simply be wholly present. Listen and attempt to understand what unmet needs people are expressing.&lt;/p&gt;</content>
+&lt;p&gt;Common responses that prevent empathic listening include advising, one-upping, educating, consoling, story-telling,
+shutting down, sympathizing, interrogating, explaining and correcting. Intellectual understanding blocks empathy. Simply
+be wholly present. Listen and attempt to understand what unmet needs people are expressing.&lt;/p&gt;
+</content>
   </entry>
   <entry>
     <title>Intro to infosec</title>
     <link rel="alternate" href="/2017/11/09/intro-to-infosec/"/>
     <id>/2017/11/09/intro-to-infosec/</id>
-    <published>2017-11-09T00:00:00Z</published>
-    <updated>2017-11-09T00:00:00Z</updated>
+    <published>2017-11-09T01:00:00+01:00</published>
+    <updated>2017-11-09T01:00:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;For the past several months I&amp;#8217;ve been pursuing a self-directed education in information security and immersing myself in a wealth of amazing topics. It&amp;#8217;s an incredibly broad field, and daunting in its complexity but then what isn&amp;#8217;t. I figured writing about it would solidify some concepts and organize my thoughts.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;For the past several months I&amp;#8217;ve been pursuing a self-directed education in information security and immersing myself in a wealth of amazing topics. It&amp;#8217;s an incredibly broad field, and daunting in its complexity but then what isn&amp;#8217;t. I figured writing about it would solidify some concepts and organize my thoughts.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;For the past several months I've been pursuing a self-directed education in information security and immersing myself in a wealth of amazing topics. It's an incredibly broad field, and daunting in its complexity but then what isn't. I figured writing...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;For the past several months I've been pursuing a self-directed education in information security and immersing myself in a wealth of amazing topics. It's an incredibly broad field, and daunting in its complexity but then what isn't. I figured writing about it would solidify some concepts and organize my thoughts.&lt;/p&gt;
 
-&lt;p&gt;My time is currently mostly devoted to reading while I collect tools and provision a sandbox. I settled on this amazing free course from the University of Helsinki for a more structured approach &lt;a href='https://cybersecuritybase.github.io/'&gt;https://cybersecuritybase.github.io/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;My time is currently mostly devoted to reading while I collect tools and provision a sandbox. I settled on this amazing
+free course from the University of Helsinki for a more structured approach &lt;a href="https://cybersecuritybase.github.io/"&gt;https://cybersecuritybase.github.io/&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;The way I use, write and reason about code has changed significantly. This &lt;a href='https://www.computer.org/cms/CYBSI/docs/Top-10-Flaws.pdf'&gt;paper&lt;/a&gt; categorizes software flaws into two groups&lt;/p&gt;
+&lt;p&gt;The way I use, write and reason about code has changed significantly. This &lt;a href="https://www.computer.org/cms/CYBSI/docs/Top-10-Flaws.pdf"&gt;paper&lt;/a&gt; categorizes software flaws into two groups&lt;/p&gt;
 
-&lt;h4 id='implementation_flaws'&gt;Implementation flaws&lt;/h4&gt;
+&lt;h4 id="implementation-flaws"&gt;Implementation flaws&lt;/h4&gt;
 
 &lt;p&gt;The classic bug. This could be an error throw due to an invalid reference, missing resource or just faulty logic. The list is extensive.&lt;/p&gt;
 
-&lt;h4 id='design_flaws'&gt;Design flaws&lt;/h4&gt;
+&lt;h4 id="design-flaws"&gt;Design flaws&lt;/h4&gt;
 
-&lt;p&gt;This is where it gets interesting. These flaws are deeper yet all encompassing and include things like error pages leaking information, offloading auth to the client, poor sandboxing and assumption of trust between services or just plain old misconfiguration and leaving things exposed.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Design systems assuming they will eventually be compromised, limit trust and live/die by the &lt;a href='https://en.wikipedia.org/wiki/Principle_of_least_privilege'&gt;principle of least privelege&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Don&amp;#8217;t mix data and control instructions. Allowing untrusted input data to be executed like any other code leads to injection vulnerabilities and control-flow hijacking.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Reflections on software development consulting</title>
-    <link rel="alternate" href="/2017/10/24/consulting/"/>
-    <id>/2017/10/24/consulting/</id>
-    <published>2017-10-24T00:00:00Z</published>
-    <updated>2017-10-24T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;It&amp;#8217;s been about a year and a half since quitting my job to become self-employed and for the most part it&amp;#8217;s been swell. Having said that, I think it&amp;#8217;s time to cycle back into a team.&lt;/p&gt;
-
-&lt;p&gt;Consulting was great because I got to&lt;/p&gt;
+&lt;p&gt;This is where it gets interesting. These flaws are deeper yet
+all encompassing and include things like error pages leaking information, offloading auth to the client, poor sandboxing and assumption of trust between services or just plain old misconfiguration and leaving things exposed.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Broaden my non-technical skills. Managing people is a completely different job from building software, but one I enjoyed immensely. What people say and what they actually mean or want are often at conflict, and the ability to help reconcile the two is invaluable.&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    <content type="html">&lt;p&gt;It&amp;#8217;s been about a year and a half since quitting my job to become self-employed and for the most part it&amp;#8217;s been swell. Having said that, I think it&amp;#8217;s time to cycle back into a team.&lt;/p&gt;
-
-&lt;p&gt;Consulting was great because I got to&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Broaden my non-technical skills. Managing people is a completely different job from building software, but one I enjoyed immensely. What people say and what they actually mean or want are often at conflict, and the ability to help reconcile the two is invaluable.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Make design/architecture/development decisions and manage my own projects.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;Focus on other areas of my life. I am generally smarter, stronger and more well-balanced than ever. Just having the time to think or be bored allowed me to figure out how to lead a more meaningful life, and clarified my goals and priorities.&lt;/p&gt;
-&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Design systems assuming they will eventually be compromised, limit trust and live/die by the &lt;a href="https://en.wikipedia.org/wiki/Principle_of_least_privilege"&gt;principle of least privelege&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Don't mix data and control instructions. Allowing untrusted input data to be executed like any other code leads to injection vulnerabilities and control-flow hijacking.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;Joining a team is becoming a priority because&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;My technical skills are stagnating. As the saying goes if you&amp;#8217;re the smartest person in the room you&amp;#8217;re in the wrong room. Working from home alone I am by default the smartest in the room :(&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;I need access to a different set of challenges that align with my long-term career trajectory. For the most part clients require the same set of services when it comes to web development: new features or bug fixes. While I got to kick-off some fun green-field projects, much of the work remains of the same nature. Unfortunately this means I haven&amp;#8217;t had exposure to complex systems at scale, or infrastructure and security management.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;I haven&amp;#8217;t been marketing (nor do I super enjoy it). Luckily all of my work has come through word-of-mouth and referrals, but that&amp;#8217;s drying up.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Multi-user git</title>
-    <link rel="alternate" href="/2017/10/24/multi-user-git/"/>
-    <id>/2017/10/24/multi-user-git/</id>
-    <published>2017-10-24T00:00:00Z</published>
-    <updated>2017-10-24T00:00:00Z</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Host user1
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username1_pubkey
-  IdentitiesOnly yes
-
-Host user2
-  Hostname github.com&lt;/code&gt;&lt;/pre&gt;</summary>
-    <content type="html">&lt;p&gt;Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Host user1
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username1_pubkey
-  IdentitiesOnly yes
-
-Host user2
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username2_pubkey
-  IdentitiesOnly yes&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then for your repo ensure &lt;code&gt;git remote -v&lt;/code&gt; is of the form&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git@user1:&amp;lt;username1&amp;gt;/&amp;lt;username1-repo&amp;gt;.git&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Of course, ensure your ssh key is added to the respective repo.&lt;/p&gt;</content>
+</content>
   </entry>
 </feed>
