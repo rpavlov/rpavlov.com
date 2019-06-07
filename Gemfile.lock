@@ -123,13 +123,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  builder (~> 3.0.0)
+  builder
   mgd!
-  middleman (~> 3.0.14)
-  middleman-blog (~> 3.1.1)
+  middleman
+  middleman-blog
   puma
   rack-contrib
-  rb-inotify (~> 0.9)
+  rb-inotify
 
 RUBY VERSION
    ruby 2.5.1p57
