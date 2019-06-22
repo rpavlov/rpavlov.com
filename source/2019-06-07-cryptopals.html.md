@@ -8,7 +8,8 @@ I've been meaning to 1. Learn more python, 2. Increase my understanding of crypt
 
 I'll keep running notes here in order to solidify my understanding of various concepts. Some of this stuff I've read about a lot, but not really internalized.
 
-# Notes
+## Encoding
 * Radix: number of unique digits used in a numbering systems. Decimal is 10, binary is 2.
-* base64 encoding: encoding scheme for representing binary data in ascii characters. Useful on the web for embedding things like images into markup or transmitting via text.
+* base64 encoding: encoding scheme for representing binary data with ascii characters. Useful on the web for embedding things like images into markup or transmitting via text. It takes 4 characters to represent 3 bytes.
+* hex encoding: a different way of representing binary data. It takes 2 characters to represent 1 byte. Slightly less efficient than base64.
 
