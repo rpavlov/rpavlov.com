@@ -18,18 +18,93 @@
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;I've been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of 'interesting stuff to checkout someday maybe'. To that end, I'm gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges. My solutions are...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;I've been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of 'interesting stuff to checkout someday maybe'. To that end, I'm gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges. My solutions are over yonder &lt;a href="https://github.com/rpavlov/cryptopals"&gt;https://github.com/rpavlov/cryptopals&lt;/a&gt;&lt;/p&gt;
+    <summary type="html">&lt;p&gt;I've been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of 'interesting stuff to checkout someday maybe'. To that end, I'm gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges.&lt;/p&gt;
 
-&lt;p&gt;I'll keep running notes here in order to solidify my understanding of various concepts. Some of this stuff I've read about a lot, but not really internalized.&lt;/p&gt;
+&lt;p&gt;Python solutions...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I've been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of 'interesting stuff to checkout someday maybe'. To that end, I'm gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges.&lt;/p&gt;
 
-&lt;h2 id="encoding"&gt;Encoding&lt;/h2&gt;
+&lt;p&gt;Python solutions over yonder: &lt;a href="https://github.com/rpavlov/cryptopals"&gt;https://github.com/rpavlov/cryptopals&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id="encoding-hexadecimal-base64"&gt;Encoding: Hexadecimal, base64,&lt;/h3&gt;
+
+&lt;p&gt;The difference between Base64 and hex is really just how bytes are represented. Hex is another way of saying "Base16". Hex will take two characters for each byte - Base64 takes 4 characters for every 3 bytes, so it's more efficient than hex. Assuming you're using UTF-8 to encode the XML document,a 100K file will take 200K to encode in hex, or 133K in Base64. Of course it may well be that you don't care about the space efficiency - in many cases it won't matter. If it does matter, then clearly Base64 is better on that front. (There are alternatives which are even more efficient, but they're not as common.)&lt;/p&gt;
+
+&lt;p&gt;There is more to base selection than efficiency, however.&lt;/p&gt;
+
+&lt;p&gt;Base64 uses more than just letters and numbers. Different implementations use different punctuation characters for indiciating padding, and making up the last two characters of the set of 64. These can include plus "+" and equal "=". both problematic in HTTP query strings.&lt;/p&gt;
+
+&lt;p&gt;So one reason to favour base16 over base64 is that base16 values can be composed directly into HTTP query strings without requiring additional encoding. Is that important to you?&lt;/p&gt;
+
+&lt;p&gt;Notice that this is an additional concern, over and above efficiency. Neither base is inherently better or worse; they're just two different points on a scale, at which you'll find different properties that will be more or less attractive in different situations.&lt;/p&gt;
+
+&lt;p&gt;For example, consider base32. It's 20% less efficient than base64, but is still suitable for use in HTTP query strings. Most of its inefficiency comes from being case-insensitive and avoiding zero "0" and one "1", to mistakes in reproduction by humans.&lt;/p&gt;
+
+&lt;p&gt;So base32 introduces a new concern; ease of reproduction for humans. Is that a concern for you? If it's not, you could go for something like base62, which is still convenient in HTTP query strings, but is case sensitive and includes zero "0" and "1". base32 is case insensitive.&lt;/p&gt;
+
+&lt;h3 id="why-is-xor-important-in-cryptography"&gt;Why is XOR important in cryptography?&lt;/h3&gt;
+&lt;p&gt;XOR represents the inequality function, i.e., the output is true if the inputs are not alike otherwise the output is false. A way to remember XOR is "one or the other but not both".&lt;/p&gt;
+
+&lt;p&gt;Imagine you have a string of binary digits 10101 and you XOR the string 10111 with it you get 00010&lt;/p&gt;
+
+&lt;p&gt;Now your original string is encoded and the second string becomes your key if you XOR your key with your encoded string you get your original string back.&lt;/p&gt;
+
+&lt;h3 id="python-sidenotes"&gt;Python sidenotes&lt;/h3&gt;
+
+&lt;h4 id="statements-vs-functions"&gt;1: Statements vs functions&lt;/h4&gt;
+
+&lt;p&gt;In python we have statements and functions, which is a little confusing. Certain things, in this case
+&lt;code&gt;assert&lt;/code&gt; are functions in other languages. In python assert is a statement! Crazy!&lt;/p&gt;
+
+&lt;p&gt;So &lt;code&gt;assert(False, "Oh no, something is wrong)&lt;/code&gt; will deceptively not trigger the error message.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;assert False, "Oh no..."&lt;/code&gt; will behave as expected.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;/home/rpavlov/Projects/cryptopals/set1.py:30: SyntaxWarning: assertion is always true, perhaps remove parentheses? assert(len(byte_str1) == len(byte_str2), 'Byte arrays are of different lengths!')&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;In the switch from python2-&amp;gt;python3 this is even more confusing, because &lt;code&gt;print&lt;/code&gt; went from being an expression to a function. Coming from ruby, &lt;code&gt;puts 'hey'&lt;/code&gt; and &lt;code&gt;puts('hey')&lt;/code&gt; behave exactly the same.&lt;/p&gt;
+
+&lt;h4 id="zip"&gt;2: zip()&lt;/h4&gt;
+
+&lt;p&gt;The zip() function in Python 3 returns an iterator. It's typically used to interleave two lists.&lt;/p&gt;
+
+&lt;p&gt;```
+numbersList = [1, 2, 3]
+strList = ['one', 'two']
+numbersTuple = ('ONE', 'TWO', 'THREE', 'FOUR')&lt;/p&gt;
+
+&lt;p&gt;result = zip(numbersList, numbersTuple)&lt;/p&gt;
+
+&lt;p&gt;'''
+Converting to set
+'''
+resultSet = set(result)
+print(resultSet)&lt;/p&gt;
+
+&lt;p&gt;result = zip(numbersList, strList, numbersTuple)&lt;/p&gt;
+
+&lt;p&gt;'''
+Converting to set
+'''
+resultSet = set(result)
+print(resultSet)
+```&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+{(2, 'TWO'), (3, 'THREE'), (1, 'ONE')}
+{(2, 'two', 'TWO'), (1, 'one', 'ONE')}
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;h4 id="bytearrayordchar--lenhextobytearraybuff"&gt;3: bytearray([ord(char)] * len(hex_to_byte_array(buff)))&lt;/h4&gt;
+
+&lt;p&gt;The purpose of this line is to expand a single character to a byte string of the same length as the one we want to xor against.&lt;/p&gt;
+
+&lt;h3 id="misc-notes"&gt;Misc notes&lt;/h3&gt;
+
 &lt;ul&gt;
-  &lt;li&gt;Radix: number of unique digits used in a numbering systems. Decimal is 10, binary is 2.&lt;/li&gt;
-  &lt;li&gt;base64 encoding: encoding scheme for representing binary data with ascii characters. Useful on the web for embedding things like images into markup or transmitting via text. It takes 4 characters to represent 3 bytes.&lt;/li&gt;
-  &lt;li&gt;hex encoding: a different way of representing binary data. It takes 2 characters to represent 1 byte. Slightly less efficient than base64.&lt;/li&gt;
+  &lt;li&gt;Ciphertext: result of running a piece of text throught a Cipher, otherwise known as an algorithm.&lt;/li&gt;
+  &lt;li&gt;In cryptanalysis, frequency analysis (also known as counting letters) is the study of the frequency of letters or groups of letters in a ciphertext. The method is used as an aid to breaking classical ciphers.&lt;/li&gt;
+  &lt;li&gt;Summarize the example in&lt;/li&gt;
 &lt;/ul&gt;
-
 </content>
   </entry>
   <entry>
