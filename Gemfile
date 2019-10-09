@@ -4,7 +4,7 @@ ruby "2.5.1"
 gem "middleman"
 gem "middleman-blog"
 gem 'mgd', :git=> "https://github.com/hovancik/middleman-github-deploy.git"
-gem "nokogiri"
+gem "nokogiri", ">= 1.10.4"
 
 # For feed.xml.builder
 gem "builder"
