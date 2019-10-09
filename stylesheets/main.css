@@ -91,7 +91,7 @@ pre {
     padding: 0.75em; }
 
 .name {
-  padding: 1em 2.5em 1em 2.5em; }
+  padding: 0.5em 2.5em 0.5em 2.5em; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .name {
       padding: 0.5em; } }
@@ -109,14 +109,22 @@ pre {
   width: 27%;
   margin-left: 3%;
   margin-top: 1.75em; }
-
-.sidebar-item {
-  border-color: #ddd;
-  margin-top: 0em;
-  padding-top: 0em;
-  padding-bottom: 2.25em;
-  border-bottom-width: 1px;
-  border-bottom-style: solid; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .sidebar {
+      width: 100%;
+      margin: 0;
+      padding: 0em 1em; } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .sidebar .sidebar-title {
+      margin: 0;
+      padding: 0em; } }
+  .sidebar .sidebar-item {
+    border-color: #ddd;
+    margin-top: 0em;
+    padding-top: 0em;
+    padding-bottom: 2.25em;
+    border-bottom-width: 1px;
+    border-bottom-style: solid; }
 
 .borderless {
   border-bottom: none; }
@@ -133,7 +141,10 @@ pre {
   padding: 2em; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .post {
-      padding: 0.5em 1em 0.5em 1em; } }
+      margin-bottom: 0.5em; } }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .post {
+      padding: 1em 1em 0 1em; } }
   .post .post-text {
     background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, rgba(212, 212, 212, 0)), color-stop(50%, rgba(212, 212, 212, 0.5)), color-stop(100%, #d4d4d4)), -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #ffffff), color-stop(50%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0))), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(241, 243, 245, 0.5)), color-stop(100%, rgba(241, 243, 245, 0)));
     background-image: -webkit-linear-gradient(right, rgba(212, 212, 212, 0), rgba(212, 212, 212, 0.5), #d4d4d4), -webkit-linear-gradient(right, #ffffff, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)), -webkit-linear-gradient(rgba(241, 243, 245, 0.5), rgba(241, 243, 245, 0));
@@ -155,6 +166,9 @@ pre {
 .posts-wrapper {
   float: left;
   width: 70%; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .posts-wrapper {
+      width: 100%; } }
 
 .post-meta {
   margin-bottom: 2em;
@@ -162,7 +176,7 @@ pre {
   opacity: .5; }
 
 div.social {
-  margin: 1em 2.5em;
+  margin: 1em 0;
   margin-bottom: 0; }
   div.social a {
     -webkit-border-radius: 50%;
