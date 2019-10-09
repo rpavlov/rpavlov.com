@@ -13,6 +13,8 @@ div, section{
 	vertical-align: baseline;
 }
 
+
+
 // HEADER CSS//
 
 header {
@@ -115,10 +117,16 @@ pre{
 	}
 }
 .name{
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		padding:0.5em;
+	}
 	padding: 1em 2.5em 1em 2.5em;
 }
 .content{
 	padding: 3em;
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		padding:0em;
+	}
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -154,6 +162,9 @@ pre{
 	box-shadow: inset 0 1px 0 #fff,0 1px 1px rgba(0,0,0,0.05);
 	border-radius: 4px;
 	padding: 2em;
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+		padding:0.5em 1em 0.5em 1em;
+	}
 	.post-text{
 		background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, rgba(212,212,212,0)), color-stop(50%, rgba(212,212,212,0.5)), color-stop(100%, #d4d4d4)),-webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #ffffff), color-stop(50%, rgba(255,255,255,0.5)), color-stop(100%, rgba(255,255,255,0))),-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(241,243,245,0.5)), color-stop(100%, rgba(241,243,245,0)));
 		background-image: -webkit-linear-gradient(right, rgba(212,212,212,0),rgba(212,212,212,0.5),#d4d4d4),-webkit-linear-gradient(right, #ffffff,rgba(255,255,255,0.5),rgba(255,255,255,0)),-webkit-linear-gradient(rgba(241,243,245,0.5),rgba(241,243,245,0));
