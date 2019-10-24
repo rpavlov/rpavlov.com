@@ -1,5 +1,0 @@
-<p>Hey so it's taken way longer than it should have but I finally got around to hosting my own VPN. The setup itself was pretty easy thanks to the Ansible scripts and documentation provided by the <a href="https://github.com/trailofbits/algo">Algo project</a>.</p>
-
-<p>Although it works fine with all major cloud providers, I was hoping to host it on a raspberry pi. Unfortunately, due to the sorry state of
-ISPs here in Germany, my 2 in 1 modem/router lacks basic functionality like port forwarding, bridge mode, or the ability to use other firmware. <a href="http://www.pivpn.io/">Pi VPN</a> is another excellent project that simplifies this task, assuming you have the ability to port forward.</p>
-

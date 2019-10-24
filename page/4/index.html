@@ -23,6 +23,57 @@
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
         <article class="post">
+	 <h1 class="post-title"><a href="/2013/12/17/git-workflow/">Git workflow</a></h1>
+    <div class="post-meta">17 December 2013</div>
+	 <div class="post-text"><p>There are several pretty popular Git workflows floating around. Chances are you're probably using something similar for your projects or at work. Here they are, just in case.</p>
+
+<p><a href="https://gist.github.com/jbenet/ee6c9ac48068889b0912">A simple git branching model</a></p>
+
+<pre><code># everything is happy and up-to-date in master
+git checkout master
+git pull origin master
+
+# let's branch to make changes
+git checkout -b my-new-feature
+
+# go ahead, make changes now.
+$EDITOR file
+
+# commit your (incremental, atomic) changes
+git add -p
+git commit -m "my changes"
+
+# keep abreast of other changes, to your feature branch or master.
+# rebasing keeps our code working, merging easy, and history clean.
+git fetch origin
+git rebase origin/my-new-feature
+git rebase origin/master
+
+# optional: push your branch for discussion (pull-request)
+#           you might do this many times as you develop.
+git push origin my-new-feature
+
+# optional: feel free to rebase within your feature branch at will.
+#           ok to rebase after pushing if your team can handle it!
+git rebase -i origin/master
+
+# merge when done developing.
+# --no-ff preserves feature history and easy full-feature reverts
+# merge commits should not include changes; rebasing reconciles issues
+# github takes care of this in a Pull-Request merge
+git checkout master
+git pull origin master
+git merge --no-ff my-new-feature
+
+
+# optional: tag important things, such as releases
+git tag 1.0.0-RC1
+</code></pre>
+
+<p><a href="https://www.atlassian.com/git/tutorial">The Atlassian Git Tutorial</a> is also a great repository of knowledge. Check out their workflows.</p>
+</div>
+  </article>
+  <article class="post">
 	 <h1 class="post-title"><a href="/2013/11/13/exercise/">Side effects in life</a></h1>
     <div class="post-meta">13 November 2013</div>
 	 <div class="post-text"><p>There's a side-effect to absolutely everything you and I do. Exercise, for example, allows you to not only grow stronger and fitter but also gain knowledge about your body. You'll learn your limits; both physical endurance and mental resilience.</p>
@@ -83,20 +134,6 @@
 <p>Not surprisingly, it turns out I'm <a href="http://www.16personalities.com/intj-personality">Vladimir Putin</a>! My strengths include directness, self-confidence, independence and decisiveness. Weaknesses include arrogance, over-analyzing and being a judgemental prick. Me in a nutshell.</p>
 </div>
   </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2013/10/30/news/">And now, for the content backlog!</a></h1>
-    <div class="post-meta">30 October 2013</div>
-	 <div class="post-text"><p>A site without content is like a skeleton without flesh. Decidedly useless. So, dear readers, here's what's fresh.
-<br />
-<br />
-Back in September Phill over at <a href="http://state.io/">state.io</a> subcontracted me to help out the cool people at <a href="http://exclaim.ca/">exclaim.ca</a> iron out a few kinks with their concert listing site <a href="http://concertsherpa.com/">concertsherpa.com</a>.</p>
-
-<p><img src="/images/concertsherpa.png" alt="ConcertSherpa" /></p>
-
-<p>It was a pleasure reading over some really well written and well thought-out code. I, <em>ahem</em>, appropriated a few clever snippets and tools, and picked up a handful of new best practices along the way. Thanks Phill &amp; Co. !</p>
-
-</div>
-  </article>
   <p class="pagination-controls">
       <span><a href="/page/3/"><<</a></span>
     <span>4 of 5</span>
@@ -122,15 +159,17 @@ Back in September Phill over at <a href="http://state.io/">state.io</a> subcontr
       <div class="sidebar-item borderless">
         <h3>Recent Articles</h3>
         <ol>
+          <li><a href="/2019/10/24/vpn/">VPNs for all</a></li>
           <li><a href="/2019/06/07/cryptopals/">Cryptopals!</a></li>
           <li><a href="/2019/03/26/security-prep/">Security+ Prep</a></li>
           <li><a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a></li>
           <li><a href="/2018/12/12/end-of-year/">End of 2018</a></li>
-          <li><a href="/2017/11/12/nonviolent-communication/">Book reviews</a></li>
         </ol>
         <ol>
           <li>
             <h5 style="margin-bottom:0;">2019</h5>
+              <br/>
+              <a href="/2019/10/24/vpn/">VPNs for all</a>
               <br/>
               <a href="/2019/06/07/cryptopals/">Cryptopals!</a>
               <br/>
