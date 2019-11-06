@@ -7,6 +7,15 @@
   <link href="/stylesheets/main.css" rel="stylesheet" />
   <link href="/stylesheets/text.css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('code').forEach((block) => {
+        hljs.highlightBlock(block);
+      });
+    });
+  </script>
   <title>rpavlov</title>
 </head>
 <body>
@@ -25,11 +34,10 @@
         <article class="post">
 	 <h1 class="post-title"><a href="/2013/12/17/git-workflow/">Git workflow</a></h1>
     <div class="post-meta">17 December 2013</div>
-	 <div class="post-text"><p>There are several pretty popular Git workflows floating around. Chances are you're probably using something similar for your projects or at work. Here they are, just in case.</p>
+	 <div class="post-text"><p>There are several pretty popular Git workflows floating around. Chances are you&rsquo;re probably using something similar for your projects or at work. Here they are, just in case.</p>
 
 <p><a href="https://gist.github.com/jbenet/ee6c9ac48068889b0912">A simple git branching model</a></p>
-
-<pre><code># everything is happy and up-to-date in master
+<div class="highlight"><pre class="highlight plaintext"><code># everything is happy and up-to-date in master
 git checkout master
 git pull origin master
 
@@ -68,26 +76,24 @@ git merge --no-ff my-new-feature
 
 # optional: tag important things, such as releases
 git tag 1.0.0-RC1
-</code></pre>
-
+</code></pre></div>
 <p><a href="https://www.atlassian.com/git/tutorial">The Atlassian Git Tutorial</a> is also a great repository of knowledge. Check out their workflows.</p>
 </div>
   </article>
   <article class="post">
 	 <h1 class="post-title"><a href="/2013/11/13/exercise/">Side effects in life</a></h1>
     <div class="post-meta">13 November 2013</div>
-	 <div class="post-text"><p>There's a side-effect to absolutely everything you and I do. Exercise, for example, allows you to not only grow stronger and fitter but also gain knowledge about your body. You'll learn your limits; both physical endurance and mental resilience.</p>
+	 <div class="post-text"><p>There&rsquo;s a side-effect to absolutely everything you and I do. Exercise, for example, allows you to not only grow stronger and fitter but also gain knowledge about your body. You&rsquo;ll learn your limits; both physical endurance and mental resilience.</p>
 
-<p>If you practice meditation, you'll know that it takes a bit of time to empty your mind. During that period of transition chances are other thoughts creep in to fill the void. For me, this is both annoying and beneficial. Annoying because it's hindering my true purpose: a clear mind. Beneficial because it gives these thoughts free reign, effectively freeing them from whatever activity you were occupied with before your failed (or successful) attempt at meditation. Lateral thinking is usually accidental.</p>
+<p>If you practice meditation, you&rsquo;ll know that it takes a bit of time to empty your mind. During that period of transition chances are other thoughts creep in to fill the void. For me, this is both annoying and beneficial. Annoying because it&rsquo;s hindering my true purpose: a clear mind. Beneficial because it gives these thoughts free reign, effectively freeing them from whatever activity you were occupied with before your failed (or successful) attempt at meditation. Lateral thinking is usually accidental.</p>
 
-<p>There's a bunch of ancillary benefits to exercise I'm learning about as I grow fitter/happier/more productive. You learn about your body's limitations, and how to push them.</p>
-
+<p>There&rsquo;s a bunch of ancillary benefits to exercise I&rsquo;m learning about as I grow fitter/happier/more productive. You learn about your body&rsquo;s limitations, and how to push them.</p>
 </div>
   </article>
   <article class="post">
 	 <h1 class="post-title"><a href="/2013/11/04/angularjs/">AngularJs resources</a></h1>
     <div class="post-meta"> 4 November 2013</div>
-	 <div class="post-text"><p>I'm currently knee-deep in Angular and having a blast, primarily due to the large amount of quality guides, tutorials and learning resources floating around. For each weird thing I envision folding into my toy app, I'm pleased to find a well-documented library exists. I wanted a way to have multiple views/nested routes on the same page and after struggling with the built-in router, behold! A <a href="https://github.com/angular-ui/ui-router">library</a> appears. Good stuff, here's more:</p>
+	 <div class="post-text"><p>I&rsquo;m currently knee-deep in Angular and having a blast, primarily due to the large amount of quality guides, tutorials and learning resources floating around. For each weird thing I envision folding into my toy app, I&rsquo;m pleased to find a well-documented library exists. I wanted a way to have multiple views/nested routes on the same page and after struggling with the built-in router, behold! A <a href="https://github.com/angular-ui/ui-router">library</a> appears. Good stuff, here&rsquo;s more:</p>
 
 <p><a href="http://coderberry.me/blog/2013/04/22/angularjs-on-rails-4-part-1/">AngularJS on Rails</a></p>
 
@@ -97,18 +103,18 @@ git tag 1.0.0-RC1
 
 <p><a href="http://asanderson.org/posts/2013/06/23/bootstrapping-angular-rails-part-2.html">Bootstrapping an AngularJs app in Rails</a></p>
 
-<p><a href="http://egghead.io/">Egghead.io - short tutorial videos covering each of Angular's features</a></p>
+<p><a href="http://egghead.io/">Egghead.io - short tutorial videos covering each of Angular&rsquo;s features</a></p>
 
 <p><a href="https://github.com/angular-ui/ui-router">angular-ui - a stateful router</a></p>
-
 </div>
   </article>
   <article class="post">
 	 <h1 class="post-title"><a href="/2013/11/01/brb-learning-js/">Brb, learning Javascript</a></h1>
     <div class="post-meta"> 1 November 2013</div>
-	 <div class="post-text"><p>My relationship with Javascript has always been cordial at best, but that's changing fast. There's a plethora of great resources floating around, some of which I've been ruthlessly exploiting these past few months. I figure I'd share the love.</p>
+	 <div class="post-text"><p>My relationship with Javascript has always been cordial at best, but that&rsquo;s changing fast. There&rsquo;s a plethora of great resources floating around, some of which I&rsquo;ve been ruthlessly exploiting these past few months. I figure I&rsquo;d share the love.</p>
 
-<h2 id="sites">Sites</h2>
+<h2>Sites</h2>
+
 <p><a href="http://www.learn-js.org/">Learn-JS</a></p>
 
 <p><a href="http://www.2ality.com/2013/06/basic-javascript.html">Javascript for the impatient programmer</a></p>
@@ -117,21 +123,21 @@ git tag 1.0.0-RC1
 
 <p><a href="http://arcturo.github.io/library/coffeescript/">Little book on coffeescript</a></p>
 
-<h2 id="books">Books</h2>
+<h2>Books</h2>
+
 <p><a href="http://www.amazon.com/exec/obidos/ASIN/0596517742/">Javascript the good parts</a></p>
 
 <p><a href="http://www.amazon.com/JavaScript-Web-Applications-Alex-MacCaw/dp/144930351X/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1383328977&amp;sr=1-1&amp;keywords=javascript+web+applications">Javascript web applications</a></p>
-
 </div>
   </article>
   <article class="post">
 	 <h1 class="post-title"><a href="/2013/10/31/my-personality/">My Personality</a></h1>
     <div class="post-meta">31 October 2013</div>
-	 <div class="post-text"><p>The other day my lovely and charming girlfriend urged me to try out this personality test she found, pointing out that it was pretty damn accurate. Reading over her results, I had to agree they were spot on. Not gonna lie, back in the days of spark.com I'd kill hours doing their surveys, and had more fun filling out questionnaires on OkCupid than I did finding love.</p>
+	 <div class="post-text"><p>The other day my lovely and charming girlfriend urged me to try out this personality test she found, pointing out that it was pretty damn accurate. Reading over her results, I had to agree they were spot on. Not gonna lie, back in the days of spark.com I&rsquo;d kill hours doing their surveys, and had more fun filling out questionnaires on OkCupid than I did finding love.</p>
 
 <p><img src="http://i.imgur.com/Vp8nsp7.jpg" alt="human behaviour" /></p>
 
-<p>Not surprisingly, it turns out I'm <a href="http://www.16personalities.com/intj-personality">Vladimir Putin</a>! My strengths include directness, self-confidence, independence and decisiveness. Weaknesses include arrogance, over-analyzing and being a judgemental prick. Me in a nutshell.</p>
+<p>Not surprisingly, it turns out I&rsquo;m <a href="http://www.16personalities.com/intj-personality">Vladimir Putin</a>! My strengths include directness, self-confidence, independence and decisiveness. Weaknesses include arrogance, over-analyzing and being a judgemental prick. Me in a nutshell.</p>
 </div>
   </article>
   <p class="pagination-controls">
@@ -193,8 +199,6 @@ git tag 1.0.0-RC1
               <br/>
               <a href="/2017/10/24/multi-user-git/">Multi-user git</a>
               <br/>
-              <a href="/2017/10/17/festivals/">Festivals for 2018</a>
-              <br/>
               <a href="/2017/05/08/emacs-vim/">emacs vs vim</a>
               <br/>
               <a href="/2017/02/28/default-scope/">Rails and default_scope</a>
@@ -210,6 +214,8 @@ git tag 1.0.0-RC1
           </li>
           <li>
             <h5 style="margin-bottom:0;">2013</h5>
+              <br/>
+              <a href="/2013/12/28/habits/">Several habits of a highly successful Roumen</a>
               <br/>
               <a href="/2013/12/17/git-workflow/">Git workflow</a>
               <br/>

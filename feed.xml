@@ -5,7 +5,7 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2019-10-24T02:00:00+02:00</updated>
+  <updated>2019-10-23T20:00:00-04:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,116 +13,109 @@
     <title>VPNs for all</title>
     <link rel="alternate" href="/2019/10/24/vpn/"/>
     <id>/2019/10/24/vpn/</id>
-    <published>2019-10-24T02:00:00+02:00</published>
-    <updated>2019-10-24T02:00:00+02:00</updated>
+    <published>2019-10-23T20:00:00-04:00</published>
+    <updated>2019-10-23T20:00:00-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;Hey so it's taken way longer than it should have but I finally got around to hosting my own VPN. The setup itself was pretty easy thanks to the Ansible scripts and documentation provided by the &lt;a href="https://github.com/trailofbits/algo"&gt;Algo project&lt;/a&gt;.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;Hey so it’s taken way longer than it should have but I finally got around to hosting my own VPN. The setup itself was pretty easy thanks to the Ansible scripts and documentation provided by the &lt;a href="https://github.com/trailofbits/algo"&gt;Algo project&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Although it works fine with all major cloud...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Hey so it's taken way longer than it should have but I finally got around to hosting my own VPN. The setup itself was pretty easy thanks to the Ansible scripts and documentation provided by the &lt;a href="https://github.com/trailofbits/algo"&gt;Algo project&lt;/a&gt;.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Hey so it&amp;rsquo;s taken way longer than it should have but I finally got around to hosting my own VPN. The setup itself was pretty easy thanks to the Ansible scripts and documentation provided by the &lt;a href="https://github.com/trailofbits/algo"&gt;Algo project&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Although it works fine with all major cloud providers, I was hoping to host it on a raspberry pi. Unfortunately, due to the sorry state of
 ISPs here in Germany, my 2 in 1 modem/router lacks basic functionality like port forwarding, bridge mode, or the ability to use other firmware. &lt;a href="http://www.pivpn.io/"&gt;Pi VPN&lt;/a&gt; is another excellent project that simplifies this task, assuming you have the ability to port forward.&lt;/p&gt;
-
 </content>
   </entry>
   <entry>
     <title>Cryptopals!</title>
     <link rel="alternate" href="/2019/06/07/cryptopals/"/>
     <id>/2019/06/07/cryptopals/</id>
-    <published>2019-06-07T02:00:00+02:00</published>
-    <updated>2019-06-07T02:00:00+02:00</updated>
+    <published>2019-06-06T20:00:00-04:00</published>
+    <updated>2019-06-06T20:00:00-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;I've been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of 'interesting stuff to checkout someday maybe'. To that end, I'm gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;I’ve been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of ‘interesting stuff to checkout someday maybe’. To that end, I’m gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges.&lt;/p&gt;
 
 &lt;p&gt;Python solutions...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;I've been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of 'interesting stuff to checkout someday maybe'. To that end, I'm gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges.&lt;/p&gt;
+    <content type="html">&lt;p&gt;I&amp;rsquo;ve been meaning to 1. Learn more python, 2. Increase my understanding of cryptography and 3. Prune my backlog of &amp;lsquo;interesting stuff to checkout someday maybe&amp;rsquo;. To that end, I&amp;rsquo;m gonna jump into the &lt;a href="https://cryptopals.com"&gt;https://cryptopals.com&lt;/a&gt; challenges.&lt;/p&gt;
 
 &lt;p&gt;Python solutions over yonder: &lt;a href="https://github.com/rpavlov/cryptopals"&gt;https://github.com/rpavlov/cryptopals&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3 id="encoding-hexadecimal-base64"&gt;Encoding: Hexadecimal, base64,&lt;/h3&gt;
+&lt;h3&gt;Encoding: Hexadecimal, base64,&lt;/h3&gt;
 
-&lt;p&gt;The difference between Base64 and hex is really just how bytes are represented. Hex is another way of saying "Base16". Hex will take two characters for each byte - Base64 takes 4 characters for every 3 bytes, so it's more efficient than hex. Assuming you're using UTF-8 to encode the XML document,a 100K file will take 200K to encode in hex, or 133K in Base64. Of course it may well be that you don't care about the space efficiency - in many cases it won't matter. If it does matter, then clearly Base64 is better on that front. (There are alternatives which are even more efficient, but they're not as common.)&lt;/p&gt;
+&lt;p&gt;The difference between Base64 and hex is really just how bytes are represented. Hex is another way of saying &amp;ldquo;Base16&amp;rdquo;. Hex will take two characters for each byte - Base64 takes 4 characters for every 3 bytes, so it&amp;rsquo;s more efficient than hex. Assuming you&amp;rsquo;re using UTF-8 to encode the XML document,a 100K file will take 200K to encode in hex, or 133K in Base64. Of course it may well be that you don&amp;rsquo;t care about the space efficiency - in many cases it won&amp;rsquo;t matter. If it does matter, then clearly Base64 is better on that front. (There are alternatives which are even more efficient, but they&amp;rsquo;re not as common.)&lt;/p&gt;
 
 &lt;p&gt;There is more to base selection than efficiency, however.&lt;/p&gt;
 
-&lt;p&gt;Base64 uses more than just letters and numbers. Different implementations use different punctuation characters for indiciating padding, and making up the last two characters of the set of 64. These can include plus "+" and equal "=". both problematic in HTTP query strings.&lt;/p&gt;
+&lt;p&gt;Base64 uses more than just letters and numbers. Different implementations use different punctuation characters for indiciating padding, and making up the last two characters of the set of 64. These can include plus &amp;ldquo;+&amp;rdquo; and equal &amp;ldquo;=&amp;rdquo;. both problematic in HTTP query strings.&lt;/p&gt;
 
 &lt;p&gt;So one reason to favour base16 over base64 is that base16 values can be composed directly into HTTP query strings without requiring additional encoding. Is that important to you?&lt;/p&gt;
 
-&lt;p&gt;Notice that this is an additional concern, over and above efficiency. Neither base is inherently better or worse; they're just two different points on a scale, at which you'll find different properties that will be more or less attractive in different situations.&lt;/p&gt;
+&lt;p&gt;Notice that this is an additional concern, over and above efficiency. Neither base is inherently better or worse; they&amp;rsquo;re just two different points on a scale, at which you&amp;rsquo;ll find different properties that will be more or less attractive in different situations.&lt;/p&gt;
 
-&lt;p&gt;For example, consider base32. It's 20% less efficient than base64, but is still suitable for use in HTTP query strings. Most of its inefficiency comes from being case-insensitive and avoiding zero "0" and one "1", to mistakes in reproduction by humans.&lt;/p&gt;
+&lt;p&gt;For example, consider base32. It&amp;rsquo;s 20% less efficient than base64, but is still suitable for use in HTTP query strings. Most of its inefficiency comes from being case-insensitive and avoiding zero &amp;ldquo;0&amp;rdquo; and one &amp;ldquo;1&amp;rdquo;, to mistakes in reproduction by humans.&lt;/p&gt;
 
-&lt;p&gt;So base32 introduces a new concern; ease of reproduction for humans. Is that a concern for you? If it's not, you could go for something like base62, which is still convenient in HTTP query strings, but is case sensitive and includes zero "0" and "1". base32 is case insensitive.&lt;/p&gt;
+&lt;p&gt;So base32 introduces a new concern; ease of reproduction for humans. Is that a concern for you? If it&amp;rsquo;s not, you could go for something like base62, which is still convenient in HTTP query strings, but is case sensitive and includes zero &amp;ldquo;0&amp;rdquo; and &amp;ldquo;1&amp;rdquo;. base32 is case insensitive.&lt;/p&gt;
 
-&lt;h3 id="why-is-xor-important-in-cryptography"&gt;Why is XOR important in cryptography?&lt;/h3&gt;
-&lt;p&gt;XOR represents the inequality function, i.e., the output is true if the inputs are not alike otherwise the output is false. A way to remember XOR is "one or the other but not both".&lt;/p&gt;
+&lt;h3&gt;Why is XOR important in cryptography?&lt;/h3&gt;
+
+&lt;p&gt;XOR represents the inequality function, i.e., the output is true if the inputs are not alike otherwise the output is false. A way to remember XOR is &amp;ldquo;one or the other but not both&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Imagine you have a string of binary digits 10101 and you XOR the string 10111 with it you get 00010&lt;/p&gt;
 
 &lt;p&gt;Now your original string is encoded and the second string becomes your key if you XOR your key with your encoded string you get your original string back.&lt;/p&gt;
 
-&lt;h3 id="python-sidenotes"&gt;Python sidenotes&lt;/h3&gt;
+&lt;h3&gt;Python sidenotes&lt;/h3&gt;
 
-&lt;h4 id="statements-vs-functions"&gt;1: Statements vs functions&lt;/h4&gt;
+&lt;h4&gt;1: Statements vs functions&lt;/h4&gt;
 
 &lt;p&gt;In python we have statements and functions, which is a little confusing. Certain things, in this case
 &lt;code&gt;assert&lt;/code&gt; are functions in other languages. In python assert is a statement! Crazy!&lt;/p&gt;
 
-&lt;p&gt;So &lt;code&gt;assert(False, "Oh no, something is wrong)&lt;/code&gt; will deceptively not trigger the error message.&lt;/p&gt;
+&lt;p&gt;So &lt;code&gt;assert(False, &amp;quot;Oh no, something is wrong)&lt;/code&gt; will deceptively not trigger the error message. However, &lt;code&gt;assert False, &amp;quot;Oh no...&amp;quot;&lt;/code&gt; will behave as expected:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;assert False, "Oh no..."&lt;/code&gt; will behave as expected.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;/home/rpavlov/Projects/cryptopals/set1.py:30: SyntaxWarning: assertion is always true, perhaps remove parentheses? assert(len(byte_str1) == len(byte_str2), &amp;#39;Byte arrays are of different lengths!&amp;#39;)&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;/home/rpavlov/Projects/cryptopals/set1.py:30: SyntaxWarning: assertion is always true, perhaps remove parentheses? assert(len(byte_str1) == len(byte_str2), 'Byte arrays are of different lengths!')&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;In the switch from python2-&amp;gt;python3 this is even more confusing, because &lt;code&gt;print&lt;/code&gt; went from being an expression to a function. Coming from ruby, &lt;code&gt;puts &amp;#39;hey&amp;#39;&lt;/code&gt; and &lt;code&gt;puts(&amp;#39;hey&amp;#39;)&lt;/code&gt; behave exactly the same.&lt;/p&gt;
 
-&lt;p&gt;In the switch from python2-&amp;gt;python3 this is even more confusing, because &lt;code&gt;print&lt;/code&gt; went from being an expression to a function. Coming from ruby, &lt;code&gt;puts 'hey'&lt;/code&gt; and &lt;code&gt;puts('hey')&lt;/code&gt; behave exactly the same.&lt;/p&gt;
+&lt;h4&gt;2: zip()&lt;/h4&gt;
 
-&lt;h4 id="zip"&gt;2: zip()&lt;/h4&gt;
+&lt;p&gt;The zip() function in Python 3 returns an iterator. It&amp;rsquo;s typically used to interleave two lists.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight python"&gt;&lt;code&gt;&lt;span class="n"&gt;numbersList&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;strList&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'one'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'two'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+&lt;span class="n"&gt;numbersTuple&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'ONE'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'TWO'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'THREE'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'FOUR'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-&lt;p&gt;The zip() function in Python 3 returns an iterator. It's typically used to interleave two lists.&lt;/p&gt;
+&lt;span class="n"&gt;result&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;zip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;numbersList&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;numbersTuple&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-&lt;p&gt;```
-numbersList = [1, 2, 3]
-strList = ['one', 'two']
-numbersTuple = ('ONE', 'TWO', 'THREE', 'FOUR')&lt;/p&gt;
-
-&lt;p&gt;result = zip(numbersList, numbersTuple)&lt;/p&gt;
-
-&lt;p&gt;'''
+&lt;span class="s"&gt;"""
 Converting to set
-'''
-resultSet = set(result)
-print(resultSet)&lt;/p&gt;
+"""&lt;/span&gt;
+&lt;span class="n"&gt;resultSet&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;resultSet&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-&lt;p&gt;result = zip(numbersList, strList, numbersTuple)&lt;/p&gt;
+&lt;span class="n"&gt;result&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;zip&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;numbersList&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;strList&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;numbersTuple&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-&lt;p&gt;'''
+&lt;span class="s"&gt;"""
 Converting to set
-'''
-resultSet = set(result)
-print(resultSet)
-```&lt;/p&gt;
+"""&lt;/span&gt;
+&lt;span class="n"&gt;resultSet&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;set&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;result&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;resultSet&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-&lt;p&gt;&lt;code&gt;
-{(2, 'TWO'), (3, 'THREE'), (1, 'ONE')}
-{(2, 'two', 'TWO'), (1, 'one', 'ONE')}
-&lt;/code&gt;&lt;/p&gt;
-
-&lt;h4 id="bytearrayordchar--lenhextobytearraybuff"&gt;3: bytearray([ord(char)] * len(hex_to_byte_array(buff)))&lt;/h4&gt;
+&lt;span class="p"&gt;{(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'TWO'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'THREE'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'ONE'&lt;/span&gt;&lt;span class="p"&gt;)}&lt;/span&gt;
+&lt;span class="p"&gt;{(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'two'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'TWO'&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'one'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'ONE'&lt;/span&gt;&lt;span class="p"&gt;)}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;3: bytearray([ord(char)] * len(hex&lt;em&gt;to&lt;/em&gt;byte_array(buff)))&lt;/h4&gt;
 
 &lt;p&gt;The purpose of this line is to expand a single character to a byte string of the same length as the one we want to xor against.&lt;/p&gt;
 
-&lt;h3 id="misc-notes"&gt;Misc notes&lt;/h3&gt;
+&lt;h3&gt;Misc notes&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Ciphertext: result of running a piece of text throught a Cipher, otherwise known as an algorithm.&lt;/li&gt;
-  &lt;li&gt;In cryptanalysis, frequency analysis (also known as counting letters) is the study of the frequency of letters or groups of letters in a ciphertext. The method is used as an aid to breaking classical ciphers.&lt;/li&gt;
-  &lt;li&gt;Summarize the example in&lt;/li&gt;
+&lt;li&gt;Ciphertext: result of running a piece of text throught a Cipher, otherwise known as an algorithm.&lt;/li&gt;
+&lt;li&gt;In cryptanalysis, frequency analysis (also known as counting letters) is the study of the frequency of letters or groups of letters in a ciphertext. The method is used as an aid to breaking classical ciphers.&lt;/li&gt;
+&lt;li&gt;Summarize the example in&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
@@ -130,163 +123,161 @@ print(resultSet)
     <title>Security+ Prep</title>
     <link rel="alternate" href="/2019/03/26/security-prep/"/>
     <id>/2019/03/26/security-prep/</id>
-    <published>2019-03-26T01:00:00+01:00</published>
-    <updated>2019-03-26T01:00:00+01:00</updated>
+    <published>2019-03-25T20:00:00-04:00</published>
+    <updated>2019-03-25T20:00:00-04:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;I finally got around to some focused self-study and completed a &lt;a href="https://stackskills.com"&gt;https://stackskills.com&lt;/a&gt; course for the Security+ certification preparation. The tl;dr is that it's all pretty introductory/high-level subject matter, but still useful for getting into...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;I finally got around to some focused self-study and completed a &lt;a href="https://stackskills.com"&gt;https://stackskills.com&lt;/a&gt; course for the Security+ certification preparation. The tl;dr is that it's all pretty introductory/high-level subject matter, but still useful for getting into that headspace. Peep my notes here if you're so inclined &lt;a href="https://github.com/rpavlov/security-plus-notes"&gt;https://github.com/rpavlov/security-plus-notes&lt;/a&gt;&lt;/p&gt;
-
+    <summary type="html">&lt;p&gt;I finally got around to some focused self-study and completed a &lt;a href="https://stackskills.com"&gt;https://stackskills.com&lt;/a&gt; course for the Security+ certification preparation. The tl;dr is that it’s all pretty introductory/high-level subject matter, but still useful for getting into...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;I finally got around to some focused self-study and completed a &lt;a href="https://stackskills.com"&gt;https://stackskills.com&lt;/a&gt; course for the Security+ certification preparation. The tl;dr is that it&amp;rsquo;s all pretty introductory/high-level subject matter, but still useful for getting into that headspace. Peep my notes here if you&amp;rsquo;re so inclined &lt;a href="https://github.com/rpavlov/security-plus-notes"&gt;https://github.com/rpavlov/security-plus-notes&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Github pages domain takeover</title>
     <link rel="alternate" href="/2019/02/09/github-pages-domain-takeover/"/>
     <id>/2019/02/09/github-pages-domain-takeover/</id>
-    <published>2019-02-09T01:00:00+01:00</published>
-    <updated>2019-02-09T01:00:00+01:00</updated>
+    <published>2019-02-08T19:00:00-05:00</published>
+    <updated>2019-02-08T19:00:00-05:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;Recently my partner's website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted
+    <summary type="html">&lt;p&gt;Recently my partner’s website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted
 on github, which made the severity of this exploit initially puzzling. How could this happen? The site accepts...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Recently my partner's website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted
+    <content type="html">&lt;p&gt;Recently my partner&amp;rsquo;s website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted
 on github, which made the severity of this exploit initially puzzling. How could this happen? The site accepts no input and the DNS settings looked normal.&lt;/p&gt;
 
-&lt;p&gt;Luckily, this was one of those easily searchable and already known issues with Github pages. The short of it is, if you don't have a CNAME file at the root of your project and someone else beats you to it, they can claim your custom domain and Github will happily serve their index.html instead! Other providers often require you to have a TXT record in your DNS records, but GH does not require proof of owernship in order to set a custom domain in the repository settings. The final take-away is you can't trust even the big players to make sound technical decisions.&lt;/p&gt;
+&lt;p&gt;Luckily, this was one of those easily searchable and already known issues with Github pages. The short of it is, if you don&amp;rsquo;t have a CNAME file at the root of your project and someone else beats you to it, they can claim your custom domain and Github will happily serve their index.html instead! Other providers often require you to have a TXT record in your DNS records, but GH does not require proof of owernship in order to set a custom domain in the repository settings. The final take-away is you can&amp;rsquo;t trust even the big players to make sound technical decisions.&lt;/p&gt;
 
-&lt;p&gt;Here's a great and even more detailed &lt;a href="https://medium.com/@jehy/hijacking-domain-using-github-pages-41c80ac57523"&gt;breakdown.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a great and even more detailed &lt;a href="https://medium.com/@jehy/hijacking-domain-using-github-pages-41c80ac57523"&gt;breakdown.&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>End of 2018</title>
     <link rel="alternate" href="/2018/12/12/end-of-year/"/>
     <id>/2018/12/12/end-of-year/</id>
-    <published>2018-12-12T01:00:00+01:00</published>
-    <updated>2018-12-12T01:00:00+01:00</updated>
+    <published>2018-12-11T19:00:00-05:00</published>
+    <updated>2018-12-11T19:00:00-05:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it's own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
+    <summary type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it’s own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
 
-&lt;h1 id="career-stuff"&gt;Career stuff&lt;/h1&gt;
+&lt;h1&gt;Career stuff&lt;/h1&gt;
 
 &lt;p&gt;I opted to continue client work...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it's own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
+    <content type="html">&lt;p&gt;It turns out habitual blogging is difficult, but persistence is it&amp;rsquo;s own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.&lt;/p&gt;
 
-&lt;h1 id="career-stuff"&gt;Career stuff&lt;/h1&gt;
+&lt;h1&gt;Career stuff&lt;/h1&gt;
 
 &lt;p&gt;I opted to continue client work after getting the opportunity to build/manage the cloud infrastructure and development processes for a couple of companies. It leveled up large chunks of my knowledge, and allowed me to learn tons about DNS, network configuration, security, secrets management and a myriad of other sysadmin related things. In addition to the usual troubleshoot this and fix that of regular software development.&lt;/p&gt;
 
 &lt;p&gt;My previous career goal set around this time last year was to gain dev-ops and sysadmin experience in order to transition into more security oriented work and projects.&lt;/p&gt;
 
-&lt;h2 id="back-to-security-study"&gt;Back to security study&lt;/h2&gt;
+&lt;h2&gt;Back to security study&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href="https://github.com/gradiuscypher/infosec_getting_started"&gt;How me, a programmer, learn security??&lt;/a&gt; Turns out I'm not the only one to have this idea. Here's another &lt;a href="https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/"&gt;classic&lt;/a&gt;. To that end, I've resumed self-study and practice according to a vague curriculum I'm putting together. More on that in another blog post.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/gradiuscypher/infosec_getting_started"&gt;How me, a programmer, learn security??&lt;/a&gt; Turns out I&amp;rsquo;m not the only one to have this idea. Here&amp;rsquo;s another &lt;a href="https://tisiphone.net/2015/10/12/starting-an-infosec-career-the-megamix-chapters-1-3/"&gt;classic&lt;/a&gt;. To that end, I&amp;rsquo;ve resumed self-study and practice according to a vague curriculum I&amp;rsquo;m putting together. More on that in another blog post.&lt;/p&gt;
 
-&lt;h1 id="personal-stuff"&gt;Personal stuff&lt;/h1&gt;
+&lt;h1&gt;Personal stuff&lt;/h1&gt;
 
 &lt;p&gt;This year I managed to:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Nurture closer relationships with people I care about, respect and admire.&lt;/li&gt;
-  &lt;li&gt;Move to Berlin. Living elsewhere is incredibly refreshing.&lt;/li&gt;
-  &lt;li&gt;Live minimalist. I reconsidered what stuff I actually need. But also, which luxuries brings me joy? A good soundsystem + music, easy access to a gym, and a nice kitchen for example. Regardless of where in the world I am, if there is a place to lift heavy things nearby that's already a huge quality of life improvement.&lt;/li&gt;
-  &lt;li&gt;Work out a lot, and start Muay Thai and BJJ training.&lt;/li&gt;
-  &lt;li&gt;Re-learn german. Going forward hoffentlich mehr auf Deutsch.&lt;/li&gt;
+&lt;li&gt;Nurture closer relationships with people I care about, respect and admire.&lt;/li&gt;
+&lt;li&gt;Move to Berlin. Living elsewhere is incredibly refreshing.&lt;/li&gt;
+&lt;li&gt;Live minimalist. I reconsidered what stuff I actually need. But also, which luxuries brings me joy? A good soundsystem + music, easy access to a gym, and a nice kitchen for example. Regardless of where in the world I am, if there is a place to lift heavy things nearby that&amp;rsquo;s already a huge quality of life improvement.&lt;/li&gt;
+&lt;li&gt;Work out a lot, and start Muay Thai and BJJ training.&lt;/li&gt;
+&lt;li&gt;Re-learn german. Going forward hoffentlich mehr auf Deutsch.&lt;/li&gt;
 &lt;/ul&gt;
-
 </content>
   </entry>
   <entry>
     <title>Book reviews</title>
     <link rel="alternate" href="/2017/11/12/nonviolent-communication/"/>
     <id>/2017/11/12/nonviolent-communication/</id>
-    <published>2017-11-12T01:00:00+01:00</published>
-    <updated>2017-11-12T01:00:00+01:00</updated>
+    <published>2017-11-11T19:00:00-05:00</published>
+    <updated>2017-11-11T19:00:00-05:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <summary type="html">&lt;p&gt;I've been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication
+    <summary type="html">&lt;p&gt;I’ve been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication
 by Marshall Rosenberg.&lt;/p&gt;
 
-&lt;h4 id="surface-thoughts"&gt;Surface thoughts&lt;/h4&gt;
+&lt;h4&gt;Surface thoughts&lt;/h4&gt;
 
 &lt;p&gt;All communication must be grounded in a state of compassion towards the other person.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;I've been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication
+    <content type="html">&lt;p&gt;I&amp;rsquo;ve been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication
 by Marshall Rosenberg.&lt;/p&gt;
 
-&lt;h4 id="surface-thoughts"&gt;Surface thoughts&lt;/h4&gt;
+&lt;h4&gt;Surface thoughts&lt;/h4&gt;
 
 &lt;p&gt;All communication must be grounded in a state of compassion towards the other person.&lt;/p&gt;
 
-&lt;h4 id="four-tenents-of-nonviolent-communication"&gt;Four tenents of Nonviolent communication&lt;/h4&gt;
+&lt;h4&gt;Four tenents of Nonviolent communication&lt;/h4&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Observe: I observe the situation or concrete actions.&lt;/li&gt;
-  &lt;li&gt;Feeling: how the above observation makes me feel.&lt;/li&gt;
-  &lt;li&gt;Needs: what needs/values/desires of ours are connected to the feelings we have identified.&lt;/li&gt;
-  &lt;li&gt;Request: the concrete actions we request from the other person in order to enrich our lives.&lt;/li&gt;
+&lt;li&gt;Observe: I observe the situation or concrete actions.&lt;/li&gt;
+&lt;li&gt;Feeling: how the above observation makes me feel.&lt;/li&gt;
+&lt;li&gt;Needs: what needs/values/desires of ours are connected to the feelings we have identified.&lt;/li&gt;
+&lt;li&gt;Request: the concrete actions we request from the other person in order to enrich our lives.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id="alienating-types-of-communication"&gt;Alienating types of communication&lt;/h4&gt;
+&lt;h4&gt;Alienating types of communication&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Moralistic judgements (blame, insults, put-downs, labels, criticisms, comparisons)
-    &lt;ul&gt;
-      &lt;li&gt;If my partner wants more affection than I’m giving her, she is “needy and dependent.” But if I want more affection than she is giving me,
+&lt;li&gt;Moralistic judgements (blame, insults, put-downs, labels, criticisms, comparisons)
+
+&lt;ul&gt;
+&lt;li&gt;If my partner wants more affection than I’m giving her, she is “needy and dependent.” But if I want more affection than she is giving me,
 then she is “aloof and insensitive.”&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Denial of responsibility. We deny responsibility  for our actions when we attribute their
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Denial of responsibility. We deny responsibility  for our actions when we attribute their
 cause to
-    &lt;ul&gt;
-      &lt;li&gt;Our condition, diagnosis, personal or psychological history ( I drink because I am an alcoholic).&lt;/li&gt;
-      &lt;li&gt;The actions of others. This is important in order to not come across as accusatory.&lt;/li&gt;
-      &lt;li&gt;The dictates of authority.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Demands. You can never make a person do anything.&lt;/li&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Our condition, diagnosis, personal or psychological history ( I drink because I am an alcoholic).&lt;/li&gt;
+&lt;li&gt;The actions of others. This is important in order to not come across as accusatory.&lt;/li&gt;
+&lt;li&gt;The dictates of authority.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Demands. You can never make a person do anything.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id="separate-observation-from-evaluation"&gt;Separate observation from evaluation&lt;/h4&gt;
+&lt;h4&gt;Separate observation from evaluation&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;When we combine observation with evaluation, people are apt to hear criticism.&lt;/li&gt;
-  &lt;li&gt;Keep evaluations at bay: "John is angry" is an evaluation, "John shouted, pounded the table, etc…" is an observation.
+&lt;li&gt;When we combine observation with evaluation, people are apt to hear criticism.&lt;/li&gt;
+&lt;li&gt;Keep evaluations at bay: &amp;ldquo;John is angry&amp;rdquo; is an evaluation, &amp;ldquo;John shouted, pounded the table, etc&amp;hellip;&amp;rdquo; is an observation.
 Furthermore, he could in fact be hurt, scared or anxious.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id="identify-and-express-your-own-feelings"&gt;Identify and express your own feelings&lt;/h4&gt;
+&lt;h4&gt;Identify and express your own feelings&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;But also, distinguish between feelings and thoughts. "I feel inadequate as a guitar player" is an assessment, instead of
-"I feel impatient/disappointed/frustrated as a guitar player" which are feelings.&lt;/li&gt;
-  &lt;li&gt;Use words that refer to specific emotions, rather than something more general. "I feel good" could mean excited, mellow, etc..&lt;/li&gt;
-  &lt;li&gt;Distinguish between how you feel and how you think others are reacting to behaving towards you. "I feel misunderstood"
+&lt;li&gt;But also, distinguish between feelings and thoughts. &amp;ldquo;I feel inadequate as a guitar player&amp;rdquo; is an assessment, instead of
+&amp;ldquo;I feel impatient/disappointed/frustrated as a guitar player&amp;rdquo; which are feelings.&lt;/li&gt;
+&lt;li&gt;Use words that refer to specific emotions, rather than something more general. &amp;ldquo;I feel good&amp;rdquo; could mean excited, mellow, etc..&lt;/li&gt;
+&lt;li&gt;Distinguish between how you feel and how you think others are reacting to behaving towards you. &amp;ldquo;I feel misunderstood&amp;rdquo;
 instead actually been anxious or annoyed.&lt;/li&gt;
-  &lt;li&gt;Connect your feelings with your needs. I feel &lt;strong&gt;___ because I __&lt;/strong&gt; : "I'm disappointed because I was hoping to see you."&lt;/li&gt;
-  &lt;li&gt;Judgements of others are alienated expressions of our own unment needs. Futhermore, expressing our needs we have a better
+&lt;li&gt;Connect your feelings with your needs. I feel _____ because I ____ : &amp;ldquo;I&amp;rsquo;m disappointed because I was hoping to see you.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Judgements of others are alienated expressions of our own unment needs. Futhermore, expressing our needs we have a better
 chance of having them met.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id="handling-a-negative-message"&gt;Handling a negative message&lt;/h4&gt;
+&lt;h4&gt;Handling a negative message&lt;/h4&gt;
 
-&lt;p&gt;You have four option when hearing something negative: "You're really self-centered and a trash-person"&lt;/p&gt;
+&lt;p&gt;You have four option when hearing something negative: &amp;ldquo;You&amp;rsquo;re really self-centered and a trash-person&amp;rdquo;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Take it personally, and accept others' judgement.&lt;/li&gt;
-  &lt;li&gt;Blame others. "Actually, you're the one who's self centered"&lt;/li&gt;
-  &lt;li&gt;Sense your own feelings and needs.&lt;/li&gt;
-  &lt;li&gt;Sense others' feelings and needs (the best choice).&lt;/li&gt;
+&lt;li&gt;Take it personally, and accept others&amp;rsquo; judgement.&lt;/li&gt;
+&lt;li&gt;Blame others. &amp;ldquo;Actually, you&amp;rsquo;re the one who&amp;rsquo;s self centered&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Sense your own feelings and needs.&lt;/li&gt;
+&lt;li&gt;Sense others&amp;rsquo; feelings and needs (the best choice).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id="listening-empathically"&gt;Listening empathically&lt;/h4&gt;
+&lt;h4&gt;Listening empathically&lt;/h4&gt;
 
 &lt;p&gt;Common responses that prevent empathic listening include advising, one-upping, educating, consoling, story-telling,
 shutting down, sympathizing, interrogating, explaining and correcting. Intellectual understanding blocks empathy. Simply
-be wholly present. Listen and attempt to understand what unmet needs people are expressing.&lt;/p&gt;
+be wholly present. Listen and attempt to understand what unmet needs people are expressing.  &lt;/p&gt;
 </content>
   </entry>
 </feed>

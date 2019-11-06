@@ -7,6 +7,15 @@
   <link href="/stylesheets/main.css" rel="stylesheet" />
   <link href="/stylesheets/text.css" rel="stylesheet" />
 
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('code').forEach((block) => {
+        hljs.highlightBlock(block);
+      });
+    });
+  </script>
   <title>rpavlov</title>
 </head>
 <body>
@@ -26,11 +35,10 @@
   	<h1 class="post-title">Git workflow</h1>
   	<div class="post-meta">17 December 2013</div>
   	<div class="post-text">
-  		<p>There are several pretty popular Git workflows floating around. Chances are you're probably using something similar for your projects or at work. Here they are, just in case.</p>
+  		<p>There are several pretty popular Git workflows floating around. Chances are you&rsquo;re probably using something similar for your projects or at work. Here they are, just in case.</p>
 
 <p><a href="https://gist.github.com/jbenet/ee6c9ac48068889b0912">A simple git branching model</a></p>
-
-<pre><code># everything is happy and up-to-date in master
+<div class="highlight"><pre class="highlight plaintext"><code># everything is happy and up-to-date in master
 git checkout master
 git pull origin master
 
@@ -69,8 +77,7 @@ git merge --no-ff my-new-feature
 
 # optional: tag important things, such as releases
 git tag 1.0.0-RC1
-</code></pre>
-
+</code></pre></div>
 <p><a href="https://www.atlassian.com/git/tutorial">The Atlassian Git Tutorial</a> is also a great repository of knowledge. Check out their workflows.</p>
 
   	</div>
@@ -128,8 +135,6 @@ git tag 1.0.0-RC1
               <br/>
               <a href="/2017/10/24/multi-user-git/">Multi-user git</a>
               <br/>
-              <a href="/2017/10/17/festivals/">Festivals for 2018</a>
-              <br/>
               <a href="/2017/05/08/emacs-vim/">emacs vs vim</a>
               <br/>
               <a href="/2017/02/28/default-scope/">Rails and default_scope</a>
@@ -145,6 +150,8 @@ git tag 1.0.0-RC1
           </li>
           <li>
             <h5 style="margin-bottom:0;">2013</h5>
+              <br/>
+              <a href="/2013/12/28/habits/">Several habits of a highly successful Roumen</a>
               <br/>
               <a href="/2013/12/17/git-workflow/">Git workflow</a>
               <br/>

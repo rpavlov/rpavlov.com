@@ -10,6 +10,14 @@ div, section {
   font-size: 100%;
   vertical-align: baseline; }
 
+code.hljs {
+  padding: 0.1em;
+  display: inline; }
+
+pre code.hljs {
+  display: block;
+  padding: 0.5em; }
+
 header:after {
   content: "";
   display: table;
