@@ -88,26 +88,21 @@ ISPs here in Germany, my 2 in 1 modem/router lacks basic functionality like port
 
 <p>The zip() function in Python 3 returns an iterator. It&rsquo;s typically used to interleave two lists.</p>
 <div class="highlight"><pre class="highlight python"><code><span class="n">numbersList</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
-<span class="n">strList</span> <span class="o">=</span> <span class="p">[</span><span class="s">'one'</span><span class="p">,</span> <span class="s">'two'</span><span class="p">]</span>
 <span class="n">numbersTuple</span> <span class="o">=</span> <span class="p">(</span><span class="s">'ONE'</span><span class="p">,</span> <span class="s">'TWO'</span><span class="p">,</span> <span class="s">'THREE'</span><span class="p">,</span> <span class="s">'FOUR'</span><span class="p">)</span>
 
 <span class="n">result</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">numbersList</span><span class="p">,</span> <span class="n">numbersTuple</span><span class="p">)</span>
 
-<span class="s">"""
-Converting to set
-"""</span>
-<span class="n">resultSet</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">resultSet</span><span class="p">)</span>
-
-<span class="n">result</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">numbersList</span><span class="p">,</span> <span class="n">strList</span><span class="p">,</span> <span class="n">numbersTuple</span><span class="p">)</span>
-
-<span class="s">"""
-Converting to set
-"""</span>
 <span class="n">resultSet</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">resultSet</span><span class="p">)</span>
 
 <span class="p">{(</span><span class="mi">2</span><span class="p">,</span> <span class="s">'TWO'</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="s">'THREE'</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s">'ONE'</span><span class="p">)}</span>
+
+<span class="n">strList</span> <span class="o">=</span> <span class="p">[</span><span class="s">'one'</span><span class="p">,</span> <span class="s">'two'</span><span class="p">]</span>
+<span class="n">result</span> <span class="o">=</span> <span class="nb">zip</span><span class="p">(</span><span class="n">numbersList</span><span class="p">,</span> <span class="n">strList</span><span class="p">,</span> <span class="n">numbersTuple</span><span class="p">)</span>
+
+<span class="n">resultSet</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">resultSet</span><span class="p">)</span>
+
 <span class="p">{(</span><span class="mi">2</span><span class="p">,</span> <span class="s">'two'</span><span class="p">,</span> <span class="s">'TWO'</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s">'one'</span><span class="p">,</span> <span class="s">'ONE'</span><span class="p">)}</span>
 </code></pre></div>
 <h4>3: bytearray([ord(char)] * len(hex<em>to</em>byte_array(buff)))</h4>
