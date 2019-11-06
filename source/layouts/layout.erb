@@ -7,6 +7,15 @@
   <%= stylesheet_link_tag 'main' %>
   <%= stylesheet_link_tag 'text' %>
 
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/default.min.css">
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelectorAll('code').forEach((block) => {
+        hljs.highlightBlock(block);
+      });
+    });
+  </script>
   <title>rpavlov</title>
 </head>
 <body>

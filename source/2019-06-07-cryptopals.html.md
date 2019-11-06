@@ -38,9 +38,7 @@ Now your original string is encoded and the second string becomes your key if yo
 In python we have statements and functions, which is a little confusing. Certain things, in this case
 `assert` are functions in other languages. In python assert is a statement! Crazy!
 
-So `assert(False, "Oh no, something is wrong)` will deceptively not trigger the error message.
-
-`assert False, "Oh no..."` will behave as expected.
+So `assert(False, "Oh no, something is wrong)` will deceptively not trigger the error message. However, `assert False, "Oh no..."` will behave as expected:
 
 `/home/rpavlov/Projects/cryptopals/set1.py:30: SyntaxWarning: assertion is always true, perhaps remove parentheses? assert(len(byte_str1) == len(byte_str2), 'Byte arrays are of different lengths!')`
 
@@ -50,29 +48,27 @@ In the switch from python2->python3 this is even more confusing, because `print`
 
 The zip() function in Python 3 returns an iterator. It's typically used to interleave two lists.
 
-```
+```python
 numbersList = [1, 2, 3]
 strList = ['one', 'two']
 numbersTuple = ('ONE', 'TWO', 'THREE', 'FOUR')
 
 result = zip(numbersList, numbersTuple)
 
-'''
+"""
 Converting to set
-'''
+"""
 resultSet = set(result)
 print(resultSet)
 
 result = zip(numbersList, strList, numbersTuple)
 
-'''
+"""
 Converting to set
-'''
+"""
 resultSet = set(result)
 print(resultSet)
-```
 
-```
 {(2, 'TWO'), (3, 'THREE'), (1, 'ONE')}
 {(2, 'two', 'TWO'), (1, 'one', 'ONE')}
 ```
