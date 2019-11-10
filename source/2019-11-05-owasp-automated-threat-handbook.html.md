@@ -1,5 +1,5 @@
 ---
-title: Summary - OWASP Automated threat handbook
+title: OWASP Automated threat handbook
 date: 2019-11-05
 published: true
 ---
