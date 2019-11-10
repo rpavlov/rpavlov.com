@@ -5,10 +5,31 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2019-10-23T20:00:00-04:00</updated>
+  <updated>2019-11-04T19:00:00-05:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
+  <entry>
+    <title>Summary - OWASP Automated threat handbook</title>
+    <link rel="alternate" href="/2019/11/05/owasp-automated-threat-handbook/"/>
+    <id>/2019/11/05/owasp-automated-threat-handbook/</id>
+    <published>2019-11-04T19:00:00-05:00</published>
+    <updated>2019-11-04T19:00:00-05:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <summary type="html">&lt;p&gt;Some quick thoughts after reading the &lt;a href="https://www.owasp.org/images/3/33/Automated-threat-handbook.pdf"&gt;OWASP Automated Threat Handbook&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These kinds of attacks are carried out by seemingly legitimate but actually malicious users of your application. The crux of it is: spend time thinking about how your application...&lt;/p&gt;</summary>
+    <content type="html">&lt;p&gt;Some quick thoughts after reading the &lt;a href="https://www.owasp.org/images/3/33/Automated-threat-handbook.pdf"&gt;OWASP Automated Threat Handbook&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These kinds of attacks are carried out by seemingly legitimate but actually malicious users of your application. The crux of it is: spend time thinking about how your application can be probed, scanned, scraped, flooded or most commonly have it&amp;rsquo;s otherwise normal functionality subverted.&lt;/p&gt;
+
+&lt;p&gt;The next step is to build in countermeasures. This is where a prioritized checklist would lend itself well to laying out which things to build or plan for. There is a huge variety of actionable steps to take: obfuscating urls such that your site can&amp;rsquo;t be spidered, adding page and session-specific tokens, purposely load-testing/flooding your app, performing user-agent fingerprinting to weed out some automated requests, writing test cases for abuse scenarios, monitoring for anomalous requests and dozens of other things. The priority depends on your infrastructure inventory and your risk tolerance which should hopefully have been clarified after your risk assessment (which you did, right?).&lt;/p&gt;
+
+&lt;p&gt;Automated threats kind of fall into two attacker use cases: application recon and unfair resource usage. In the context of e-commerce (where these threats are most common), this can mean sniping/hoarding concert tickets or scraping product prices, enumerating valid users or validating stolen credit cards. So, this means that when creating legitimate features take the time to think of how they can be subverted or have unintended uses. From a technical point of view, ensure you&amp;rsquo;ve performed security assessments and vulnerability scans, have monitoring and instrumentation in place and a whole bunch of other things like real-time detection and alerting from sources such as logs, DNS and computing resources. If you have health-checks you should have security-checks too, and spikes in CPU usage should be as concerning as spikes in unusual requests.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>VPNs for all</title>
     <link rel="alternate" href="/2019/10/24/vpn/"/>
@@ -183,96 +204,6 @@ on github, which made the severity of this exploit initially puzzling. How could
 &lt;li&gt;Work out a lot, and start Muay Thai and BJJ training.&lt;/li&gt;
 &lt;li&gt;Re-learn german. Going forward hoffentlich mehr auf Deutsch.&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Book reviews</title>
-    <link rel="alternate" href="/2017/11/12/nonviolent-communication/"/>
-    <id>/2017/11/12/nonviolent-communication/</id>
-    <published>2017-11-11T19:00:00-05:00</published>
-    <updated>2017-11-11T19:00:00-05:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <summary type="html">&lt;p&gt;I’ve been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication
-by Marshall Rosenberg.&lt;/p&gt;
-
-&lt;h4&gt;Surface thoughts&lt;/h4&gt;
-
-&lt;p&gt;All communication must be grounded in a state of compassion towards the other person.&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;I&amp;rsquo;ve been meaning to get into the process of taking notes while reading books. Lets start with Nonviolent Communication
-by Marshall Rosenberg.&lt;/p&gt;
-
-&lt;h4&gt;Surface thoughts&lt;/h4&gt;
-
-&lt;p&gt;All communication must be grounded in a state of compassion towards the other person.&lt;/p&gt;
-
-&lt;h4&gt;Four tenents of Nonviolent communication&lt;/h4&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Observe: I observe the situation or concrete actions.&lt;/li&gt;
-&lt;li&gt;Feeling: how the above observation makes me feel.&lt;/li&gt;
-&lt;li&gt;Needs: what needs/values/desires of ours are connected to the feelings we have identified.&lt;/li&gt;
-&lt;li&gt;Request: the concrete actions we request from the other person in order to enrich our lives.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4&gt;Alienating types of communication&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Moralistic judgements (blame, insults, put-downs, labels, criticisms, comparisons)
-
-&lt;ul&gt;
-&lt;li&gt;If my partner wants more affection than I’m giving her, she is “needy and dependent.” But if I want more affection than she is giving me,
-then she is “aloof and insensitive.”&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Denial of responsibility. We deny responsibility  for our actions when we attribute their
-cause to
-
-&lt;ul&gt;
-&lt;li&gt;Our condition, diagnosis, personal or psychological history ( I drink because I am an alcoholic).&lt;/li&gt;
-&lt;li&gt;The actions of others. This is important in order to not come across as accusatory.&lt;/li&gt;
-&lt;li&gt;The dictates of authority.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Demands. You can never make a person do anything.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Separate observation from evaluation&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;When we combine observation with evaluation, people are apt to hear criticism.&lt;/li&gt;
-&lt;li&gt;Keep evaluations at bay: &amp;ldquo;John is angry&amp;rdquo; is an evaluation, &amp;ldquo;John shouted, pounded the table, etc&amp;hellip;&amp;rdquo; is an observation.
-Furthermore, he could in fact be hurt, scared or anxious.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Identify and express your own feelings&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;But also, distinguish between feelings and thoughts. &amp;ldquo;I feel inadequate as a guitar player&amp;rdquo; is an assessment, instead of
-&amp;ldquo;I feel impatient/disappointed/frustrated as a guitar player&amp;rdquo; which are feelings.&lt;/li&gt;
-&lt;li&gt;Use words that refer to specific emotions, rather than something more general. &amp;ldquo;I feel good&amp;rdquo; could mean excited, mellow, etc..&lt;/li&gt;
-&lt;li&gt;Distinguish between how you feel and how you think others are reacting to behaving towards you. &amp;ldquo;I feel misunderstood&amp;rdquo;
-instead actually been anxious or annoyed.&lt;/li&gt;
-&lt;li&gt;Connect your feelings with your needs. I feel _____ because I ____ : &amp;ldquo;I&amp;rsquo;m disappointed because I was hoping to see you.&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Judgements of others are alienated expressions of our own unment needs. Futhermore, expressing our needs we have a better
-chance of having them met.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Handling a negative message&lt;/h4&gt;
-
-&lt;p&gt;You have four option when hearing something negative: &amp;ldquo;You&amp;rsquo;re really self-centered and a trash-person&amp;rdquo;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Take it personally, and accept others&amp;rsquo; judgement.&lt;/li&gt;
-&lt;li&gt;Blame others. &amp;ldquo;Actually, you&amp;rsquo;re the one who&amp;rsquo;s self centered&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Sense your own feelings and needs.&lt;/li&gt;
-&lt;li&gt;Sense others&amp;rsquo; feelings and needs (the best choice).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Listening empathically&lt;/h4&gt;
-
-&lt;p&gt;Common responses that prevent empathic listening include advising, one-upping, educating, consoling, story-telling,
-shutting down, sympathizing, interrogating, explaining and correcting. Intellectual understanding blocks empathy. Simply
-be wholly present. Listen and attempt to understand what unmet needs people are expressing.  &lt;/p&gt;
 </content>
   </entry>
 </feed>
