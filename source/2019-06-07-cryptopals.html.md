@@ -8,7 +8,7 @@ I've been meaning to 1. Learn more python, 2. Increase my understanding of crypt
 
 Python solutions over yonder: [https://github.com/rpavlov/cryptopals](https://github.com/rpavlov/cryptopals)
 
-### Encoding: Hexadecimal, base64,
+### Encoding: Hexadecimal, base64
 
 The difference between Base64 and hex is really just how bytes are represented. Hex is another way of saying "Base16". Hex will take two characters for each byte - Base64 takes 4 characters for every 3 bytes, so it's more efficient than hex. Assuming you're using UTF-8 to encode the XML document,a 100K file will take 200K to encode in hex, or 133K in Base64. Of course it may well be that you don't care about the space efficiency - in many cases it won't matter. If it does matter, then clearly Base64 is better on that front. (There are alternatives which are even more efficient, but they're not as common.)
 
@@ -25,6 +25,7 @@ For example, consider base32. It's 20% less efficient than base64, but is still 
 So base32 introduces a new concern; ease of reproduction for humans. Is that a concern for you? If it's not, you could go for something like base62, which is still convenient in HTTP query strings, but is case sensitive and includes zero "0" and "1". base32 is case insensitive.
 
 ### Why is XOR important in cryptography?
+
 XOR represents the inequality function, i.e., the output is true if the inputs are not alike otherwise the output is false. A way to remember XOR is "one or the other but not both".
 
 Imagine you have a string of binary digits 10101 and you XOR the string 10111 with it you get 00010
