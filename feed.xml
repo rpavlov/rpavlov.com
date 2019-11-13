@@ -64,7 +64,7 @@ ISPs here in Germany, my 2 in 1 modem/router lacks basic functionality like port
 
 &lt;p&gt;Python solutions over yonder: &lt;a href="https://github.com/rpavlov/cryptopals"&gt;https://github.com/rpavlov/cryptopals&lt;/a&gt;&lt;/p&gt;
 
-&lt;h3&gt;Encoding: Hexadecimal, base64,&lt;/h3&gt;
+&lt;h3&gt;Encoding: Hexadecimal, base64&lt;/h3&gt;
 
 &lt;p&gt;The difference between Base64 and hex is really just how bytes are represented. Hex is another way of saying &amp;ldquo;Base16&amp;rdquo;. Hex will take two characters for each byte - Base64 takes 4 characters for every 3 bytes, so it&amp;rsquo;s more efficient than hex. Assuming you&amp;rsquo;re using UTF-8 to encode the XML document,a 100K file will take 200K to encode in hex, or 133K in Base64. Of course it may well be that you don&amp;rsquo;t care about the space efficiency - in many cases it won&amp;rsquo;t matter. If it does matter, then clearly Base64 is better on that front. (There are alternatives which are even more efficient, but they&amp;rsquo;re not as common.)&lt;/p&gt;
 
