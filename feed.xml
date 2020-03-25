@@ -5,7 +5,7 @@
   <id>http://blog.url.com/</id>
   <link href="http://blog.url.com/"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2019-11-04T19:00:00-05:00</updated>
+  <updated>2019-11-05T01:00:00+01:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,8 +13,8 @@
     <title>OWASP Automated threat handbook</title>
     <link rel="alternate" href="/2019/11/05/owasp-automated-threat-handbook/"/>
     <id>/2019/11/05/owasp-automated-threat-handbook/</id>
-    <published>2019-11-04T19:00:00-05:00</published>
-    <updated>2019-11-04T19:00:00-05:00</updated>
+    <published>2019-11-05T01:00:00+01:00</published>
+    <updated>2019-11-05T01:00:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -34,8 +34,8 @@
     <title>VPNs for all</title>
     <link rel="alternate" href="/2019/10/24/vpn/"/>
     <id>/2019/10/24/vpn/</id>
-    <published>2019-10-23T20:00:00-04:00</published>
-    <updated>2019-10-23T20:00:00-04:00</updated>
+    <published>2019-10-24T02:00:00+02:00</published>
+    <updated>2019-10-24T02:00:00+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -52,8 +52,8 @@ ISPs here in Germany, my 2 in 1 modem/router lacks basic functionality like port
     <title>Cryptopals!</title>
     <link rel="alternate" href="/2019/06/07/cryptopals/"/>
     <id>/2019/06/07/cryptopals/</id>
-    <published>2019-06-06T20:00:00-04:00</published>
-    <updated>2019-06-06T20:00:00-04:00</updated>
+    <published>2019-06-07T02:00:00+02:00</published>
+    <updated>2019-06-07T02:00:00+02:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -139,8 +139,8 @@ ISPs here in Germany, my 2 in 1 modem/router lacks basic functionality like port
     <title>Security+ Prep</title>
     <link rel="alternate" href="/2019/03/26/security-prep/"/>
     <id>/2019/03/26/security-prep/</id>
-    <published>2019-03-25T20:00:00-04:00</published>
-    <updated>2019-03-25T20:00:00-04:00</updated>
+    <published>2019-03-26T01:00:00+01:00</published>
+    <updated>2019-03-26T01:00:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -152,8 +152,8 @@ ISPs here in Germany, my 2 in 1 modem/router lacks basic functionality like port
     <title>Github pages domain takeover</title>
     <link rel="alternate" href="/2019/02/09/github-pages-domain-takeover/"/>
     <id>/2019/02/09/github-pages-domain-takeover/</id>
-    <published>2019-02-08T19:00:00-05:00</published>
-    <updated>2019-02-08T19:00:00-05:00</updated>
+    <published>2019-02-09T01:00:00+01:00</published>
+    <updated>2019-02-09T01:00:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -171,8 +171,8 @@ on github, which made the severity of this exploit initially puzzling. How could
     <title>End of 2018</title>
     <link rel="alternate" href="/2018/12/12/end-of-year/"/>
     <id>/2018/12/12/end-of-year/</id>
-    <published>2018-12-11T19:00:00-05:00</published>
-    <updated>2018-12-11T19:00:00-05:00</updated>
+    <published>2018-12-12T01:00:00+01:00</published>
+    <updated>2018-12-12T01:00:00+01:00</updated>
     <author>
       <name>Article Author</name>
     </author>
