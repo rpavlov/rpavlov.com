@@ -32,6 +32,17 @@
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
         <article class="post">
+	 <h1 class="post-title"><a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a></h1>
+    <div class="post-meta"> 9 February 2019</div>
+	 <div class="post-text"><p>Recently my partner&rsquo;s website was defaced, in that it was serving new, different content at the old url. It is a simple static site hosted
+on github, which made the severity of this exploit initially puzzling. How could this happen? The site accepts no input and the DNS settings looked normal.</p>
+
+<p>Luckily, this was one of those easily searchable and already known issues with Github pages. The short of it is, if you don&rsquo;t have a CNAME file at the root of your project and someone else beats you to it, they can claim your custom domain and Github will happily serve their index.html instead! Other providers often require you to have a TXT record in your DNS records, but GH does not require proof of owernship in order to set a custom domain in the repository settings. The final take-away is you can&rsquo;t trust even the big players to make sound technical decisions.</p>
+
+<p>Here&rsquo;s a great and even more detailed <a href="https://medium.com/@jehy/hijacking-domain-using-github-pages-41c80ac57523">breakdown.</a></p>
+</div>
+  </article>
+  <article class="post">
 	 <h1 class="post-title"><a href="/2018/12/12/end-of-year/">End of 2018</a></h1>
     <div class="post-meta">12 December 2018</div>
 	 <div class="post-text"><p>It turns out habitual blogging is difficult, but persistence is it&rsquo;s own reward. Time to reflect on 2018 and then think about where to steer the ship, or pull the elephant if you prefer animal metaphors.</p>
@@ -186,28 +197,6 @@ development: new features or bug fixes. While I got to kick-off some fun green-f
 </ul>
 </div>
   </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2017/10/24/multi-user-git/">Multi-user git</a></h1>
-    <div class="post-meta">24 October 2017</div>
-	 <div class="post-text"><p>Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine</p>
-<div class="highlight"><pre class="highlight plaintext"><code>Host user1
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username1_pubkey
-  IdentitiesOnly yes
-
-Host user2
-  Hostname github.com
-  User git
-  IdentityFile ~/.ssh/username2_pubkey
-  IdentitiesOnly yes
-</code></pre></div>
-<p>Then for your repo ensure <code>git remote -v</code> is of the form</p>
-<div class="highlight"><pre class="highlight plaintext"><code>git@user1:&lt;username1&gt;/&lt;username1-repo&gt;.git
-</code></pre></div>
-<p>Of course, ensure your ssh key is added to the respective repo.</p>
-</div>
-  </article>
   <p class="pagination-controls">
       <span><a href="/"><<</a></span>
     <span>2 of 5</span>
@@ -233,13 +222,18 @@ Host user2
       <div class="sidebar-item borderless">
         <h3>Recent Articles</h3>
         <ol>
+          <li><a href="/2020/03/25/mixing/">Pandemic tunes</a></li>
           <li><a href="/2019/11/05/owasp-automated-threat-handbook/">OWASP Automated threat handbook</a></li>
           <li><a href="/2019/10/24/vpn/">VPNs for all</a></li>
           <li><a href="/2019/06/07/cryptopals/">Cryptopals!</a></li>
           <li><a href="/2019/03/26/security-prep/">Security+ Prep</a></li>
-          <li><a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a></li>
         </ol>
         <ol>
+          <li>
+            <h5 style="margin-bottom:0;">2020</h5>
+              <br/>
+              <a href="/2020/03/25/mixing/">Pandemic tunes</a>
+          </li>
           <li>
             <h5 style="margin-bottom:0;">2019</h5>
               <br/>

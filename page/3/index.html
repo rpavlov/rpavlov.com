@@ -32,6 +32,28 @@
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
         <article class="post">
+	 <h1 class="post-title"><a href="/2017/10/24/multi-user-git/">Multi-user git</a></h1>
+    <div class="post-meta">24 October 2017</div>
+	 <div class="post-text"><p>Modify your ~/.ssh/config file as such to seamlessly utilize multiple git users on the same machine</p>
+<div class="highlight"><pre class="highlight plaintext"><code>Host user1
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username1_pubkey
+  IdentitiesOnly yes
+
+Host user2
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/username2_pubkey
+  IdentitiesOnly yes
+</code></pre></div>
+<p>Then for your repo ensure <code>git remote -v</code> is of the form</p>
+<div class="highlight"><pre class="highlight plaintext"><code>git@user1:&lt;username1&gt;/&lt;username1-repo&gt;.git
+</code></pre></div>
+<p>Of course, ensure your ssh key is added to the respective repo.</p>
+</div>
+  </article>
+  <article class="post">
 	 <h1 class="post-title"><a href="/2017/05/08/emacs-vim/">emacs vs vim</a></h1>
     <div class="post-meta"> 8 May 2017</div>
 	 <div class="post-text"><p>After spending the better part of last year using emacs (specifically the spacemacs distribution) before switching to neovim I can safely conclude I&rsquo;ve shaved enough yaks to last me a lifetime. I&rsquo;m switching back to Atom because
@@ -95,26 +117,6 @@ hard-won knowledge and high quality scripts.</p>
 <div class="highlight"><pre class="highlight plaintext"><code>git rebase -p --onto SHA^ SHA
 </code></pre></div></div>
   </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2016/07/11/hello-again/">I've solved procrastination</a></h1>
-    <div class="post-meta">11 July 2016</div>
-	 <div class="post-text"><p>That&rsquo;s right, after 3.5 years of inactivity this blog lives again.</p>
-
-<p>Such a long delay&hellip;but overcoming procrastination is Hard. To that end, some tricks that have helped me:</p>
-
-<p><strong>Do the smallest possible task</strong></p>
-
-<p>Start small and change 1 line of code. Wash 1 dish. Think about 1 thing. Almost always this snowballs into other tasks.</p>
-
-<p><strong>Focus</strong></p>
-
-<p>Obviously, right? But getting there is only half the trouble. Getting into flow is tricky and distractions are the mindkiller. F5&#39;ing hackernews won&rsquo;t get anything finished.</p>
-
-<p><strong>Visualize completing the task</strong></p>
-
-<p>Aaah the sweetest feeling. Completing something, no matter how small, is a morale boost. Small increments lead to big changes.  </p>
-</div>
-  </article>
   <p class="pagination-controls">
       <span><a href="/page/2/"><<</a></span>
     <span>3 of 5</span>
@@ -140,13 +142,18 @@ hard-won knowledge and high quality scripts.</p>
       <div class="sidebar-item borderless">
         <h3>Recent Articles</h3>
         <ol>
+          <li><a href="/2020/03/25/mixing/">Pandemic tunes</a></li>
           <li><a href="/2019/11/05/owasp-automated-threat-handbook/">OWASP Automated threat handbook</a></li>
           <li><a href="/2019/10/24/vpn/">VPNs for all</a></li>
           <li><a href="/2019/06/07/cryptopals/">Cryptopals!</a></li>
           <li><a href="/2019/03/26/security-prep/">Security+ Prep</a></li>
-          <li><a href="/2019/02/09/github-pages-domain-takeover/">Github pages domain takeover</a></li>
         </ol>
         <ol>
+          <li>
+            <h5 style="margin-bottom:0;">2020</h5>
+              <br/>
+              <a href="/2020/03/25/mixing/">Pandemic tunes</a>
+          </li>
           <li>
             <h5 style="margin-bottom:0;">2019</h5>
               <br/>
