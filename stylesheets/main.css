@@ -213,6 +213,12 @@ a.twitter {
   a.twitter:hover {
     opacity: 1; }
 
+a.soundcloud {
+  background: url("../images/soundcloud.ico") center no-repeat #55cff8;
+  border: 1px solid #55CFF8; }
+  a.soundcloud:hover {
+    opacity: 1; }
+
 a.github {
   background: url("../images/github.png") center no-repeat #afb6ca;
   border: 1px solid #afb6ca; }
