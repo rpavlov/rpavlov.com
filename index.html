@@ -32,6 +32,23 @@
   <section id="main" role="main" class="content">
     <div class="posts-wrapper">
         <article class="post">
+	 <h1 class="post-title"><a href="/2020/07/11/githubpages/">Github pages bug</a></h1>
+    <div class="post-meta">11 July 2020</div>
+	 <div class="post-text"><p>Barely a day goes by now where I don&rsquo;t discover a bug in some service, tool or program. Sometimes it&rsquo;s even the default configuration that&rsquo;s wrong. Anyway, this one is a blog post because it&rsquo;s about Github pages where this blog lives.</p>
+
+<p>I noticed the site was 404ing after I made the repository itself private. I reverted that, but still seeing a 404. I hadn&rsquo;t deployed any code changes either. I ruled it out an issue with the custom domain name because https://rpavlov.github.io was also 404.</p>
+
+<p>Of course, others out there have had this same problem on and off since 2012 (According to the top answer on Stackoverflow).  The solution is to delete and re-push your remote <code>gh-pages</code> branch. Pretty lame solution. Possible bug on Github&rsquo;s end, according to comments.</p>
+<div class="highlight"><pre class="highlight shell"><code>git checkout gh-pages
+
+git push origin <span class="nt">--delete</span> gh-pages
+
+git push origin
+</code></pre></div>
+<p>It appears the option to have a private repo with public github pages is graciously on offer as a paid feature by GH.</p>
+</div>
+  </article>
+  <article class="post">
 	 <h1 class="post-title"><a href="/2020/03/25/mixing/">Pandemic tunes</a></h1>
     <div class="post-meta">25 March 2020</div>
 	 <div class="post-text"><p>It seems this pandemic is shaking things up a bit, and enforcing some lifestyle changes. Not much to do but wait it out, listen to some music, and learn how to mix.</p>
@@ -138,12 +155,6 @@ ISPs here in Germany, my 2 in 1 modem/router lacks basic functionality like port
 </ul>
 </div>
   </article>
-  <article class="post">
-	 <h1 class="post-title"><a href="/2019/03/26/security-prep/">Security+ Prep</a></h1>
-    <div class="post-meta">26 March 2019</div>
-	 <div class="post-text"><p>I finally got around to some focused self-study and completed a <a href="https://stackskills.com">https://stackskills.com</a> course for the Security+ certification preparation. The tl;dr is that it&rsquo;s all pretty introductory/high-level subject matter, but still useful for getting into that headspace. Peep my notes here if you&rsquo;re so inclined <a href="https://github.com/rpavlov/security-plus-notes">https://github.com/rpavlov/security-plus-notes</a></p>
-</div>
-  </article>
   <p class="pagination-controls">
     <span>1 of 5</span>
 
@@ -168,15 +179,17 @@ ISPs here in Germany, my 2 in 1 modem/router lacks basic functionality like port
       <div class="sidebar-item borderless">
         <h3>Recent Articles</h3>
         <ol>
+          <li><a href="/2020/07/11/githubpages/">Github pages bug</a></li>
           <li><a href="/2020/03/25/mixing/">Pandemic tunes</a></li>
           <li><a href="/2019/11/05/owasp-automated-threat-handbook/">OWASP Automated threat handbook</a></li>
           <li><a href="/2019/10/24/vpn/">VPNs for all</a></li>
           <li><a href="/2019/06/07/cryptopals/">Cryptopals!</a></li>
-          <li><a href="/2019/03/26/security-prep/">Security+ Prep</a></li>
         </ol>
         <ol>
           <li>
             <h5 style="margin-bottom:0;">2020</h5>
+              <br/>
+              <a href="/2020/07/11/githubpages/">Github pages bug</a>
               <br/>
               <a href="/2020/03/25/mixing/">Pandemic tunes</a>
           </li>
