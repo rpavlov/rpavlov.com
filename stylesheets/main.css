@@ -103,7 +103,6 @@ pre {
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .name {
       padding: 0.5em; } }
-
 .content {
   padding: 3em;
   margin-left: auto;
@@ -111,7 +110,6 @@ pre {
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .content {
       padding: 0em; } }
-
 .sidebar {
   float: left;
   width: 27%;
@@ -177,7 +175,6 @@ pre {
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .posts-wrapper {
       width: 100%; } }
-
 .post-meta {
   margin-bottom: 2em;
   display: block;
