@@ -1,1 +1,1 @@
-bundle exec mgd
+git push && bundle exec mgd
