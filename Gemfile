@@ -9,6 +9,8 @@ gem 'redcarpet'
 gem 'mgd', :git=> "https://github.com/hovancik/middleman-github-deploy.git"
 gem "nokogiri", ">= 1.10.4"
 
+gem "kramdown", ">= 2.3.0"
+
 # For feed.xml.builder
 gem "builder"
 gem "rack-contrib"
