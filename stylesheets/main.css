@@ -66,6 +66,10 @@ body {
     font-size: 17px;
     line-height: 28px; }
 
+code.hljs {
+  font-size: 12px;
+  padding: 0.2em 0.4em; }
+
 pre {
   margin-top: 1.5em; }
   pre code {
