@@ -14,7 +14,7 @@ The difference between Base64 and hex is really just how bytes are represented. 
 
 There is more to base selection than efficiency, however.
 
-Base64 uses more than just letters and numbers. Different implementations use different punctuation characters for indiciating padding, and making up the last two characters of the set of 64. These can include plus "+" and equal "=". both problematic in HTTP query strings.
+Base64 uses more than just letters and numbers. Different implementations use different punctuation characters as delimiters, and making up the last two characters of the set of 64. These can include plus "+" and equal "=" which are both problematic in HTTP query strings.
 
 So one reason to favour base16 over base64 is that base16 values can be composed directly into HTTP query strings without requiring additional encoding. Is that important to you?
 
