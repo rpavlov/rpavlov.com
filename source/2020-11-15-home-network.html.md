@@ -16,12 +16,13 @@ However, after enabling it my internet connection died. I noticed the router was
 On the Cloudfront side, I had to create a couple of records and then use my Global API key (Token didn't work for some reason) in order to run a Crontask which updates the A record whenever the router receives a new public IP from the ISP. We want this router accessible from the internet. Hackers welcome I guess. The CF DNS records consist of an A record initially set to anything, but subsequently updated by the crontask running on open-wrt. An A record of dynamic-> *router-ip * and a CNAME record of rpavlov -> dynamic.rpavlov.com are created. Pinging either one will resolve to CF's server, so my ip is nicely hidden and protected from DDoS. The steps are outlined here https://github.com/dcerisano/cloudflare-dynamic-dns . Finally, add a Page Rule to redirect all traffic to https.
 
 ## Raspberry Pi
-0. Disable ssh password.
-1. We need to reserve a static ip for the pi in the LAN. Easily done through the open-wrt Luci web interface.
-2. We need to expose port 80/433 in the router firewall from the WAN interface, and route it to the Pi local ip on the LAN interface. Additionaly we need to remap the port that the router's Web interface server (uHttpd) is running on to something else in order to free up those ports.
-3. Issue an SSL cert with Certbot, by authentication through a TXT file in the webroot.
-4. Drop the static blog files in /var/www/html.
-5. Add my [hardened nginx config](https://github.com/rpavlov/nginx).
+
+* Disable ssh password. While we're at it, only allow ssh into the router from the LAN interface.
+* We need to reserve a static ip for the pi in the LAN. Easily done through the open-wrt Luci web interface.
+* We need to expose port 80/433 in the router firewall from the WAN interface, and route it to the Pi local ip on the LAN interface. Additionaly we need to remap the port that the router's Web interface server (uHttpd) is running on to something else in order to free up those ports.
+* Issue an SSL cert with Certbot, by authentication through a TXT file in the webroot.
+* Drop the static blog files in /var/www/html.
+* Add my [hardened nginx config](https://github.com/rpavlov/nginx).
 
 ## Dropbox replacement
 
