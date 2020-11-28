@@ -1,1 +1,2 @@
-git push && bundle exec mgd
+bundle exec middleman build
+rsync -rvI $PWD/build/* pi:/var/www/html

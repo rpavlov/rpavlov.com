@@ -1,13 +1,13 @@
 ---
 title: The evergreen home networking blog post
-date: 2020-11-17
+date: 2020-11-15
 published: true
 ---
 I've reached the point in my life where I find home networking fun. It's either that or a model train set. The catalyst was finally setting up an Open-WRT router, which gives me options. The ability to put the Vodafone KabelBox modem in full bridge mode is mandatory for proper NAT resolution and to access local services from outside. The hosting hub is a raspberry pi with a number of additional services like nginx.
 
 ## Open-WRT & KabelBox
 
-Luckily Vodafone are nice enough to provide the option to toggle bridge mode on their router/modem devices. It was deeply buried [here](https://kabel.vodafone.de/meinkabel/einstellungen/interneteinstellungen/bridgemode_tipps#)
+Luckily Vodafone are nice enough to provide the option to toggle bridge mode on their router/modem devices. It was deeply buried [here](https://kabel.vodafone.de/meinkabel/einstellungen/interneteinstellungen/bridgemode_tipps#).
 
 However, after enabling it my internet connection died. I noticed the router was being assigned an ip on the WAN interface from the gateway (modem), but I couldn't ping through to any DNS servers.  After investing several hours reading the open-wrt docs and searching online I noticed a tip about restarting the cable modem in order to assign the router a new ip for the WAN interface (one that isn't from the old 192.0.1 pool, but instead something fresh from the ISP, in a completely different subnet). This interface remains running as a DHCP client which is the default. In fact, no additional configuration outside of wifi setup had to be done for the router. Anyway once again the rule of thumb about computers is if in doubt; restart.
 
