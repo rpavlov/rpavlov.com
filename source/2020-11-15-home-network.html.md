@@ -26,7 +26,7 @@ On the Cloudfront side, I had to create a couple of records and then use my Glob
 
 ## Dropbox replacement
 
-Dropbox can't really be trusted, so I trade reliability and security for decreased paranoia. Instead I use [Syncthing](https://syncthing.net/) which runs on each client device (laptops, PC)  and doesn't require hosting. It works out of the box flawlessly.
+Dropbox can't really be trusted, so I trade reliability and security for dubiously decreased paranoia. Instead I use [Syncthing](https://syncthing.net/) which runs on each client device (laptops, PC)  and doesn't require hosting. It works out of the box flawlessly.
 
 ## Next up
 
@@ -37,3 +37,7 @@ Dropbox can't really be trusted, so I trade reliability and security for decreas
 ## Conclusion
 
 Much respect to the legion of clever elves who made all this software magic possible. Throughout the course of writing this post I also realized I'll probably be touching computers until the day I die, which seems like a mixed blessing.
+
+## Update 2020-11-30
+
+The dream is dead. My internet speed plummeted when using the router, probably because it's running on 10 year hardware.  In any case, it turns out I can still just forward ports 80/443 from outside to the static ip of the Pi, as well as run the crontask to update the A record with the public IP of the Vodafone Router. One other thing I added was upcheck checks from Google Cloud. Godbless.
