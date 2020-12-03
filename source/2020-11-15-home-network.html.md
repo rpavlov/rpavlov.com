@@ -40,4 +40,4 @@ Much respect to the legion of clever elves who made all this software magic poss
 
 ## Update 2020-11-30
 
-The dream is dead. My internet speed plummeted when using the router, probably because it's running on 10 year hardware.  In any case, it turns out I can still just forward ports 80/443 from outside to the static ip of the Pi, as well as run the crontask to update the A record with the public IP of the Vodafone Router. One other thing I added was upcheck checks from Google Cloud. Godbless.
+The dream is dead. My internet speed plummeted when using the router, probably because it's running on 10 year old hardware.  In any case, it turns out I can still just forward ports 80/443 from outside to the static ip of the Pi, as well as run the crontask to update the A record with the public IP of the Vodafone Router. One other thing I added was upcheck checks from Google Cloud. Godbless.
