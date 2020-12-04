@@ -3,7 +3,7 @@ title: The evergreen home networking blog post
 date: 2020-11-15
 published: true
 ---
-I've reached the point in my life where I find home networking fun. It's either that or a model train set. The catalyst was finally setting up an Open-WRT router, which gives me options. The ability to put the Vodafone KabelBox modem in full bridge mode is mandatory for proper NAT resolution and to access local services from outside. The hosting hub is a raspberry pi with a number of additional services like nginx.
+I've reached the point in my life where I find home networking fun. It's either that or a model train set. The catalyst was finally setting up an Open-WRT router, which gives me options. The ability to put the Vodafone KabelBox modem in full bridge mode is mandatory for proper NAT resolution and to access local services from the outside. The hosting hub is a Raspberry Pi 3 with a number of additional services like nginx.
 
 ## Open-WRT & KabelBox
 
@@ -40,4 +40,4 @@ Much respect to the legion of clever elves who made all this software magic poss
 
 ## Update 2020-11-30
 
-The dream is dead. My internet speed plummeted when using the router, probably because it's running on 10 year old hardware.  In any case, it turns out I can still just forward ports 80/443 from outside to the static ip of the Pi, as well as run the crontask to update the A record with the public IP of the Vodafone Router. One other thing I added was upcheck checks from Google Cloud. Godbless.
+The dream is over. My internet speed plummeted when using the router, probably because it's running on 10 year old hardware.  In any case, it turns out I can still just forward ports 80/443 from outside to the static ip of the Pi, as well as run the cronjob to update the A record with the public IP of the Vodafone Router. One other thing I added was uptime checks from Google Cloud. Godbless.
