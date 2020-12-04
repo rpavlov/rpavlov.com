@@ -2,6 +2,7 @@
 title: The evergreen home networking blog post
 date: 2020-11-15
 published: true
+tags: open-wrt, raspberry-pi, DDNS, nginx
 ---
 I've reached the point in my life where I find home networking fun. It's either that or a model train set. The catalyst was finally setting up an Open-WRT router, which gives me options. The ability to put the Vodafone KabelBox modem in full bridge mode is mandatory for proper NAT resolution and to access local services from the outside. The hosting hub is a Raspberry Pi 3 with a number of additional services like nginx.
 

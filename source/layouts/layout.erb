@@ -65,6 +65,13 @@
           <% end %>
         </ol>
       </div>
+      <div class="sidebar-item borderless">
+      <h3>Tags</h3>
+      <% blog.tags.each do |tag, articles| %>
+        <span class="hash-col">#<%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</span>
+
+      <% end %>
+      </div>
     </aside>
   </section>
 </body>

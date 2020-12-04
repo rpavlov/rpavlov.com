@@ -1,7 +1,7 @@
 ---
 title: Git workflow
 date: 2013-12-17
-tags: github programming
+tags: github, programming
 published: true
 ---
 
