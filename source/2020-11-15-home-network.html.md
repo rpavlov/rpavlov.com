@@ -29,9 +29,16 @@ On the Cloudfront side, I had to create a couple of records and then use my Glob
 
 Dropbox can't really be trusted, so I trade reliability and security for dubiously decreased paranoia. Instead I use [Syncthing](https://syncthing.net/) which runs on each client device (laptops, PC)  and doesn't require hosting. It works out of the box flawlessly.
 
+## pi-hole
+
+As easy as running `curl -sSL https://install.pi-hole.net | bash` on the pi, and following the steps. They are also kind enough to explain why curl to bash, and give you options if you want to audit the scripts yourself. Afterwards, set the DNS servers of each device on the home network to point to the pi's ip.
+Unfortunately the Vodafone router does not provide the option to set DNS servers, so this has to be done
+per device.
+
 ## Next up
 
 * [Funkwhale](https://funkwhale.audio/) for streaming my own music files outside of Spotify.
+* A pi-hole.
 * A Tor relay.
 * This blog as a hidden service, which is pretty straightforward actually: Download Tor, modify the `.../tor-browser_en-US/Browser/TorBrowser/Data/Tor/torrc` to point to nginx, then access at the relevant vhost+port.
 
