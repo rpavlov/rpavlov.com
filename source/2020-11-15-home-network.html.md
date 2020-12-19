@@ -20,7 +20,7 @@ On the Cloudfront side, I had to create a couple of records and then use my Glob
 
 * Disable ssh password. While we're at it, only allow ssh into the router from the LAN interface.
 * We need to reserve a static ip for the pi in the LAN. Easily done through the open-wrt Luci web interface.
-* We need to expose port 80/433 in the router firewall from the WAN interface, and route it to the Pi local ip on the LAN interface. Additionaly we need to remap the port that the router's Web interface server (uHttpd) is running on to something else in order to free up those ports.
+* We need to expose port 80/433 in the router firewall from the WAN interface, and route it to the Pi local ip on the LAN interface. Additionally we need to remap the port that the router's Web interface server (uHttpd) is running on to something else in order to free up those ports.
 * Issue an SSL cert with Certbot, by authentication through a TXT file in the webroot.
 * Drop the static blog files in /var/www/html.
 * Add my [hardened nginx config](https://github.com/rpavlov/nginx).
@@ -38,7 +38,6 @@ per device.
 ## Next up
 
 * [Funkwhale](https://funkwhale.audio/) for streaming my own music files outside of Spotify.
-* A pi-hole.
 * A Tor relay.
 * This blog as a hidden service, which is pretty straightforward actually: Download Tor, modify the `.../tor-browser_en-US/Browser/TorBrowser/Data/Tor/torrc` to point to nginx, then access at the relevant vhost+port.
 
