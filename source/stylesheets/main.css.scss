@@ -259,12 +259,13 @@ div.social, div.header-avatar{
 div.header-avatar{
 display:inline-block;
 margin:0 0 0 2em;
+
 a{
+	opacity:1;
 	width:50px;
 	height:50px;
 	margin:0;
 }
-
 }
 
 a.twitter{
@@ -283,10 +284,10 @@ a.soundcloud{
 	}
 }
 a.child-avatar{
-	background: url('../images/child_avatar.jpg') center no-repeat #55cff8;
-	border: 1px solid #55CFF8;
+	background: url('../images/my_avatar_small.jpg') center no-repeat #55cff8;
+	border: 1.5px solid #333;
 	&:hover{
-		opacity:1;
+		opacity:0.5;
 	}
 }
 
