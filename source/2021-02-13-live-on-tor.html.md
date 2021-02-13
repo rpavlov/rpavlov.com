@@ -47,7 +47,7 @@ HiddenServiceDir /var/lib/tor/hidden_service
 HiddenServicePort 80 127.0.0.1:8080
 ```
 
-Finally, add a vhost to nginx. Your web root may var so double check that.
+Finally, add a vhost to nginx. Your web root may vary so double check that.
 
 ```nginx
 server {
@@ -66,3 +66,5 @@ Now, do a `service tor restart && service nginx reload` and you should now find 
 Now would be a good time to run a backup of the Pi's SD card, to save our hours of toil. I have an additional usb drive attached and mounted so I will drop it there. Note that your SD card might have a different name, so check with `lsblk`.
 
 `dd bs=4M if=/dev/mmcblk0 of=/media/pi-space/sd-card-backup-2021-02.img`
+
+Namaste.
