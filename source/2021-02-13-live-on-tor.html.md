@@ -14,7 +14,7 @@ Installing Tor requires either building from source, or adding some 3rd party AP
 
 In short, it's sufficient to add the following to your `/etc/apt/sources.list`. The `[arch=amd64]` is important else your `apt get update` will fail. Also pay attention to your raspbian version. Is it jessie, stretch or buster? Double check with `cat /etc/os-release`.
 
-```makefile
+```shell
 deb [arch=amd64] https://deb.torproject.org/torproject.org buster main
 deb-src [arch=amd64] https://deb.torproject.org/torproject.org buster main
 ```
@@ -28,7 +28,7 @@ gpg --export A3C4F0F979CAA22CDBA8F512EE8CBC9E886DDD89 | apt-key add -
 
 Hope this works
 
-```zsh
+```shell
 apt update && apt upgrade
 apt install tor deb.torproject.org-keyring
 ```

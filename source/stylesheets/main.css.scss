@@ -98,6 +98,32 @@ code.hljs{
 		font-size:12px;
 		padding: 0.2em 0.4em;
 }
+
+code{
+	font-size: 12px;
+	display: inline-block;
+	vertical-align:middle;
+	color: #111111;
+	padding: 0em 0.2em;
+	overflow-y: hidden;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-width: 0.0625em;
+	border-style: solid;
+	font-weight:0.5;
+	border-color: #ccc;
+	border-width: 1px;
+	overflow-x: scroll;
+	border-radius: 4px;
+	background-color:#f0f0f0;
+
+	box-shadow: inset 0 1px 0 #fff,0 1px 1px rgba(0,0,0,0.05);
+	font-family: Monaco,Consolas,"Lucida Console",monospace;
+	margin:0;
+	overflow-x: auto;
+}
+
 pre{
 	margin-top: 1.5em;
 	code{
