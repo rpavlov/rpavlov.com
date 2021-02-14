@@ -63,7 +63,7 @@ Now, do a `service tor restart && service nginx reload` and you should now find 
 
 ## Ah, one more thing
 
-Setting up a middle/guard relay is pretty trivial, and a great way to help out the community. Add a few lines to `/etc/tor/torrc`, restart,  and we're good to go.
+Setting up a middle/guard relay is pretty trivial, and a great way to help out the community. Add a few lines to `/etc/tor/torrc` and ensure port 9001 is reachable via (https://canyouseeme.org/)[https://canyouseeme.org/]. Then restart,  and we're good to go. Keep tailing syslog however, since it will indicate if things go wrong.
 
 ```
 ORPort 9001
