@@ -74,6 +74,10 @@ ContactInfo roumen@rpavlov.com
 Nickname CiaSurveillanceVan
 ```
 
+After about an hour we can verify the relay is operational at [https://metrics.torproject.org/rs.html#search/CiaSurveillanceVan](https://metrics.torproject.org/rs.html#search/CiaSurveillanceVan). Fantastic. However now I've created a new set of problems for the poor pi, and by extension my home network connection, in the form of eventual ruthless DDoSing. [These](https://www.hackerfactor.com/blog/index.php?/archives/777-Stopping-Tor-Attacks.html) [Posts](https://www.hackerfactor.com/blog/index.php?/archives/897-Tor-0day-Crashing-the-Tor-Network.html) discuss the problems & solutions, and are a good starting point for hardening the home network.
+
+For now the first step is getting some better network monitoring in place, which from my understanding is (Munin)(http://munin-monitoring.org/). Updates to follow, as they're implemented.
+
 ## Bonus pro-tip
 
 Now would be a good time to run a backup of the Pi's SD card, to save our hours of toil. I have an additional usb drive attached and mounted so I will drop it there. Note that your SD card might have a different name, so check with `lsblk`.
