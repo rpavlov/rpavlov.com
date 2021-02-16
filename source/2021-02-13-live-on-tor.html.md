@@ -4,11 +4,11 @@ date: 2021-02-13
 published: true
 tags: tor
 ---
-One of the things I've been meaning to do for a while is gain a better understanding of the onion protocol and how hidden services are hosted. I got about 50% through the Tor [whitepaper](https://www.freehaven.net/anonbib/cache/tor-design.pdf) before deciding to pivot to some practical applications, so this blog is now mirrored at [http://xzjjcvowtdunfx4z6dkeund7sjvt3k7nphgcfdusy64smyqpmdusmpad.onion/](http://xzjjcvowtdunfx4z6dkeund7sjvt3k7nphgcfdusy64smyqpmdusmpad.onion/)
+One of the things I've been meaning to do for a while is gain a better understanding of the onion protocol and how hidden services are hosted. I got about 50% through the Tor [whitepaper](https://www.freehaven.net/anonbib/cache/tor-design.pdf) before deciding to pivot to some practical applications, so this blog is now mirrored at [http://xzjjcvowtdunfx4z6dkeund7sjvt3k7nphgcfdusy64smyqpmdusmpad.onion/](http://xzjjcvowtdunfx4z6dkeund7sjvt3k7nphgcfdusy64smyqpmdusmpad.onion/). It's v3, which can be quickly inferred from the 56 character address.
 
 ## The steps
 
-This blog is currently hosted on my 3rd gen Raspberry Pi and served by nginx, so we'll setup tor there as well.
+The static files for this blog reside on a 3rd gen Raspberry Pi and served by nginx, so we'll setup Tor there as well.
 
 Installing Tor requires either building from source, or adding some 3rd party APT repositories. I used the repos because building will take a while. There are some gotchas, however, since Raspbian differs from Debian in a few ways. More detailed info [here.](https://2019.www.torproject.org/docs/debian.html.en)
 
