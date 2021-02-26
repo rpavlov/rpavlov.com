@@ -5,6 +5,10 @@
 Time.zone = "UTC"
 
 
+config[:host] = "https://rpavlov.com"
+config[:ignore_sitemap_regex] = %r[\.(css|js|eot|svg|woff|ttf|png|jpg|jpeg|gif|keep)$]
+
+
 
 activate :blog do |blog|
 
@@ -33,6 +37,7 @@ activate :directory_indexes
 
 
 page "/feed.xml", :layout => false
+page "/sitemap.xml", :layout => false
 #page "/about/*", :layout => "about"
 
 ###
