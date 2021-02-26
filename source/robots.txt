@@ -1,0 +1,7 @@
+# Welcome to the BOTtleneck hah
+
+User-agent: *
+Allow: *
+Crawl-delay: 5
+
+Sitemap: https://rpavlov.com/sitemap.xml
