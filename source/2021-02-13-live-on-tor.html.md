@@ -8,7 +8,7 @@ One of the things I've been meaning to do for a while is gain a better understan
 
 ## The steps
 
-The static files for this blog reside on a 3rd gen Raspberry Pi and served by nginx, so we'll setup Tor there as well.
+The static files for this blog reside on a 3rd gen Raspberry Pi and are served by nginx, so we'll setup Tor there as well.
 
 Installing Tor requires either building from source, or adding some 3rd party APT repositories. I used the repos because building will take a while. There are some gotchas, however, since Raspbian differs from Debian in a few ways. More detailed info [here.](https://2019.www.torproject.org/docs/debian.html.en)
 
