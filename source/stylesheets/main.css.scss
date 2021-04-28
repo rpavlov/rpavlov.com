@@ -162,7 +162,7 @@ pre{
 	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 		padding:0.5em;
 	}
-	padding: 0.5em 0.5em;
+	padding: 0 3.5em;
 }
 .content{
 	padding: 3em;
@@ -407,4 +407,12 @@ table td {
 	border-style: solid;
 	border-color: #666666;
 	background-color: #ffffff;
+}
+.peek{
+	background: url("my_avatar.jpeg");
+	display:block;
+	margin: 1.5em 0;
+	width: 40%;
+	height: 40%;
+	border-radius: 50%;
 }

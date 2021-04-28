@@ -21,9 +21,7 @@
 </head>
 <body>
   <header>
-    <div class="header-avatar">
-        <a class="child-avatar" href="https://www.github.com/rpavlov"></a>
-    </div>
+
     <div class="clearfix">
           <h2 class="name"><%= link_to "rpavlov", "/" %></h2>
     </div>
@@ -34,18 +32,20 @@
     </div>
     <aside class="sidebar">
       <div class="sidebar-item">
-        <h3 class="sidebar-title">Howdy stranger</h3>
+        <h3 class="sidebar-title">Howdy stranger,</h3>
+        <img class="peek" src="/images/my_avatar.jpeg">
         <span>
           I solve problems with, and oftentimes without, software. In the murky past I've done programming, web development, dev-ops,
           cloud infrastructure management & system administration. I enjoy thinking about and solving security problems as well.
           <br/>
           <br/>
-          Shoot me an email at <%= mail_to "roumen@rpavlov.com" %>. My PGP pubkey is <%= link_to "here", "/pgp.txt" %>.
-          </span>
-
-        <br/>
+          Shoot me an email at <%= mail_to "roumen@rpavlov.com" %>.<br/>
+          My resume is <%= link_to "here", "/resume.pdf" %>.<br/>
+          My PGP pubkey is <%= link_to "here", "/pgp.txt" %>.
+        </span>
         <div class="social">
-          <a class="github" href="https://www.github.com/rpavlov">Twitter</a>
+          <a class="github" href="https://www.github.com/rpavlov">Github</a>
+          <a class="linkedin" href="https://www.linkedin.com/in/roumenpavlov/">LinkedIn</a>
           <a class="soundcloud" href="https://soundcloud.com/the-sweetling">Soundcloud</a>
         </div>
       </div>
