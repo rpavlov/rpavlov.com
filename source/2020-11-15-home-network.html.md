@@ -14,7 +14,7 @@ However, after enabling it my internet connection died. I noticed the router was
 
 ## Cloudflare & DNS
 
-On the Cloudfront side, I had to create a couple of records and then use my Global API key (Token didn't work for some reason) in order to run a Crontask which updates the A record whenever the router receives a new public IP from the ISP. We want this router accessible from the internet. Hackers welcome I guess. The CF DNS records consist of an A record initially set to anything, but subsequently updated by the crontask running on open-wrt. An A record of dynamic-> *router-ip * and a CNAME record of rpavlov -> <a-super-secret-subdomain>.rpavlov.com are created. Pinging either one will resolve to CF's server, so my ip is nicely hidden and protected from DDoS. The steps are more clearly outlined here https://github.com/dcerisano/cloudflare-dynamic-dns . Finally, add a Page Rule to redirect all traffic to https.
+On the Cloudfront side, I had to create a couple of records and then use my Global API key (Token didn't work for some reason) in order to run a Crontask which updates the A record whenever the router receives a new public IP from the ISP. We want this router accessible from the internet. Hackers welcome I guess. The CF DNS records consist of an A record initially set to anything, but subsequently updated by the crontask running on open-wrt. An A record of dynamic-> *router-ip* and a CNAME record of rpavlov -> *a-super-secret-subdomain*.rpavlov.com are created. Pinging either one will resolve to CF's server, so my ip is nicely hidden and protected from DDoS. The steps are more clearly outlined here https://github.com/dcerisano/cloudflare-dynamic-dns . Finally, add a Page Rule to redirect all traffic to https.
 
 ## Raspberry Pi
 
