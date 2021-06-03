@@ -93,6 +93,9 @@ body{
 		}
 		line-height: 28px;
 	}
+		@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+			margin: auto;
+		}
 }
 code.hljs{
 		font-size:12px;
