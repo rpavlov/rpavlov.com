@@ -6,7 +6,6 @@ gem "middleman-blog"
 gem "middleman-syntax"
 
 gem 'redcarpet', ">= 3.5.1"
-gem 'mgd', :git=> "https://github.com/hovancik/middleman-github-deploy.git"
 gem "nokogiri", ">= 1.11.0"
 
 gem "kramdown", ">= 2.3.0"

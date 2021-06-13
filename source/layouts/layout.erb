@@ -1,69 +1,67 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-  <meta name="description" content="oh god how did this get here I am not good with computers">
-  <%= stylesheet_link_tag 'normalize' %>
-  <%= stylesheet_link_tag 'main' %>
-  <%= stylesheet_link_tag 'text' %>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', (event) => {
-      document.querySelectorAll('pre code').forEach((block) => {
-        hljs.highlightBlock(block);
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    <meta name="description" content="oh god how did this get here I am not good with computers">
+    <%= stylesheet_link_tag 'normalize' %>
+    <%= stylesheet_link_tag 'main' %>
+    <%= stylesheet_link_tag 'text' %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelectorAll('pre code').forEach((block) => {
+          hljs.highlightBlock(block);
+        });
       });
-    });
-  </script>
-  <title>rpavlov</title>
-</head>
-<body>
-
-  <section id="main" role="main" class="content">
-    <div class="posts-wrapper">
-      <%= yield %>
-    </div>
-    <aside class="sidebar">
-      <div class="sidebar-item">
-        <h3 class="sidebar-title">Howdy stranger,</h3>
-        <img class="peek" src="/images/my_avatar.jpeg">
-        <span>
-        <%= data.text.sidebar %>
-        </span>
-        <br/>
-        <br/>
-        <span>
-          Shoot me an email at <%= mail_to "roumen@rpavlov.com" %>.<br/>
-          My PGP pubkey is <%= link_to "here", "/pgp.txt" %>.
-        </span>
-        <div class="social">
-          <a class="github" href="https://www.github.com/rpavlov">Github</a>
-          <a class="linkedin" href="https://www.linkedin.com/in/roumenpavlov/">LinkedIn</a>
-          <a class="soundcloud" href="https://soundcloud.com/the-sweetling">Soundcloud</a>
+    </script>
+    <title>rpavlov</title>
+  </head>
+  <body>
+    <section id="main" role="main" class="content">
+      <div class="posts-wrapper">
+        <%= yield %>
+      </div>
+      <aside class="sidebar">
+        <div class="sidebar-item">
+          <h3 class="sidebar-title">Howdy stranger,</h3>
+          <img class="peek" src="/images/my_avatar.jpeg">
+          <span>
+            <%= data.text.sidebar %>
+          </span>
+          <br/>
+          <br/>
+          <span>
+            <%= data.text.email %> <%= mail_to "roumen@rpavlov.com" %>.<br/>
+            <%= data.text.pubkey %> <%= link_to "here", "/pgp.txt" %>.
+          </span>
+          <div class="social">
+            <a class="github" href="https://www.github.com/rpavlov">Github</a>
+            <a class="linkedin" href="https://www.linkedin.com/in/roumenpavlov/">LinkedIn</a>
+            <a class="soundcloud" href="https://soundcloud.com/the-sweetling">Soundcloud</a>
+          </div>
         </div>
-      </div>
-      <div class="sidebar-item borderless">
-        <ol>
-          <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-          <li>
-            <h5 style="margin-bottom:0;"><%= year %></h5>
-              <% articles.each do |article| %>
-              <br/>
-              <a href="<%= article.url %>"><%= article.title %></a>
-              <% end %>
-          </li>
+        <div class="sidebar-item borderless">
+          <ol>
+            <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+            <li>
+              <h5 style="margin-bottom:0;"><%= year %></h5>
+                <% articles.each do |article| %>
+                <br/>
+                <a href="<%= article.url %>"><%= article.title %></a>
+                <% end %>
+            </li>
+            <% end %>
+          </ol>
+        </div>
+        <div class="sidebar-item borderless">
+          <h3>Tags</h3>
+          <% blog.tags.each do |tag, articles| %>
+            <span class="hash-col">#<%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</span>
           <% end %>
-        </ol>
-      </div>
-      <div class="sidebar-item borderless">
-      <h3>Tags</h3>
-      <% blog.tags.each do |tag, articles| %>
-        <span class="hash-col">#<%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</span>
-      <% end %>
-      </div>
-    </aside>
-  </section>
-</body>
+        </div>
+      </aside>
+    </section>
+  </body>
 </html>
