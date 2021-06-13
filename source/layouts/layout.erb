@@ -30,10 +30,11 @@
         <h3 class="sidebar-title">Howdy stranger,</h3>
         <img class="peek" src="/images/my_avatar.jpeg">
         <span>
-          I solve problems with, and oftentimes without, software. In the murky past I've done programming, web development, dev-ops,
-          cloud infrastructure management & system administration. I enjoy thinking about and solving security problems as well.
-          <br/>
-          <br/>
+        <%= data.text.sidebar %>
+        </span>
+        <br/>
+        <br/>
+        <span>
           Shoot me an email at <%= mail_to "roumen@rpavlov.com" %>.<br/>
           My PGP pubkey is <%= link_to "here", "/pgp.txt" %>.
         </span>
@@ -44,12 +45,6 @@
         </div>
       </div>
       <div class="sidebar-item borderless">
-        <h3>Recent Articles</h3>
-        <ol>
-          <% blog.articles[0...5].each do |article| %>
-          <li><a href="<%= article.url %>"><%= article.title %></a></li>
-          <% end %>
-        </ol>
         <ol>
           <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
           <li>
@@ -66,7 +61,6 @@
       <h3>Tags</h3>
       <% blog.tags.each do |tag, articles| %>
         <span class="hash-col">#<%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</span>
-
       <% end %>
       </div>
     </aside>
