@@ -1,25 +1,25 @@
 @font-face {
-  font-family: 'DroidSans';
-  src: url('fonts/DroidSans.ttf');
-  font-style: normal;
+	font-family: "DroidSans";
+	src: url("fonts/DroidSans.ttf");
+	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_MuseoSans-300';
-	src: url('fonts/MuseoSans-300.ttf');
+	font-family: "Conv_MuseoSans-300";
+	src: url("fonts/MuseoSans-300.ttf");
 	//src: local('☺'), url('fonts/MuseoSans-300.svg') format('svg'), url('fonts/MuseoSans-300.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
-body{
+body {
 	-webkit-font-smoothing: antialiased;
 	font-family: Conv_MuseoSans-300;
 }
 
-header{
-	.name{
-		&:hover{
+header {
+	.name {
+		&:hover {
 			-webkit-transition: 0.3s;
 			-moz-transition: 0.3s;
 			-ms-transition: 0.3s;
@@ -28,34 +28,35 @@ header{
 			opacity: 0.5;
 		}
 	}
-	a{
+	a {
 		color: #fff;
 		text-decoration: none;
 	}
 }
 
-h3{
+h3 {
 	font-size: 1.25em;
 	line-height: 1.2em;
 	font-weight: bold;
 }
 
-h1.post-title{
+h1.post-title {
 	font-size: 2em;
 	line-height: 1.41176em;
 	margin-top: 0em;
 	margin-bottom: 0.15em;
 	font-weight: 700;
 	color: #333;
-	a{
+	a {
 		color: #333;
 	}
 }
 
-a, hash-col{
+a,
+hash-col {
 	text-decoration: none;
 	color: #005688;
-	&:hover{
+	&:hover {
 		-webkit-transition: 0.3s;
 		-moz-transition: 0.3s;
 		-ms-transition: 0.3s;
@@ -64,6 +65,6 @@ a, hash-col{
 		opacity: 0.8;
 	}
 }
-.tiny{
+.tiny {
 	font-size: 0.75em;
 }
