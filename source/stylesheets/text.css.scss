@@ -24,12 +24,23 @@ h2 {
 	}
 }
 
-h3,h4 {
+h3,
+h4 {
 	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 		font-size: 2em;
 	}
 }
-
+div.social a.soundcloud,
+div.social a.linkedin,
+div.social a.github {
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		background-size: 100px auto;
+		display: inline-block;
+		width: 100px;
+		height: 100px;
+		margin: 0 4em;
+	}
+}
 .post-meta {
 	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 		font-size: 2em;
@@ -44,8 +55,7 @@ body {
 		font-size: 1.5em;
 		line-height: 1.5em;
 	}
-	 p {
-
+	p {
 		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 			font-size: 2em;
 			line-height: 1.5em;
@@ -59,7 +69,7 @@ body {
 	}
 }
 
-code{
+code {
 	font-family: Monaco, Consolas, "Lucida Console", monospace;
 	font-weight: 0.5;
 	font-size: 12px;
