@@ -14,7 +14,7 @@ h1 {
 	line-height: 1.4em;
 	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 		font-size: 4em;
-		line-height: 1.2em;
+		line-height: 1.4em;
 	}
 }
 
@@ -37,12 +37,13 @@ h3 {
 }
 body {
 	font-family: Conv_MuseoSans-300;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 17px;
+	line-height: 28px;
 	-webkit-font-smoothing: antialiased;
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		font-size: 2em;
+	}
 	p {
-		font-size: 17px;
-		line-height: 28px;
 		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 			font-size: 2em;
 			line-height: 1.5em;

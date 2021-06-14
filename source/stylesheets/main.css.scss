@@ -12,6 +12,7 @@ section {
 a {
 	text-decoration: none;
 	color: #005688;
+	word-wrap: break-word;
 	&:hover {
 		-webkit-transition: 0.3s;
 		-moz-transition: 0.3s;
