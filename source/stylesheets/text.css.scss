@@ -3,7 +3,6 @@
 	src: url("fonts/DroidSans.ttf");
 	font-style: normal;
 }
-
 @font-face {
 	font-family: "Conv_MuseoSans-300";
 	src: url("fonts/MuseoSans-300.ttf");
@@ -11,40 +10,57 @@
 	font-style: normal;
 }
 
-
 h1 {
 	line-height: 1.4em;
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		font-size: 4em;
+		line-height: 1.2em;
+	}
 }
 
+h2 {
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		font-size: 3em;
+	}
+}
+
+h3 {
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		font-size: 2em;
+	}
+}
+
+.post-meta{
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		font-size: 2em;
+	}
+}
 body {
-	-webkit-font-smoothing: antialiased;
 	font-family: Conv_MuseoSans-300;
 	font-size: 16px;
 	line-height: 24px;
+	-webkit-font-smoothing: antialiased;
 	p {
 		font-size: 17px;
-		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-			font-size: 22px;
-		}
 		line-height: 28px;
-	}
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-		margin: auto;
-	}
-}
-pre {
-	code {
-		font-size: 13px;
-		font-family: Monaco, Consolas, "Lucida Console", monospace;
+		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+			font-size: 2em;
+			line-height: 1.5em;
+		}
 	}
 }
-code{
+code {
 	font-family: Monaco, Consolas, "Lucida Console", monospace;
 	font-weight: 0.5;
 	font-size: 12px;
 }
 code.hljs {
 	font-size: 12px;
+}
+pre {
+	code {
+		font-size: 13px;
+	}
 }
 .tiny {
 	font-size: 0.75em;
