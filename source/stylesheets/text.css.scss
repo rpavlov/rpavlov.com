@@ -11,50 +11,16 @@
 	font-style: normal;
 }
 
+
+h1 {
+	line-height: 1.4em;
+}
+
 body {
 	-webkit-font-smoothing: antialiased;
 	font-family: Conv_MuseoSans-300;
-}
-
-h1 {
-	font-size: 2em;
-	line-height: 1.41176em;
-	font-weight: 700;
-}
-
-h3 {
-	@media only screen and (min-device-width: 320px) {
-		font-size: 2em;
-	}
-	font-size: 1.25em;
-	line-height: 1.2em;
-	font-weight: bold;
-}
-
-a {
-	text-decoration: none;
-	color: #005688;
-	&:hover {
-		-webkit-transition: 0.3s;
-		-moz-transition: 0.3s;
-		-ms-transition: 0.3s;
-		-o-transition: 0.3s;
-		transition: 0.3s;
-		opacity: 0.8;
-	}
-}
-div,
-section {
-	font-size: 100%;
-}
-body {
 	font-size: 16px;
 	line-height: 24px;
-}
-body {
-	background-color: #f1f3f5;
-	margin: auto 20em;
-	color: #333;
 	p {
 		font-size: 17px;
 		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -80,7 +46,6 @@ code{
 code.hljs {
 	font-size: 12px;
 }
-
 .tiny {
 	font-size: 0.75em;
 }

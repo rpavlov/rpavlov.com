@@ -9,7 +9,18 @@ section {
 	padding: 0;
 	border: 0;
 }
-
+a {
+	text-decoration: none;
+	color: #005688;
+	&:hover {
+		-webkit-transition: 0.3s;
+		-moz-transition: 0.3s;
+		-ms-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		opacity: 0.8;
+	}
+}
 code.hljs {
 	padding: 0.1em;
 	display: inline;
