@@ -70,7 +70,7 @@ ORPort 9001
 ExitRelay 0
 SocksPort 0
 ControlSocket 0
-ContactInfo roumen@rpavlov.com
+ContactInfo gopnik42069@protonmail.com
 Nickname CiaSurveillanceVan
 ```
 
