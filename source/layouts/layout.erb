@@ -27,39 +27,33 @@
         <div class="sidebar-item">
           <h3 class="sidebar-title">Howdy stranger,</h3>
           <img class="peek" src="/images/my_avatar.jpeg">
-          <span>
+          <p>
             <%= data.text.sidebar %>
-          </span>
-          <br/>
-          <br/>
-          <span>
+          </p>
+          <p>
             <%= data.text.legalese %>
-          </span>
-          <br/>
-          <br/>
-          <span>
+          </p>
+          <p class="sidebar-a">
             <%= data.text.email %> <%= mail_to "roumen@rpavlov.com" %>.<br/>
             <%= data.text.pubkey %> <%= link_to "here", "/pgp.txt" %>.
-          </span>
-          <br/>
+          </p>
           <div class="social">
             <a class="github" href="https://www.github.com/rpavlov">Github</a>
             <a class="linkedin" href="https://www.linkedin.com/in/roumenpavlov/">LinkedIn</a>
             <a class="soundcloud" href="https://soundcloud.com/the-sweetling">Soundcloud</a>
           </div>
-          <br/>
-          <span>
-          <%= link_to "Impressum", "/impressum" %> / <%= link_to "Datenschutz", "/datenschutz" %>
-          </span>
+          <p class="sidebar-a">
+            <%= link_to "Impressum", "/impressum" %> / <%= link_to "Datenschutz", "/datenschutz" %>
+          </p>
         </div>
         <div class="sidebar-item borderless">
           <ol>
             <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
             <li>
-              <h5 style="margin-bottom:0;"><%= year %></h5>
+              <h4 style="margin-bottom:0;"><%= year %></h5>
                 <% articles.each do |article| %>
                 <br/>
-                <a href="<%= article.url %>"><%= article.title %></a>
+                <a class="sidebar-a" href="<%= article.url %>"><%= article.title %></a>
                 <% end %>
             </li>
             <% end %>
@@ -68,7 +62,7 @@
         <div class="sidebar-item borderless">
           <h3>Tags</h3>
           <% blog.tags.each do |tag, articles| %>
-            <span class="hash-col">#<%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</span>
+            <span class="hash-col sidebar-a">#<%= link_to tag, tag_path(tag) %> (<%= articles.size %>)</span>
           <% end %>
         </div>
       </aside>
