@@ -14,7 +14,7 @@ h1 {
 	line-height: 1.4em;
 	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 		font-size: 4em;
-		line-height: 1.4em;
+		line-height: 1.2em;
 	}
 }
 
@@ -30,7 +30,7 @@ h3 {
 	}
 }
 
-.post-meta{
+.post-meta {
 	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 		font-size: 2em;
 	}
@@ -41,7 +41,8 @@ body {
 	line-height: 28px;
 	-webkit-font-smoothing: antialiased;
 	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-		font-size: 2em;
+		font-size: 1.5em;
+		line-height: 1.5em;
 	}
 	p {
 		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -50,19 +51,32 @@ body {
 		}
 	}
 }
-code {
+code{
 	font-family: Monaco, Consolas, "Lucida Console", monospace;
 	font-weight: 0.5;
 	font-size: 12px;
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		font-size: 0.75em;
+		line-height: 1.5em;
+	}
 }
 code.hljs {
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	font-weight: 0.5;
 	font-size: 12px;
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		font-size: 1.25em;
+		line-height: 1.5em;
+	}
 }
 pre {
 	code {
-		font-size: 13px;
+		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+			font-size: 1em;
+		}
 	}
 }
+
 .tiny {
 	font-size: 0.75em;
 }
