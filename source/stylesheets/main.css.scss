@@ -34,7 +34,6 @@ pre code.hljs {
 
 body {
 	background-color: #f1f3f5;
-	margin: auto 20em;
 	color: #333;
 	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 		margin: auto;
@@ -117,32 +116,7 @@ pre {
 	margin-right: auto;
 }
 
-.sidebar {
-	float: left;
-	width:30%;
-	margin-left: 3%;
-	margin-top: 1.75em;
-	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-		width: 100%;
-		margin: 1em;
-		padding: 1em;
-	}
 
-	.sidebar-title {
-		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-			margin: 0;
-			padding: 0em;
-		}
-	}
-
-	.sidebar-item {
-		border-color: #ddd;
-		margin-top: 0em;
-		padding-top: 0em;
-		border-bottom-width: 1px;
-		border-bottom-style: solid;
-	}
-}
 
 .borderless {
 	border-bottom: none;
@@ -202,11 +176,39 @@ pre {
 
 .posts-wrapper {
 	float: left;
-	width: 65%;
+	width: 75%;
 	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 		width: 100%;
 	}
 }
+
+.sidebar {
+	float: left;
+	width:20%;
+	margin-left: 3%;
+	margin-top: 1.75em;
+	@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+		width: 100%;
+		margin: 1em;
+		padding: 1em;
+	}
+
+	.sidebar-title {
+		@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+			margin: 0;
+			padding: 0em;
+		}
+	}
+
+	.sidebar-item {
+		border-color: #ddd;
+		margin-top: 0em;
+		padding-top: 0em;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+	}
+}
+
 .post-meta {
 	margin-bottom: 2em;
 	display: block;
